@@ -2,6 +2,47 @@ body {
   padding-bottom: 5rem;
 }
 
+/* Add a white background color to the top navigation */
+.topnav {
+  background-color: #FFFFFF;
+  overflow: hidden;
+  width: 100%;
+}
+
+.homeIcon{
+  float: left;
+  width: 60.88px;
+  height: 44.1px;
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.rightIcons{
+  float: right;
+}
+
+
 header {
   background: url(../images/heropic1.jpg) center / cover;
   height: 50vh;
