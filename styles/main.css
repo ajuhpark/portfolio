@@ -145,6 +145,238 @@ header {
   text-align: center;
 }
 
+h1{
+  font-family: "Lora";
+  font-size:36px;
+  font-weight: bold;
+  color: hsla(0, 0%, 100% 0.7);
+}
+
+#featuredWork{
+  height: 194px;
+  justify-content: center;
+}
+
+.featuredWork{
+  text-align: center;
+  top: 50%;
+  position: relative;
+  transform: translate(0, -50%);
+}
+
+.caseStudies{
+    display: grid;
+    grid-column-gap:50px;
+    padding: 40px 10px;
+    grid-template-columns: auto auto;
+    background-color: #f4f4f4;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-column-gap: 50px;
+  grid-template-columns: auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.caseStudyImage{
+  /* float:right; */
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  margin-right:100px;
+  /* width: 567px; */
+  align-items: center;
+}
+
+.caseStudyDescriptionContainer{
+  /* width: 567px; */
+  margin-left:100px;
+  padding-left:50px;
+  /* border: 1px solid rgba(0, 0, 0, 0.8); */
+}
+
+.caseStudyDescription{
+  top: 50%;
+  position: relative;
+  transform: translate(0, -50%);
+}
+
+
+h2{
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: #000000;
+}
+
+.projectTitle{
+  padding-bottom: 32px;
+  margin-top:0px;
+  margin-bottom:24px;
+}
+
+h3{
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 130%;
+  /* or 21px */
+}
+
+.projectBrief{
+  width: 466px;
+  padding-right: 50px;
+}
+
+.btn_viewCaseStudy{
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  /* padding-top, padding-bottom: 10px;
+  padding-left, padding-right: 24px; */
+  padding: 10px 24px;
+  border: 1px solid black;
+  color: #2A3636;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  margin-top:24px;
+
+}
+
+
+
+
+
+--
+
+
+
+#case-study-gh{
+  font-size: 10px;
+  line-height: 1.15;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 0;
+  pointer-events: auto;
+  transition-duration: 1.2s;
+  transition-timing-function: ease;
+  transition-property: opacity,transform,-webkit-transform;
+  opacity: 1;
+  transform: none;
+}
+
+.case-study-image display-mobile{
+  font-size: 10px;
+  line-height: 1.15;
+  pointer-events: auto;
+  box-sizing: border-box;
+  padding-bottom: 4.8rem;
+  display: none;
+}
+
+#caseStudyImage1{
+  font-size: 10px;
+  line-height: 1.15;
+  pointer-events: auto;
+  box-sizing: border-box;
+  border-style: none;
+  width: 100%;
+  padding: 0;
+  float: right;
+  max-width: 1024px;
+}
+
+.content-box-narrow{
+  font-size: 10px;
+  line-height: 1.15;
+  pointer-events: auto;
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 1000px;
+  width: 80%;
+  padding-left: 1rem;
+}
+
+.projectDescription{
+  font-size: 10px;
+  line-height: 1.15;
+  pointer-events: auto;
+  box-sizing: border-box;
+}
+
+.project-title{
+  pointer-events: auto;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Work Sans;
+  font-style: normal;
+  line-height: 167.23%;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2.4rem;
+}
+
+.project-brief{
+  pointer-events: auto;
+  box-sizing: border-box;
+  font-family: Archivo;
+  font-style: normal;
+  font-weight: 300;
+  margin-top: 1.2rem;
+  font-size: 2.4rem;
+  line-height: 130%;
+}
+
+.category-tag-container display-desktop{
+  font-size: 10px;
+  line-height: 1.15;
+  pointer-events: auto;
+  box-sizing: border-box;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inherit;
+}
+
+.paragraph-end{
+  pointer-events: auto;
+  box-sizing: border-box;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8rem;
+  line-height: 140%;
+  padding-bottom: 3.6rem;
+  margin-bottom: 0;
+}
+
+.category-tag-container li {
+    background-color: #E8E8E8;
+    color: #2A3636;
+    display: inline-block;
+    font: normal 1.2rem "Work Sans";
+    padding: .6rem 1rem;
+    margin: 0 1rem 1rem 0;
+    text-transform: uppercase;
+}
+
+
+
+
 /*
 We don't want the main content to span the full width of the page.
 Otherwise it'll be difficult to read on large screens.
