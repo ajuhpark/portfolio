@@ -1,12 +1,8 @@
 /*Lora*/
-<style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
-</style>
 
 /*Inter*/
-<style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
-</style>
 
 html{
   font-size: 10px;
@@ -32,9 +28,9 @@ p {
 }
 
 #homeIcon{
-  margin-left:100px;
-  width: 58.9px;
-  height: 55px;
+  margin-left:10rem;
+  width: 5.89rem;
+  height: 5.5rem;
   top: 50%;
   position: relative;
   transform: translate(0, -50%);
@@ -42,7 +38,7 @@ p {
 
 #rightIcons{
   float:right;
-  margin-right: 100px;
+  margin-right: 10rem;
   top: 50%;
   position: relative;
   transform: translate(0, -50%);
@@ -56,9 +52,9 @@ p {
   float: left;
   color: rgba(0,0,0,.87);
   text-align: center;
-  padding: 14px 16px;
+  padding: 1.4rem 1.6rem;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 1.7rem;
 }
 
 /* Change the color of links on hover */
@@ -76,12 +72,12 @@ p {
 
 #bannerText1{
   color: hsla(0, 0%, 100% 0.7);
-  font-size: 50px;
+  font-size: 5rem;
   font-weight: normal;
-  padding-top: 121px;
+  padding-top: 12.1rem;
   font-family: "Lora";
-  width: 560px;
-  height: 38px;
+  width: 56rem;
+  height: 3.8rem;
   margin-left: auto;
   margin-right: auto;
 
@@ -89,18 +85,18 @@ p {
 
 #bannerText2Line{
   position: relative;
-  /* border: 3px #eee solid; */
+  /* border: .3rem #eee solid; */
 
 }
 
 #bannerText2{
   color: hsla(0, 0%, 100% 0.7);
-  font-size: 30px;
+  font-size: 3rem;
   font-weight: normal;
   font-family: "Lora";
-  width: 560px;
+  width: 56rem;
   /* border: 1px #944646 dotted; */
-  line-height: 136px;
+  line-height: 13.6rem;
   display: inline-block;
 }
 
@@ -108,22 +104,22 @@ p {
 #palmTreeVector{
   /* display:inline-block; */
   position:absolute;
-  width: 87.5px;
-  height: 80.81px;
+  width: 8.75rem;
+  height: 8.08rem;
   /* border: 1px #ccc solid; */
 }
 
 #bannerText3{
   color: hsla(0, 0%, 100% 0.7);
-  font-size: 30px;
+  font-size: 3rem;
   font-weight: normal;
   /* padding-top: 15vh; */
   font-family: "Lora";
-  line-height: 38px;
-  width: 560px;
+  line-height: 3.8rem;
+  width: 56rem;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 180px;
+  margin-bottom: 18rem;
 
 }
 
@@ -133,25 +129,25 @@ p {
 }
 
 #latestWorkArrow{
-  width:13px;
-  height:8px;
+  width:1.3rem;
+  height:.8rem;
   margin-left: auto;
   margin-right: auto;
   display: block;
-  margin-top: 22px;
-  margin-bottom: 30px;
+  margin-top: 2.2rem;
+  margin-bottom: 3rem;
 }
 
 header {
   /* background: url(../images/heropic1.jpg) center / cover; */
-  height: 670px;
+  height: 67rem;
   justify-content: center;
   text-align: center;
 }
 
 h1{
   font-family: "Lora";
-  font-size:36px;
+  font-size:3.6rem;
   font-weight: bold;
   color: hsla(0, 0%, 100% 0.7);
 }
@@ -161,7 +157,7 @@ h1{
 }
 
 .HP-Sections{
-  height: 194px;
+  height: 19.4rem;
   border: 1px solid orange;
 
 }
@@ -176,22 +172,22 @@ h1{
 
 .caseStudy1{
     display: grid;
-    grid-column-gap:50px;
-    padding: 40px 10px;
+    grid-column-gap:5rem;
+    padding: 4rem 1rem;
     grid-template-columns: minmax(0,1fr) minmax(0,1fr);
     background-color: #f4f4f4;
     border: 1px solid green;
 
     /* align-items: center; */
-    grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(48rem, 1fr));
 
 }
 
 
 .caseStudy2{
     display: grid;
-    grid-column-gap:50px;
-    padding: 40px 10px;
+    grid-column-gap:5rem;
+    padding: 4rem 1rem;
     grid-template-columns: 1fr 1fr;
     background-color: #fffff;
     border: 1px solid purple;
@@ -199,57 +195,57 @@ h1{
 
 .grid-container {
   display: grid;
-  grid-column-gap: 50px;
+  grid-column-gap: 5rem;
   grid-template-columns: minmax(0,1fr) minmax(0,1fr) minmax(0,1fr);
   background-color: #2196F3;
-  padding: 10px;
+  padding: 1rem;
 }
 
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
+  padding: 2rem;
+  font-size: 3rem;
   text-align: center;
 }
 
 .caseStudyImage{
   /* float:right; */
   border: 1px solid rgba(0, 0, 0, 0.8);
-  /* width: 567px; */
+  /* width: 56.7rem; */
   align-items: center;
 }
 
 #caseStudyImageContainer1{
-  margin-right: 100px;
+  margin-right: 10rem;
 }
 
 #caseStudyImageContainer2{
-  margin-left: 100px;
+  margin-left: 10rem;
 }
 
-/* @media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) {
   #caseStudyImageContainer1 {
     margin-right: 0px;
   }
   #caseStudyDescriptionContainer1{
     margin-left:0px;
-
-} */
+  }
+}
 
 .caseStudyDescriptionContainer{
   /* width:50%; */
 }
 
 #caseStudyDescriptionContainer1{
-  margin-left:100px;
-  padding-left:50px;
+  margin-left:10rem;
+  padding-left:5rem;
   border: 1px solid red;
 }
 
 #caseStudyDescriptionContainer2{
-  margin-right:100px;
-  padding-left:50px;
+  margin-right:10rem;
+  padding-left:5rem;
   border: 1px solid yellow;
 }
 
@@ -264,55 +260,55 @@ h2{
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 26px;
-  line-height: 31px;
+  font-size: 2.6rem;
+  line-height: 3.1rem;
   color: #000000;
 }
 
 .projectTitle{
-  padding-bottom: 32px;
+  padding-bottom: 3.2rem;
   margin-top:0px;
-  margin-bottom:24px;
+  margin-bottom:2.4rem;
 }
 
 h3{
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 130%;
   margin:0px;
-  /* or 21px */
+  /* or 2.1rem */
 }
 
 h4{
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 0px;
-      /* or 21px */
+      /* or 2.1rem */
 }
 
 
 .projectBrief{
-  /* width: 466px; */
-  padding-right: 50px;
+  /* width: 46.6rem; */
+  padding-right: 5rem;
 }
 
 .btn_viewCaseStudy{
   font-family: "Inter", sans-serif;
-  font-size: 18px;
-  line-height: 22px;
-  /* padding-top, padding-bottom: 10px;
-  padding-left, padding-right: 24px; */
-  padding: 10px 24px;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  /* padding-top, padding-bottom: 1rem;
+  padding-left, padding-right: 2.4rem; */
+  padding: 1rem 2.4rem;
   border: 1px solid black;
   color: #2A3636;
   text-decoration: none;
   text-align: center;
   display: inline-block;
-  margin-top:24px;
+  margin-top:2.4rem;
 }
 
 #designProcessText{
@@ -324,34 +320,34 @@ h4{
 
 
 #designProcessTextSection{
-  height: 194px;
+  height: 19.4rem;
 
 }
 #DP-Grid{
   display: grid;
-  grid-column-gap: 20px;
+  grid-column-gap: 2rem;
   grid-template-columns: minmax(0,1fr) minmax(0,1fr) minmax(0,1fr) minmax(0,1fr);
   background-color: #2196F3;
-  padding: 10px 100px;
-  margin-bottom: 50px;
+  padding: 1rem 10rem;
+  margin-bottom: 5rem;
 }
 
 .DP-Columns {
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
+  padding: 2rem;
+  font-size: 3rem;
   text-align: center;
 }
 
 .DP-Title{
   text-align: center;
-  max-width: 140px;
-  height: 50px;
+  max-width: 14rem;
+  height: 5rem;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 14px;
-  margin-top:10px;
+  margin-bottom: 1.4rem;
+  margin-top:1rem;
   }
 
 .DP-item{
@@ -360,32 +356,32 @@ h4{
 
 .designPic{
   max-width:90%;
-  /* margin-bottom: 24px; */
+  /* margin-bottom: 2.4rem; */
   margin-left: auto;
   margin-right: auto;
   display: block;
-  padding-bottom: 20px;
+  padding-bottom: 2rem;
 }
 
 #ReccomendationSection{
-    margin-bottom:100px;
+    margin-bottom:10rem;
 }
 
 
 #recTextSection{
-  margin-bottom: 50px;
+  margin-bottom: 5rem;
   padding-left:25%;
   padding-right:25%;
 }
 
 #recText{
   font-style: italic;
-  padding-bottom: 20px;
-  font-size: 16px;
+  padding-bottom: 2rem;
+  font-size: 1.6rem;
 }
 
 #recName{
-  padding-bottom:10px;
+  padding-bottom:1rem;
 }
 
 #takeLogo{
@@ -407,7 +403,7 @@ h4{
 
 
 #case-study-gh{
-  font-size: 10px;
+  font-size: 1rem;
   line-height: 1.15;
   box-sizing: border-box;
   display: grid;
@@ -435,8 +431,8 @@ h4{
   width: 100%;
   padding: 0;
   float: right;
-  max-width: 1024px;
-  /* margin-right:100px; */
+  max-width: 102.4rem;
+  /* margin-right:10rem; */
 }
 
 #caseStudyImage2{
@@ -446,23 +442,23 @@ h4{
   width: 100%;
   padding: 0;
   float: left;
-  max-width: 1024px;
-  /* margin-left:100px; */
+  max-width: 102.4rem;
+  /* margin-left:10rem; */
 
 }
 .content-box-narrow{
-  font-size: 10px;
+  font-size: 1rem;
   line-height: 1.15;
   pointer-events: auto;
   box-sizing: border-box;
   margin: 0 auto;
-  max-width: 1000px;
+  max-width: 100rem;
   width: 80%;
   padding-left: 1rem;
 }
 
 .projectDescription{
-  font-size: 10px;
+  font-size: 1rem;
   line-height: 1.15;
   pointer-events: auto;
   box-sizing: border-box;
@@ -492,7 +488,7 @@ h4{
 }
 
 .category-tag-container display-desktop{
-  font-size: 10px;
+  font-size: 1rem;
   line-height: 1.15;
   pointer-events: auto;
   box-sizing: border-box;
@@ -532,7 +528,7 @@ We don't want the main content to span the full width of the page.
 Otherwise it'll be difficult to read on large screens.
 */
 main {
-  max-width: 900px;
+  max-width: 90rem;
 }
 
 /*
@@ -567,7 +563,7 @@ footer.mdl-mini-footer > ul {
   font-size: 2rem;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 102.4rem) {
   header.mdl-layout__header {
     display: flex;
   }
