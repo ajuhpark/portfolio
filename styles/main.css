@@ -10,6 +10,11 @@ html{
 
 body {
   padding-bottom: 5rem;
+  font-size: 10px;
+}
+
+body {
+  font-size: 12px;
 }
 
 /* Add a white background color to the top navigation */
