@@ -242,19 +242,37 @@ h1{
   #homeIcon{
     margin-left: 5%;
   }
+
+  #DP-Grid{
+    display: block;
+    padding: 1rem 10rem;
+    margin-bottom: 5rem;
+  }
+  .DP-Column{
+    margin-bottom: 5rem;
+  }
 }
 
+@media (min-width: 700px){
+  #DP-Grid{
+    display: grid;
+  }
+
+  .DP-Column{
+    margin-bottom: 2rem;
+  }
+}
 
 @media (max-width: 900px) {
   .caseStudyCard {
-    margin: auto 0rem;
+    margin: 5rem 0rem;
   }
 }
 
 @media (min-width: 900px) {
   .caseStudyCard {
     grid-template-columns: repeat(2, 1fr);
-    margin: 10% 13rem;
+    margin: 5% 13rem;
     grid-row-gap:5rem;
 
   }
@@ -403,7 +421,6 @@ h4{
 
 }
 #DP-Grid{
-  display: grid;
   grid-column-gap: 2rem;
   grid-template-columns: minmax(0,1fr) minmax(0,1fr) minmax(0,1fr) minmax(0,1fr);
   background-color: #2196F3;
