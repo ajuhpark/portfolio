@@ -80,11 +80,12 @@ p {
   font-size: 5rem;
   font-weight: normal;
   padding-top: 12.1rem;
+  padding-left: 15%;
+  padding-right: 15%;
   font-family: "Lora";
-  width: 56rem;
-  height: 3.8rem;
-  margin-left: auto;
-  margin-right: auto;
+  /* width: 56rem; */
+  /* margin-left: auto;
+  margin-right: auto; */
 
 }
 
@@ -99,7 +100,7 @@ p {
   font-size: 3rem;
   font-weight: normal;
   font-family: "Lora";
-  width: 56rem;
+  /* width: 56rem; */
   /* border: 1px #944646 dotted; */
   line-height: 13.6rem;
   display: inline-block;
@@ -121,16 +122,18 @@ p {
   /* padding-top: 15vh; */
   font-family: "Lora";
   line-height: 3.8rem;
-  width: 56rem;
+  /* width: 56rem; */
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 18rem;
-
+  padding-right: 18%;
+  padding-left: 18%;
 }
 
 #latestWorkLink{
   text-align: center;
   font-family: "Inter", sans-serif;
+  font-size: 2rem;
 }
 
 #latestWorkArrow{
@@ -175,19 +178,70 @@ h1{
   border: 1px solid purple;
 }
 
-.caseStudy1{
+.caseStudyCard{
     display: grid;
     grid-column-gap:5rem;
-    padding: 4rem 1rem;
-    grid-template-columns: minmax(0,1fr) minmax(0,1fr);
-    background-color: #f4f4f4;
+    /* padding: 4rem 1rem;
+    grid-template-columns: minmax(0,1fr) minmax(0,1fr); */
+    /* background-color: #f4f4f4; */
     border: 1px solid green;
+    margin-top: 5rem;
+    /* grid-template-columns: repeat(auto-fit, minmax(48rem, 1fr)); */
 
-    /* align-items: center; */
-    grid-template-columns: repeat(auto-fit, minmax(48rem, 1fr));
-
+    max-width: 1200px;
+    display: grid;
+    /* grid-gap: 1rem; */
 }
 
+@media (max-width: 700px) {
+  #bannerText1{
+  font-size:3rem;
+  }
+
+  #bannerText2{
+  font-size:1.6rem;
+  padding-left: 2%;
+  padding-right: 2%;
+  }
+
+  #bannerText3{
+  font-size:1.6rem;
+  padding-top: 20%;
+  padding-bottom: 22%;
+  line-height: 130%;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom: 5rem;
+  }
+
+  #palmTreeVector{
+  /* width: 6.5rem (take out) */
+  position:relative;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  #latestWorkLink {
+    font-size: 1.6rem;
+  }
+}
+
+
+@media (max-width: 900px) {
+  .caseStudyCard {
+    margin: auto 0rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .caseStudyCard {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 10% 13rem;
+    grid-row-gap:5rem;
+
+  }
+}
 
 .caseStudy2{
     display: grid;
@@ -221,7 +275,7 @@ h1{
   align-items: center;
 }
 
-#caseStudyImageContainer1{
+/* #caseStudyImageContainer1{
   margin-right: 10rem;
 }
 
@@ -236,15 +290,16 @@ h1{
   #caseStudyDescriptionContainer1{
     margin-left:0px;
   }
-}
+} */
 
 .caseStudyDescriptionContainer{
   /* width:50%; */
+  padding-top:10% 0;
 }
 
 #caseStudyDescriptionContainer1{
-  margin-left:10rem;
-  padding-left:5rem;
+  /* margin-left:10rem;
+  padding-left:5rem; */
   border: 1px solid red;
 }
 
@@ -258,6 +313,9 @@ h1{
   top: 50%;
   position: relative;
   transform: translate(0, -50%);
+  padding:10% 15%;
+
+
 }
 
 
@@ -271,7 +329,6 @@ h2{
 }
 
 .projectTitle{
-  padding-bottom: 3.2rem;
   margin-top:0px;
   margin-bottom:2.4rem;
 }
@@ -291,19 +348,19 @@ h4{
   font-style: normal;
   font-weight: normal;
   font-size: 1.6rem;
-  line-height: 0px;
+  line-height: 130%;
       /* or 2.1rem */
 }
 
 
 .projectBrief{
   /* width: 46.6rem; */
-  padding-right: 5rem;
+  /* padding-right: 5rem; */
 }
 
 .btn_viewCaseStudy{
   font-family: "Inter", sans-serif;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   line-height: 2.2rem;
   /* padding-top, padding-bottom: 1rem;
   padding-left, padding-right: 2.4rem; */
@@ -396,6 +453,34 @@ h4{
 #takeFinalProduct{
   width: 50%;
 }
+
+.card {
+  background-color: dodgerblue;
+  color: white;
+  padding: 1rem;
+  height: 4rem;
+}
+
+.cards {
+  max-width: 1200px;
+  display: grid;
+  grid-gap: 1rem;
+}
+
+/*when the screen is bigger than 600px, go to two columns*/
+@media (min-width: 600px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto 3rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .cards {
+    margin: auto 0rem;
+  }
+}
+
 
 
 

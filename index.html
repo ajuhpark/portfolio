@@ -5,6 +5,10 @@
   <title>Portfolio | Andrew</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <!-- Material Design Lite -->
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-lime.min.css">
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
@@ -13,7 +17,6 @@
 
   <!-- Custom Styles -->
   <link rel="stylesheet" href="styles/main.css">
-
 </head>
 
 <body>
@@ -31,7 +34,6 @@
 
   <header>
     <h1 id="bannerText1">Hi, I'm Andrew.</h1>
-
     <div id="bannerText2Line">
       <p id="bannerText2">A UX Designer based in Los Angeles, CA.</p>
       <img id="palmTreeVector" src="images/PalmTreeIconVector.png" alt="palmTreeVector" />
@@ -41,36 +43,41 @@
     <img id="latestWorkArrow" src="images/latestWorkArrow.png" alt="latestWorkArrow" />
   </header>
 
-  <div class="container">
-    <div class="row">
-      <h1 class="HP-Section-Title">Featured Work</h1>
-    </div>
-    <div class="row">
-      <section class="col-md-6">
-        <h2 class="projectTitle">TAKE</h2>
-        <h3 class="projectBrief">Take is a community for creative fan content. Creatives can discover and share takes on their favorite tv shows, movies and books.</h3>
-        <a class="btn_viewCaseStudy" href="/takeCaseStudy">VIEW CASE STUDY</a>
-      </section>
-      <section class="col-md-6">
-        <img src="images/caseStudyPlaceholder.png" alt="caseStudyImage1">
-      </section>
-    </div>
-  </div>
+  <section id="featuredWork" class="HP-Sections">
+    <h1 class="HP-Section-Title">Featured Work</h1>
+  </section>
 
-  <!--Case study3</a>-->
-  <section class="caseStudy1">
+
+  <div class="caseStudyCard">
+    <!--case study 1-->
+    <!--case study 1 description-->
     <div id="caseStudyDescriptionContainer1" class="caseStudyDescriptionContainer">
       <div class="caseStudyDescription">
         <h2 class="projectTitle">TAKE</h2>
-        <h3 class="projectBrief">Take is a community for creative fan content. Creatives can discover and share takes on their favorite tv shows, movies and books.</h3>
+        <h4 class="projectBrief">Take is a community for creative fan content. Creatives can discover and share takes on their favorite tv shows, movies and books.</h3>
         <a class="btn_viewCaseStudy" href="/takeCaseStudy">VIEW CASE STUDY</a>
         <!--eventually <a class="btn_viewCaseStudy" href="/takeCaseStudy">VIEW CASE STUDY</a>-->
       </div>
     </div>
+    <!--case study 1 image-->
+
     <div id="caseStudyImageContainer1" class="caseStudyImage">
       <img id="caseStudyImage1" src="images/caseStudyPlaceholder.png" alt="caseStudyImage1">
     </div>
-  </section>
+
+    <!--case study 2-->
+    <!--case study 2 description-->
+    <div class="card">THREE</div>
+
+    <!--case study 2 image-->
+    <div class="card">FOUR</div>
+
+    <!--case study 3-->
+    <!--case study 3 description-->
+    <div class="card">FIVE</div>
+    <div class="card">SIX</div>
+  </div>
+
 
   <!--Design Process</a>-->
   <section id="designProcess">
@@ -129,6 +136,21 @@
     </div>
   </section>
 
+  <div class="cards">
+
+    <div class="card">ONE</div>
+    <div class="card">TWO</div>
+    <div class="card">THREE</div>
+    <div class="card">FOUR</div>
+    <div class="card">FIVE</div>
+    <div class="card">SIX</div>
+    <div class="card">SEVEN</div>
+    <div class="card">EIGHT</div>
+    <div class="card">NINE</div>
+    <div class="card">TEN</div>
+    <div class="card">ELEVEN</div>
+    <div class="card">TWELVE</div>
+  </div>
 
 
   <h1>The grid-column-gap Property:</h1>
@@ -148,74 +170,6 @@
 
 
 
-  <!--Case studies examples</a>-->
-  <section class="case-study aos-init aos-animate" data-aos="fade-up" id="case-study-gh">
-    <div class="case-study-image display-mobile">
-      <img id="caseStudyImage1" src="images/caseStudyPlaceholder.png" alt="colorful app screens">
-    </div>
-    <article class="content-box-narrow">
-      <div class="projectDescription">
-        <h6 class="project-title">GoodHarvest</h6>
-        <h2 class="project-brief">Making Seasonal Eating a Snap</h2>
-        <ul class="category-tag-container display-desktop">
-          <li>User Research</li>
-          <li>UX Design</li>
-          <li>Visual Design</li>
-          <li>Brand Identity</li>
-        </ul>
-        <p class="paragraph-end" id="paragraph-end-case-study-desktop">Discover local, seasonal foods at your local market, and find delicious recipes curated just for you.</p>
-        <a class="btn wire" href="/goodharvest">View Case Study</a>
-      </div>
-    </article>
-    <div class="case-study-image display-desktop">
-      <img src="images/gh-hero-header-mobile.png" alt="colorful app screens">
-    </div>
-  </section>
-
-
-
-  <main class="mdl-layout__content mdl-grid">
-
-    <div class="project featured-project mdl-grid mdl-cell mdl-cell--12-col mdl-cell--4-col-tablet mdl-card mdl-shadow--4dp">
-      <div class="mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet">
-        <img src="http://lorempixel.com/350/260/abstract/placeholder-1" alt="project screenshot" />
-      </div>
-      <div class="mdl-cell mdl-cell--7-col">
-        <h2 class="mdl-card__title-text">Featured Project Name</h2>
-        <p class="project-description mdl-card__supporting-text">Project description text</p>
-      </div>
-    </div>
-
-    <div class="project mdl-cell mdl-card mdl-shadow--4dp">
-      <div>
-        <img src="http://lorempixel.com/350/260/abstract/placeholder-2" alt="project screenshot" />
-      </div>
-      <div class="mdl-card__title">
-        <h2 class="mdl-card__title-text">Project Name</h2>
-      </div>
-      <div class="mdl-card__supporting-text">Project description text</div>
-    </div>
-
-    <div class="project mdl-cell mdl-card mdl-shadow--4dp">
-      <div>
-        <img src="http://lorempixel.com/350/260/abstract/placeholder-3" alt="project screenshot" />
-      </div>
-      <div class="mdl-card__title">
-        <h2 class="mdl-card__title-text">Project Name</h2>
-      </div>
-      <div class="mdl-card__supporting-text">Project description text</div>
-    </div>
-
-    <div class="project mdl-cell mdl-card mdl-shadow--4dp">
-      <div>
-        <img src="http://lorempixel.com/350/260/abstract/placeholder-4" alt="project screenshot" />
-      </div>
-      <div class="mdl-card__title">
-        <h2 class="mdl-card__title-text">Project Name</h2>
-      </div>
-      <div class="mdl-card__supporting-text">Project description text</div>
-    </div>
-  </main>
 
   <footer class="mdl-mini-footer">
     <ul class="mdl-mini-footer__link-list">
