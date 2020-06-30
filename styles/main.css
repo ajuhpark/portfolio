@@ -8,12 +8,62 @@ html{
   font-size: 10px;
 }
 
+/* || GENERAL STYLES */
+
 body {
-  padding-bottom: 5rem;
-  font-size: 10px;
-  /* position:fixed; */
   font-size: 12px;
 }
+
+p {
+    font-size: 1.6rem;
+    letter-spacing: 0;
+    margin: 0;
+}
+
+header {
+  /* background: url(../images/heropic1.jpg) center / cover; */
+  height: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+h1{
+  font-family: "Lora";
+  font-size:3.6rem;
+  font-weight: bold;
+  color: hsla(0, 0%, 100% 0.7);
+}
+
+
+h2{
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.6rem;
+  line-height: 3.1rem;
+  color: #000000;
+}
+
+
+
+h3{
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.6rem;
+  line-height: 130%;
+  margin:0px;
+  /* or 2.1rem */
+}
+
+h4{
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.6rem;
+  line-height: 130%;
+}
+
 
 /* Add a white background color to the top navigation */
 .topnav {
@@ -24,11 +74,8 @@ body {
   border-bottom: .3rem solid #FBE8E4;
 }
 
-p {
-    font-size: 1.6rem;
-    letter-spacing: 0;
-    margin: 0;
-}
+
+/* || Top Menu Bar */
 
 #homeIcon{
   width: 5.89rem;
@@ -71,6 +118,7 @@ p {
   color: white;
 }
 
+/* || Banner */
 
 #bannerText1{
   color: hsla(0, 0%, 100% 0.7);
@@ -81,16 +129,11 @@ p {
   padding-left: 15%;
   padding-right: 15%;
   font-family: "Lora";
-  /* width: 56rem; */
-  /* margin-left: auto;
-  margin-right: auto; */
-
 }
 
 #bannerText2Line{
   position: relative;
   /* border: .3rem #eee solid; */
-
 }
 
 #bannerText2{
@@ -103,7 +146,6 @@ p {
   line-height: 13.6rem;
   display: inline-block;
 }
-
 
 #palmTreeVector{
   /* display:inline-block; */
@@ -146,19 +188,8 @@ p {
   margin-bottom: 3rem;
 }
 
-header {
-  /* background: url(../images/heropic1.jpg) center / cover; */
-  height: auto;
-  justify-content: center;
-  text-align: center;
-}
 
-h1{
-  font-family: "Lora";
-  font-size:3.6rem;
-  font-weight: bold;
-  color: hsla(0, 0%, 100% 0.7);
-}
+/* || Featured Work */
 
 #featuredWork{
   border:1px solid green;
@@ -167,7 +198,6 @@ h1{
 .HP-Sections{
   height: 19.4rem;
   /* border: 1px solid orange; */
-
 }
 
 .HP-Section-Title{
@@ -186,99 +216,6 @@ h1{
     max-width: 1200px;
 }
 
-@media (max-width: 700px) {
-  .topnav a {
-    padding: 1.1rem 1.4rem;
-    font-size: 1.6rem;
-  }
-
-  #bannerText1{
-  font-size:3rem;
-  }
-
-  #bannerText2{
-  font-size:1.6rem;
-  padding-left: 2%;
-  padding-right: 2%;
-  }
-
-  #bannerText3{
-  font-size:1.6rem;
-  /* padding-top: 20%;
-  padding-bottom: 22%; */
-  line-height: 130%;
-  padding-left: 10%;
-  padding-right: 10%;
-  margin-bottom: 10rem;
-  padding-top:0;
-  height: 5rem;
-  }
-
-  #palmTreeVector{
-  /* width: 6.5rem (take out) */
-  position:relative;
-  display:block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 7rem;
-  }
-
-  #latestWorkLink {
-    font-size: 1.6rem;
-  }
-
-  .rightElements{
-    padding-right: 5%;
-  }
-
-  .leftElements{
-    margin-left: 5%;
-  }
-
-  #DP-Grid{
-    display: block;
-    padding: 1rem 10rem;
-    margin-bottom: 5rem;
-  }
-  .DP-Column{
-    margin-bottom: 5rem;
-  }
-
-}
-
-@media (min-width: 700px){
-  #DP-Grid{
-    display: grid;
-  }
-
-  .DP-Column{
-    margin-bottom: 2rem;
-  }
-}
-
-@media (max-width: 900px) {
-  .caseStudyCard {
-    margin: 5rem 0rem;
-  }
-  .caseStudyImage1{
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    width:50%;
-    padding: 2rem;
-    min-width: 36rem;
-    max-width: 48rem;
-  }
-}
-
-@media (min-width: 900px) {
-  .caseStudyCard {
-    grid-template-columns: repeat(2, 1fr);
-    margin: 5% 13rem;
-    grid-row-gap:5rem;
-  }
-}
-
 .caseStudy2{
     display: grid;
     grid-column-gap:5rem;
@@ -286,22 +223,6 @@ h1{
     grid-template-columns: 1fr 1fr;
     background-color: #fffff;
     border: 1px solid purple;
-}
-
-.grid-container {
-  display: grid;
-  grid-column-gap: 5rem;
-  grid-template-columns: minmax(0,1fr) minmax(0,1fr) minmax(0,1fr);
-  background-color: #2196F3;
-  padding: 1rem;
-}
-
-.grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 2rem;
-  font-size: 3rem;
-  text-align: center;
 }
 
 .caseStudyImage{
@@ -345,38 +266,10 @@ h1{
   /* margin-right:10rem; */
 }
 
-h2{
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 2.6rem;
-  line-height: 3.1rem;
-  color: #000000;
-}
-
 .projectTitle{
   margin-top:0px;
   margin-bottom:2.4rem;
 }
-
-h3{
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 1.6rem;
-  line-height: 130%;
-  margin:0px;
-  /* or 2.1rem */
-}
-
-h4{
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1.6rem;
-  line-height: 130%;
-}
-
 
 .projectBrief{
   /* width: 46.6rem; */
@@ -397,6 +290,8 @@ h4{
   display: inline-block;
   margin-top:2.4rem;
 }
+
+/* || Design Process */
 
 #designProcessText{
   text-align: center;
@@ -491,6 +386,119 @@ h4{
   grid-gap: 1rem;
 }
 
+#designProcessSection{
+  background-color: #FDF7F3;
+
+}
+#designProcessTitle{
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+
+#designProcessTitleText{
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+.DP-section{
+  background-color: #FDF7F3;
+  color: black;
+  padding: 1rem;
+  height: auto;
+  border: 2px solid white;
+}
+
+.DP-Grid {
+  max-width: 1200px;
+  display: grid;
+  grid-gap: 1rem;
+  max-width: 1200px;
+  grid-column-gap:1rem;
+  /* margin-top: 5rem; */
+  padding: 5rem 8rem;
+
+}
+
+/* || Footer */
+
+.footer {
+  background-color: #2E3A40;
+  overflow: hidden;
+  width: 100%;
+  height: 10rem;
+}
+
+#footerText{
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.6rem;
+  color:white;
+  top: 50%;
+  position: relative;
+  transform: translate(0, -50%);
+  padding-right: 10rem;
+  float:right;
+}
+
+#leftFooterIcons{
+  width:18rem;
+  top: 50%;
+  position: relative;
+  transform: translate(0, -50%);
+  margin-left: 10rem;
+  display: grid;
+  grid-column-gap:2rem;
+  grid-template-columns: minmax(0,1fr) minmax(0,1fr) minmax(0,1fr);
+  float:left;
+}
+
+.footerIcon{
+  width: 3rem;
+  height: 3rem;
+}
+
+#footerContent{
+  top: 50%;
+  position: relative;
+  transform: translate(0, -50%);
+}
+
+
+/* || Media Query  */
+
+@media (min-width: 700px){
+  #DP-Grid{
+    display: grid;
+  }
+
+  .DP-Column{
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .caseStudyCard {
+    margin: 5rem 0rem;
+  }
+  .caseStudyImage1{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width:50%;
+    padding: 2rem;
+    min-width: 36rem;
+    max-width: 48rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .caseStudyCard {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 5% 13rem;
+    grid-row-gap:5rem;
+  }
+}
+
 /*when the screen is bigger than 600px, go to two columns*/
 @media (min-width: 600px) {
   .cards {
@@ -524,192 +532,90 @@ h4{
     margin: auto 0rem;
   }
 }
-#designProcessSection{
-  background-color: #FDF7F3;
 
-}
-#designProcessTitle{
-  border-top: 2px solid white;
-  border-bottom: 2px solid white;
-}
+@media (max-width: 700px) {
+  .topnav a {
+    padding: 1.1rem 1.4rem;
+    font-size: 1.6rem;
+  }
 
-#designProcessTitleText{
-  border-top: 2px solid white;
-  border-bottom: 2px solid white;
-}
-.DP-section{
-  background-color: #FDF7F3;
-  color: black;
-  padding: 1rem;
-  height: auto;
-  border: 2px solid white;
+  #bannerText1{
+  font-size:3rem;
+  }
 
+  #bannerText2{
+  font-size:1.6rem;
+  padding-left: 2%;
+  padding-right: 2%;
+  }
 
-}
-
-.DP-Grid {
-  max-width: 1200px;
-  display: grid;
-  grid-gap: 1rem;
-  max-width: 1200px;
-  grid-column-gap:1rem;
-  /* margin-top: 5rem; */
-  padding: 5rem 8rem;
-
-}
-
-.footer {
-  background-color: #2E3A40;
-  overflow: hidden;
-  width: 100%;
-  height: 10rem;
-}
-
-#footerText{
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1.8rem;
-  color:white;
-  top: 50%;
-  position: relative;
-  transform: translate(0, -50%);
-  padding-right: 10rem;
-  float:right;
-}
-
-#leftFooterIcons{
-  width:18rem;
-  top: 50%;
-  position: relative;
-  transform: translate(0, -50%);
-  margin-left: 10rem;
-  display: grid;
-  grid-column-gap:2rem;
-  grid-template-columns: minmax(0,1fr) minmax(0,1fr) minmax(0,1fr);
-  float:left;
-}
-
-.footerIcon{
-  width: 3.4rem;
-  height: 3.4rem;
-}
-
-------------------------------------------
-
-
-
-#case-study-gh{
-  font-size: 1rem;
-  line-height: 1.15;
-  box-sizing: border-box;
-  display: grid;
-  grid-template-columns: 1fr;
-  padding: 0;
-  pointer-events: auto;
-  transition-duration: 1.2s;
-  transition-timing-function: ease;
-  transition-property: opacity,transform,-webkit-transform;
-  opacity: 1;
-  transform: none;
-}
-
-.case-study-image display-mobile{
-  pointer-events: auto;
-  box-sizing: border-box;
-  padding-bottom: 4.8rem;
-  display: none;
-}
-
-
-
-#caseStudyImage2{
-  pointer-events: auto;
-  box-sizing: border-box;
-  border-style: none;
-  width: 100%;
-  padding: 0;
-  float: left;
-  max-width: 102.4rem;
-  /* margin-left:10rem; */
-
-}
-.content-box-narrow{
-  font-size: 1rem;
-  line-height: 1.15;
-  pointer-events: auto;
-  box-sizing: border-box;
-  margin: 0 auto;
-  max-width: 100rem;
-  width: 80%;
-  padding-left: 1rem;
-}
-
-.projectDescription{
-  font-size: 1rem;
-  line-height: 1.15;
-  pointer-events: auto;
-  box-sizing: border-box;
-}
-
-.project-title{
-  pointer-events: auto;
-  box-sizing: border-box;
-  margin: 0;
-  font-family: Work Sans;
-  font-style: normal;
-  line-height: 167.23%;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 2.4rem;
-}
-
-.project-brief{
-  pointer-events: auto;
-  box-sizing: border-box;
-  font-family: Archivo;
-  font-style: normal;
-  font-weight: 300;
-  margin-top: 1.2rem;
-  font-size: 2.4rem;
+  #bannerText3{
+  font-size:1.6rem;
+  /* padding-top: 20%;
+  padding-bottom: 22%; */
   line-height: 130%;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom: 10rem;
+  padding-top:0;
+  height: 5rem;
+  }
+
+  #palmTreeVector{
+  /* width: 6.5rem (take out) */
+  position:relative;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 7rem;
+  }
+
+  #latestWorkLink {
+    font-size: 1.6rem;
+  }
+
+  .rightElements{
+    padding-right: 5%;
+  }
+
+  .leftElements{
+    margin-left: 5%;
+  }
+
+  #DP-Grid{
+    display: block;
+    padding: 1rem 10rem;
+    margin-bottom: 5rem;
+  }
+  .DP-Column{
+    margin-bottom: 5rem;
+  }
+
+  #footerText{
+    float:none;
+    padding-right:0rem;
+    padding-top:2rem;
+    text-align: center;
+  }
+
+  #leftFooterIcons{
+    float:none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footerIcon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /*get content vertically centered when width is small*/
+  #footerContent{
+    transform: translate(0, -25%);
+  }
+
 }
-
-.category-tag-container display-desktop{
-  font-size: 1rem;
-  line-height: 1.15;
-  pointer-events: auto;
-  box-sizing: border-box;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: inherit;
-}
-
-.paragraph-end{
-  pointer-events: auto;
-  box-sizing: border-box;
-  font-family: Work Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1.8rem;
-  line-height: 140%;
-  padding-bottom: 3.6rem;
-  margin-bottom: 0;
-}
-
-.category-tag-container li {
-    background-color: #E8E8E8;
-    color: #2A3636;
-    display: inline-block;
-    font: normal 1.2rem "Work Sans";
-    padding: .6rem 1rem;
-    margin: 0 1rem 1rem 0;
-    text-transform: uppercase;
-}
-
-
-
 
 /*
 We don't want the main content to span the full width of the page.
@@ -717,42 +623,4 @@ Otherwise it'll be difficult to read on large screens.
 */
 main {
   max-width: 90rem;
-}
-
-/*
-We don't want any padding to the left of our description text on
-our featured project; we want left edges of our text to line
-up because it increases readability.
-*/
-.project-description {
-  padding-left: 0;
-}
-/*
-We want our images to always take up 100% of their container's
-available width.
-*/
-.project img {
-  width: 100%;
-}
-
-/*
-might not need to make it fixed.
-*/
-footer.mdl-mini-footer {
-  bottom: 0;
-  padding: 0.5rem;
-  /* position: fixed; */
-  width: 100%;
-  z-index: 1;
-}
-
-footer.mdl-mini-footer > ul {
-  margin: auto;
-  font-size: 2rem;
-}
-
-@media screen and (max-width: 102.4rem) {
-  header.mdl-layout__header {
-    display: flex;
-  }
 }
