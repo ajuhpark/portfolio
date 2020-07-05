@@ -1,23 +1,21 @@
 /*Lora*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
-
 /*Inter*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 
-html{
+html {
   font-size: 10px;
 }
 
 /* || GENERAL STYLES */
-
 body {
   font-size: 12px;
 }
 
 p {
-    font-size: 1.6rem;
-    letter-spacing: 0;
-    margin: 0;
+  font-size: 1.6rem;
+  letter-spacing: 0;
+  margin: 0;
 }
 
 header {
@@ -27,15 +25,14 @@ header {
   text-align: center;
 }
 
-h1{
+h1 {
   font-family: "Lora";
-  font-size:3.6rem;
+  font-size: 3.6rem;
   font-weight: bold;
   color: hsla(0, 0%, 100% 0.7);
 }
 
-
-h2{
+h2 {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -44,26 +41,25 @@ h2{
   color: #000000;
 }
 
-
-
-h3{
+h3 {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 1.6rem;
   line-height: 130%;
-  margin:0px;
+  margin: 0px;
   /* or 2.1rem */
 }
 
-h4{
+h4 {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 1.6rem;
   line-height: 130%;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
 }
-
 
 /* Add a white background color to the top navigation */
 .topnav {
@@ -74,10 +70,8 @@ h4{
   border-bottom: .3rem solid #FBE8E4;
 }
 
-
 /* || Top Menu Bar */
-
-#homeIcon{
+#homeIcon {
   width: 5.89rem;
   height: 5.5rem;
   top: 50%;
@@ -86,8 +80,8 @@ h4{
   margin-left: 10rem;
 }
 
-#rightIcons{
-  float:right;
+#rightIcons {
+  float: right;
   padding-right: 10rem;
   top: 50%;
   position: relative;
@@ -95,11 +89,10 @@ h4{
   font-family: "Inter", sans-serif;
 }
 
-
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: rgba(0,0,0,.87);
+  color: rgba(0, 0, 0, .87);
   text-align: center;
   padding: 1.4rem 1.6rem;
   text-decoration: none;
@@ -119,8 +112,7 @@ h4{
 }
 
 /* || Banner */
-
-#bannerText1{
+#bannerText1 {
   color: hsla(0, 0%, 100% 0.7);
   font-size: 5rem;
   font-weight: normal;
@@ -131,12 +123,12 @@ h4{
   font-family: "Lora";
 }
 
-#bannerText2Line{
+#bannerText2Line {
   position: relative;
   /* border: .3rem #eee solid; */
 }
 
-#bannerText2{
+#bannerText2 {
   color: hsla(0, 0%, 100% 0.7);
   font-size: 3rem;
   font-weight: normal;
@@ -147,15 +139,15 @@ h4{
   display: inline-block;
 }
 
-#palmTreeVector{
+#palmTreeVector {
   /* display:inline-block; */
-  position:absolute;
+  position: absolute;
   width: 8.75rem;
   height: 8.08rem;
   /* border: 1px #ccc solid; */
 }
 
-#bannerText3{
+#bannerText3 {
   color: hsla(0, 0%, 100% 0.7);
   font-size: 3rem;
   font-weight: normal;
@@ -168,19 +160,19 @@ h4{
   margin-bottom: 20rem;
   padding-right: 18%;
   padding-left: 18%;
-  padding-top:2rem;
+  padding-top: 2rem;
   height: 80px;
 }
 
-#latestWorkLink{
+#latestWorkLink {
   text-align: center;
   font-family: "Inter", sans-serif;
   font-size: 2rem;
 }
 
-#latestWorkArrow{
-  width:1.3rem;
-  height:.8rem;
+#latestWorkArrow {
+  width: 1.3rem;
+  height: .8rem;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -188,19 +180,17 @@ h4{
   margin-bottom: 3rem;
 }
 
-
 /* || Featured Work */
-
-#featuredWork{
-  border:1px solid green;
+#featuredWork {
+  border: 1px solid green;
 }
 
-.HP-Sections{
+.HP-Sections {
   height: 19.4rem;
   /* border: 1px solid orange; */
 }
 
-.HP-Section-Title{
+.HP-Section-Title {
   text-align: center;
   top: 50%;
   position: relative;
@@ -208,55 +198,55 @@ h4{
   /* border: 1px solid purple; */
 }
 
-.caseStudyCard{
-    display: grid;
-    grid-column-gap:5rem;
-    border: 1px solid green;
-    margin-top: 5rem;
-    max-width: 1200px;
+.caseStudyCard {
+  display: grid;
+  grid-column-gap: 5rem;
+  border: 1px solid green;
+  margin-top: 5rem;
+  max-width: 1200px;
 }
 
-.caseStudy2{
-    display: grid;
-    grid-column-gap:5rem;
-    padding: 4rem 1rem;
-    grid-template-columns: 1fr 1fr;
-    background-color: #fffff;
-    border: 1px solid purple;
+.caseStudy2 {
+  display: grid;
+  grid-column-gap: 5rem;
+  padding: 4rem 1rem;
+  grid-template-columns: 1fr 1fr;
+  background-color: #fffff;
+  border: 1px solid purple;
 }
 
-.caseStudyImage{
+.caseStudyImage {
   /* float:right; */
   border: 1px solid rgba(0, 0, 0, 0.8);
   /* width: 56.7rem; */
   align-items: center;
 }
 
-.caseStudyDescriptionContainer{
+.caseStudyDescriptionContainer {
   /* width:50%; */
-  padding-top:10% 0;
+  padding-top: 10% 0;
 }
 
-#caseStudyDescriptionContainer1{
+#caseStudyDescriptionContainer1 {
   /* margin-left:10rem;
   padding-left:5rem; */
   border: 1px solid red;
 }
 
-#caseStudyDescriptionContainer2{
-  margin-right:10rem;
-  padding-left:5rem;
+#caseStudyDescriptionContainer2 {
+  margin-right: 10rem;
+  padding-left: 5rem;
   border: 1px solid yellow;
 }
 
-.caseStudyDescription{
+.caseStudyDescription {
   top: 50%;
   position: relative;
   transform: translate(0, -50%);
-  padding:10% 15%;
+  padding: 10% 15%;
 }
 
-.caseStudyImage1{
+.caseStudyImage1 {
   pointer-events: auto;
   box-sizing: border-box;
   border-style: none;
@@ -266,17 +256,17 @@ h4{
   /* margin-right:10rem; */
 }
 
-.projectTitle{
-  margin-top:0px;
-  margin-bottom:2.4rem;
+.projectTitle {
+  margin-top: 0px;
+  margin-bottom: 2.4rem;
 }
 
-.projectBrief{
+.projectBrief {
   /* width: 46.6rem; */
   /* padding-right: 5rem; */
 }
 
-.btn_viewCaseStudy{
+.btn_viewCaseStudy {
   font-family: "Inter", sans-serif;
   font-size: 1.6rem;
   line-height: 2.2rem;
@@ -288,26 +278,24 @@ h4{
   text-decoration: none;
   text-align: center;
   display: inline-block;
-  margin-top:2.4rem;
+  margin-top: 2.4rem;
 }
 
 /* || Design Process */
-
-#designProcessText{
+#designProcessText {
   text-align: center;
   top: 50%;
   position: relative;
   transform: translate(0, -50%);
 }
 
-
-#designProcessTextSection{
+#designProcessTextSection {
   height: 19.4rem;
-
 }
-#DP-Grid{
+
+#DP-Grid {
   grid-column-gap: 2rem;
-  grid-template-columns: minmax(0,1fr) minmax(0,1fr) minmax(0,1fr) minmax(0,1fr);
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
   background-color: #2196F3;
   padding: 1rem 10rem;
   margin-bottom: 5rem;
@@ -321,22 +309,22 @@ h4{
   text-align: center;
 }
 
-.DP-Title{
+.DP-Title {
   text-align: center;
   max-width: 14rem;
   height: 5rem;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 1.4rem;
-  margin-top:1rem;
-  }
+  margin-top: 1rem;
+}
 
-.DP-item{
+.DP-item {
   text-align: center;
 }
 
-.designPic{
-  max-width:90%;
+.designPic {
+  max-width: 90%;
   /* margin-bottom: 2.4rem; */
   margin-left: auto;
   margin-right: auto;
@@ -344,32 +332,31 @@ h4{
   padding-bottom: 2rem;
 }
 
-#ReccomendationSection{
-    margin-bottom:10rem;
+#ReccomendationSection {
+  margin-bottom: 10rem;
 }
 
-
-#recTextSection{
+#recTextSection {
   margin-bottom: 5rem;
-  padding-left:25%;
-  padding-right:25%;
+  padding-left: 25%;
+  padding-right: 25%;
 }
 
-#recText{
+#recText {
   font-style: italic;
   padding-bottom: 2rem;
   font-size: 1.6rem;
 }
 
-#recName{
-  padding-bottom:1rem;
+#recName {
+  padding-bottom: 1rem;
 }
 
-#takeLogo{
+#takeLogo {
   width: 50%;
 }
 
-#takeFinalProduct{
+#takeFinalProduct {
   width: 50%;
 }
 
@@ -386,20 +373,21 @@ h4{
   grid-gap: 1rem;
 }
 
-#designProcessSection{
+#designProcessSection {
   background-color: #FDF7F3;
-
 }
-#designProcessTitle{
+
+#designProcessTitle {
   border-top: 2px solid white;
   border-bottom: 2px solid white;
 }
 
-#designProcessTitleText{
-  border-top: 2px solid white;
-  border-bottom: 2px solid white;
+#designProcessTitleText {
+  /* border-top: 2px solid white; */
+  /* border-bottom: 2px solid white; */
 }
-.DP-section{
+
+.DP-section {
   background-color: #FDF7F3;
   color: black;
   padding: 1rem;
@@ -412,14 +400,12 @@ h4{
   display: grid;
   grid-gap: 1rem;
   max-width: 1200px;
-  grid-column-gap:1rem;
+  grid-column-gap: 1rem;
   /* margin-top: 5rem; */
   padding: 5rem 8rem;
-
 }
 
 /* || Footer */
-
 .footer {
   background-color: #2E3A40;
   overflow: hidden;
@@ -427,51 +413,49 @@ h4{
   height: 10rem;
 }
 
-#footerText{
+#footerText {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 1.6rem;
-  color:white;
+  color: white;
   top: 50%;
   position: relative;
   transform: translate(0, -50%);
   padding-right: 10rem;
-  float:right;
+  float: right;
 }
 
-#leftFooterIcons{
-  width:18rem;
+#leftFooterIcons {
+  width: 18rem;
   top: 50%;
   position: relative;
   transform: translate(0, -50%);
   margin-left: 10rem;
   display: grid;
-  grid-column-gap:2rem;
-  grid-template-columns: minmax(0,1fr) minmax(0,1fr) minmax(0,1fr);
-  float:left;
+  grid-column-gap: 2rem;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+  float: left;
 }
 
-.footerIcon{
+.footerIcon {
   width: 3rem;
   height: 3rem;
 }
 
-#footerContent{
+#footerContent {
   top: 50%;
   position: relative;
   transform: translate(0, -50%);
 }
 
-
 /* || Media Query  */
-
-@media (min-width: 700px){
-  #DP-Grid{
+@media (min-width: 700px) {
+  #DP-Grid {
     display: grid;
   }
 
-  .DP-Column{
+  .DP-Column {
     margin-bottom: 2rem;
   }
 }
@@ -480,11 +464,12 @@ h4{
   .caseStudyCard {
     margin: 5rem 0rem;
   }
-  .caseStudyImage1{
+
+  .caseStudyImage1 {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    width:50%;
+    width: 50%;
     padding: 2rem;
     min-width: 36rem;
     max-width: 48rem;
@@ -495,7 +480,7 @@ h4{
   .caseStudyCard {
     grid-template-columns: repeat(2, 1fr);
     margin: 5% 13rem;
-    grid-row-gap:5rem;
+    grid-row-gap: 5rem;
   }
 }
 
@@ -520,10 +505,10 @@ h4{
   }
 }
 
-@media (min-width:900px){
+@media (min-width:900px) {
   .DP-Grid {
     grid-template-columns: repeat(4, 1fr);
-    margin: auto 3rem;
+    margin: auto auto;
   }
 }
 
@@ -539,82 +524,82 @@ h4{
     font-size: 1.6rem;
   }
 
-  #bannerText1{
-  font-size:3rem;
+  #bannerText1 {
+    font-size: 3rem;
   }
 
-  #bannerText2{
-  font-size:1.6rem;
-  padding-left: 2%;
-  padding-right: 2%;
+  #bannerText2 {
+    font-size: 1.6rem;
+    padding-left: 2%;
+    padding-right: 2%;
   }
 
-  #bannerText3{
-  font-size:1.6rem;
-  /* padding-top: 20%;
+  #bannerText3 {
+    font-size: 1.6rem;
+    /* padding-top: 20%;
   padding-bottom: 22%; */
-  line-height: 130%;
-  padding-left: 10%;
-  padding-right: 10%;
-  margin-bottom: 10rem;
-  padding-top:0;
-  height: 5rem;
+    line-height: 130%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 10rem;
+    padding-top: 0;
+    height: 5rem;
   }
 
-  #palmTreeVector{
-  /* width: 6.5rem (take out) */
-  position:relative;
-  display:block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 7rem;
+  #palmTreeVector {
+    /* width: 6.5rem (take out) */
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 7rem;
   }
 
   #latestWorkLink {
     font-size: 1.6rem;
   }
 
-  .rightElements{
+  .rightElements {
     padding-right: 5%;
   }
 
-  .leftElements{
+  .leftElements {
     margin-left: 5%;
   }
 
-  #DP-Grid{
+  #DP-Grid {
     display: block;
     padding: 1rem 10rem;
     margin-bottom: 5rem;
   }
-  .DP-Column{
+
+  .DP-Column {
     margin-bottom: 5rem;
   }
 
-  #footerText{
-    float:none;
-    padding-right:0rem;
-    padding-top:2rem;
+  #footerText {
+    float: none;
+    padding-right: 0rem;
+    padding-top: 2rem;
     text-align: center;
   }
 
-  #leftFooterIcons{
-    float:none;
+  #leftFooterIcons {
+    float: none;
     margin-left: auto;
     margin-right: auto;
   }
 
-  .footerIcon{
+  .footerIcon {
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
 
   /*get content vertically centered when width is small*/
-  #footerContent{
+  #footerContent {
     transform: translate(0, -25%);
   }
-
 }
 
 /*
@@ -623,4 +608,70 @@ Otherwise it'll be difficult to read on large screens.
 */
 main {
   max-width: 90rem;
+}
+
+/*Projects Page*/
+#takeLogo {
+  width: 18.8rem;
+  padding-top: 9rem;
+  padding-bottom: 4.5rem;
+}
+
+#takeDescription {
+  padding-right: 18%;
+  padding-left: 18%;
+  padding-bottom: 4.5rem;
+}
+
+#takeFinalProductImage {
+  width: 64.6rem;
+  padding-bottom: 50px;
+}
+
+#roleTitle {
+  font-weight: bold;
+}
+
+.roles {
+  padding: 2px 0;
+}
+
+.mainNav {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 3em 1.5em;
+}
+
+.CaseStudyNavigationBar ul {
+  border: 1px solid rgb(212, 20, 20);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.CaseStudyNavigationBar li{
+  flex:3;
+}
+
+
+csText {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.6rem;
+  line-height: 130%;
+  color: white;
+  font-weight: 500;
+  /* letter-spacing: 2px; */
+  text-decoration: none;
+  background: #2E3A40;
+  padding: 20px 0px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+csText:hover {
+  background: rgba(238, 13, 13, 0.75);
 }
