@@ -636,18 +636,22 @@ main {
   padding: 2px 0;
 }
 
-.mainNav {
-  max-width: 1200px;
+.caseStudyNavigation {
+  /* max-width: 1200px; */
   margin: 0 auto;
-  padding: 0 3em 1.5em;
+  /* padding: 0 3em 1.5em; */
+  padding-top: 70px;
 }
 
 .CaseStudyNavigationBar ul {
-  border: 1px solid rgb(212, 20, 20);
+  /* border: 1px solid rgb(212, 20, 20); */
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
+  background: #2E3A40;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .CaseStudyNavigationBar li{
@@ -674,4 +678,40 @@ csText {
 
 csText:hover {
   background: rgba(238, 13, 13, 0.75);
+}
+
+.CS-Sections {
+  height: 11.0rem;
+  /* border: 1px solid orange; */
+  padding-top:5rem;
+  margin-left:10rem;
+}
+
+.CS-Section-Title-number{
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 4rem;
+  color: #E9723F;
+  display:inline;
+  padding-right:4px;
+}
+
+.CS-Section-Title-text{
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-size: 3rem;
+  color: black;
+}
+
+.CS-Subheading{
+  text-align: center;
+  font-weight: normal;
+  padding-top: 5rem;
+  padding-bottom: 3.5rem;
+}
+
+#cs-textBlock1{
+  padding-right: 25%;
+  padding-left: 25%;
 }

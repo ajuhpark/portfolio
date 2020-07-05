@@ -6,15 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Material Design Lite -->
-  <!-- <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-lime.min.css">
-  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script> -->
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-lime.min.css">
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
   <!-- Font Awesome -->
-  <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
   <!-- Custom Styles -->
   <link rel="stylesheet" href="styles/main.css">
-
 </head>
 
 <body>
@@ -40,39 +42,55 @@
     <h4 class="roles">Created wireframes and prototypes.</h4>
   </header>
 
-  <section id="caseStudyNavigation">
-    <div class="mainNav">
-      <nav class="CaseStudyNavigationBar">
-         <ul>
-            <li><csText href="#">Home</csText></li>
-            <li><csText href="#">About Us</csText></li>
-            <li><csText href="#">Team</csText></li>
-            <li><csText href="#">Services</csText></li>
-            <li><csText href="#">Blog</csText></li>
-            <li><csText href="#">Contact</csText></li>
-         </ul>
-      </nav>
-   </div>
+  <div class="caseStudyNavigation">
+    <nav class="CaseStudyNavigationBar">
+      <ul>
+        <li><csText href="#">Home</csText></li>
+        <li><csText href="#">About Us</csText></li>
+        <li><csText href="#">Team</csText></li>
+        <li><csText href="#">Services</csText></li>
+        <li><csText href="#">Blog</csText></li>
+        <li><csText href="#">Contact</csText></li>
+      </ul>
+    </nav>
+  </div>
+
+  <section id="overviewSection">
+    <section class="CS-Sections">
+      <div class="CS-Section-Title-text">
+        <div class="CS-Section-Title-number">1</div>Overview</div>
+    </section>
+
+    <section id="backgroundSection">
+      <h2 class="CS-Subheading">Background</h2>
+      <h4 id="cs-textBlock1">
+        My talented friends created an Instagram account called Secret Society of Artists where every week they would select a movie, game or tv show and everyone would draw and submit fan artwork for that property.  Here are screemshots of the Instagram account:
+      </h4>
+      <div class="DP-Grid">
+        <!--Research column-->
+        <div class="DP-section">
+          <h3 class="DP-Title">Research</h3>
+          <img class="designPic" src="images/researchpic1.png" alt="researchpic1">
+          <h4 class="DP-item">User personas</h4>
+          <h4 class="DP-item">Stories</h4>
+          <h4 class="DP-item">User testing</h4>
+        </div>
+
+        <!--Info Architecture column-->
+        <div class="DP-section">
+          <h3 class="DP-Title">Information Architecture</h3>
+          <img class="designPic" src="images/infoarch2.png" alt="infoarch2">
+          <h4 class="DP-item">User flows</h4>
+          <h4 class="DP-item">Wireframing</h4>
+          <h4 class="DP-item">Prototyping</h4>
+        </div>
+      </div>
+    </section>
   </section>
 
-  <section id="featuredWork" class="HP-Sections">
-    <h1 class="HP-Section-Title">Featured Work</h1>
-  </section>
 
-  <!--Case study1</a>-->
-  <!-- <section class="caseStudy1">
-    <div id="caseStudyDescriptionContainer1" class="caseStudyDescriptionContainer">
-      <div class="caseStudyDescription">
-        <h2 class="projectTitle">TAKE</h2>
-        <h3 class="projectBrief">Take is a community for creative fan content. Creatives can discover and share takes on their favorite tv shows, movies and books.</h3>
-        <a class="btn_viewCaseStudy" href="/takeCaseStudy">VIEW CASE STUDY</a> -->
-        <!--eventually <a class="btn_viewCaseStudy" href="/takeCaseStudy">VIEW CASE STUDY</a>-->
-      <!-- </div>
-    </div>
-    <div id="caseStudyImageContainer1" class="caseStudyImage">
-      <img id="caseStudyImage1" src="images/caseStudyPlaceholder.png" alt="caseStudyImage1">
-    </div>
-  </section> -->
+
+
 
 
 
@@ -111,7 +129,7 @@
         <h4 class="DP-item">Photoshop/Illustrator</h4>
         <h4 class="DP-item">Figma/Sketch</h4>
       </div>
-            <!--
+      <!--
       <div class="grid-item">Information Architecture</div>
       <div class="grid-item">Visual Design</div>
       <div class="grid-item">Technical</div> -->
@@ -126,8 +144,9 @@
     </div>
 
     <div id="recTextSection">
-      <p id="recText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio sit elementum elit. Et nibh egestas ornare enim volutpat. Leo suspendisse suspendisse mus ac. Est gravida molestie bibendum odio. Enim gravida aliquam suscipit urna, aliquam congue justo tempus eu. Dapibus sit leo, sem euismod. Quis vitae justo, pulvinar elit diam nisl et. Risus mattis eu, non eu. Vitae in eu risus nulla venenatis sodales ac aenean urna. A fringilla.
-</p>
+      <p id="recText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio sit elementum elit. Et nibh egestas ornare enim volutpat. Leo suspendisse suspendisse mus ac. Est gravida molestie bibendum odio. Enim gravida aliquam suscipit
+        urna, aliquam congue justo tempus eu. Dapibus sit leo, sem euismod. Quis vitae justo, pulvinar elit diam nisl et. Risus mattis eu, non eu. Vitae in eu risus nulla venenatis sodales ac aenean urna. A fringilla.
+      </p>
       <h4 id="recName">RECOMMENDER NAME</h4>
       <h4 id="positionName">Position</h4>
     </div>
