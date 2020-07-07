@@ -221,6 +221,9 @@ h4 {
   border: 1px solid rgba(0, 0, 0, 0.8);
   /* width: 56.7rem; */
   align-items: center;
+  position:relative;
+  display:flex;
+  justify-content: center;
 }
 
 .caseStudyDescriptionContainer {
@@ -719,7 +722,10 @@ csText:hover {
 .cs-textBlock1{
   /* padding-right: 25%;
   padding-left: 25%; */
-  padding: 3rem 25%;
+  /* padding: 3rem 25%; */
+  padding-top: 3rem;
+  padding-left: 25%;
+  padding-right: 25%;
 }
 
 .SSA_pics{
@@ -769,7 +775,7 @@ csText:hover {
   padding-bottom:3rem;
 }
 
-#cs-textBlock1-1{
+#cs-textBlock1-2{
   padding-bottom:5rem;
 }
 
@@ -781,6 +787,8 @@ csText:hover {
   margin-left: 13%;
   margin-right: 13%;
   border-radius: 14px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 #horizontalBar-pink{
@@ -790,7 +798,7 @@ csText:hover {
 .PS-Section{
   max-width: 990px;
   display: grid;
-  grid-gap: 2rem;
+  grid-gap: 1rem;
   grid-template-columns: repeat(2, 1fr);
   margin-left: auto;
   margin-right: auto;
@@ -805,11 +813,57 @@ csText:hover {
   height:41.5rem;
 }
 
-.problem_pic{
-  width:45rem;
+#problem_pic{
+  width: 90%;
 }
 
+@media (max-width: 900px) {
+  #problem_pic{
+    margin-left:auto;
+    margin-right:auto;
+    top: 0%;
+    left: 0%;
+    transform: translate(0%, 0%);
+  }
+}
+
+
 .solution_pic{
-  width:205px;
-  display:inline;
+  width:90%;
+  position: relative;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+@media (max-width: 900px) {
+  .solution_pic {
+      width:60%;
+  }
+}
+
+#caseStudyCard-Overview {
+  display: grid;
+  grid-column-gap: 2rem;
+  border: 1px solid green;
+  margin-top: 5rem;
+  max-width: 1200px;
+  margin: 2% 13rem;
+}
+
+@media (max-width: 900px) {
+  #caseStudyCard-Overview {
+    margin: 5rem 0rem;
+  }
+}
+
+@media (min-width: 900px) {
+  #caseStudyCard-Overview {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0% 13rem;
+    grid-row-gap: 5rem;
+  }
+}
+
+#caseStudyDescription-1{
+  padding: 10% 5%;
 }
