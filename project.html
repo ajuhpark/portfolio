@@ -9,11 +9,20 @@
   <!-- Bootstrap -->
   <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> -->
 
+
   <!-- Font Awesome -->
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
   <!-- Custom Styles -->
   <link rel="stylesheet" href="styles/main.css">
+
+  <!-- load jquery -->
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous">
+  </script>
+
 </head>
 
 <body>
@@ -38,31 +47,29 @@
     <h4 class="roles" id="roleTitle">Role and Responsibilities</h4>
     <h4 class="roles">Created user personas</h4>
     <h4 class="roles">Performed user testing. </h4>
-    <h4 class="roles">Created wireframes and prototypes.</h4>
+    <h4 class="roles" id="roleBody">Created wireframes and prototypes.</h4>
   </header>
 
   <!--https://www.ostraining.com/blog/webdesign/create-navmenu-with-flexbox/-->
-  <!--flex bar navigation-->
+  <!--flex bar navigation example-->
 
-
-
-  <div class="caseStudyNavigation">
-    <nav class="CaseStudyNavigationBar">
-      <ul>
-        <li><csText href="#">Home</csText></li>
-        <li><csText href="#">About Us</csText></li>
-        <li><csText href="#">Team</csText></li>
-        <li><csText href="#">Services</csText></li>
-        <li><csText href="#">Blog</csText></li>
-        <li><csText href="#">Contact</csText></li>
-      </ul>
+  <div class="main">
+    <nav class="navigation">
+       <ul>
+          <li><csText href="#section-overview" class="js-anchor-link">Overview</csText></li>
+          <li><csText href="#section-research" class="js-anchor-link">Research</csText></li>
+          <li><csText href="#section-infoarch" class="js-anchor-link">Information Architecture</csText></li>
+          <li><csText href="#section-branding" class="js-anchor-link">Branding</csText></li>
+          <li><csText href="#section-testing" class="js-anchor-link">Testing</csText></li>
+          <li><csText href="#section-finprod" class="js-anchor-link">Final Product</csText></li>
+       </ul>
     </nav>
   </div>
 
   <!--Overview Section-->
   <section class="caseStudy-section" id="overviewSection">
     <section class="CS-Sections">
-      <div class="CS-Section-Title-text">
+      <div class="CS-Section-Title-text"  id="overviewSectionHeading">
         <div class="CS-Section-Title-number">1</div>OVERVIEW</div>
     </section>
 
@@ -134,7 +141,7 @@
     <hr class="horizontalBar" id="horizontalBar-blue">
 
   <!--Research Section-->
-  <section class="caseStudy-section">
+  <section id="section-research" class="caseStudy-section">
     <div class="CS-Section-Title-text">
       <div class="CS-Section-Title-number">2</div>RESEARCH
     </div>
@@ -460,7 +467,11 @@
       </Section>
 
 
+    <!--links to our JavaScript file
+      -->
+    <script src="portfolio-js.js"></script>
 
-</body>
+
+  </body>
 
 </html>
