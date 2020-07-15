@@ -4,7 +4,7 @@ our code easier to maintain and reuse.*/
 
 function onReady(){
 
-  
+  //jump to section
   $('.js-anchor-link').click(function(e){
     e.preventDefault();
     var target = $($(this).attr('href'));
