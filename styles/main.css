@@ -221,6 +221,11 @@ h7{
   justify-content: center;
 }
 
+.homepage-section{
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
 .caseStudyCard {
   grid-column-gap: 5rem;
   border: 1px solid green;
@@ -759,6 +764,13 @@ main {
   padding-top: 3rem;
 }
 
+@media (min-width: 901px) {
+  .cs-textBlock1{
+    padding-left: 13%;
+    padding-right: 13%;
+  }
+}
+
 #cs-textBlock1-1{
   padding-bottom:3rem;
 }
@@ -815,6 +827,25 @@ main {
   width:200px;
 }
 
+.container-wrap-normal{
+  align-items: center;
+  align-items: center;
+  border-radius: 8px;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-evenly;
+  margin-bottom:0rem;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:2rem;
+  min-height: 125px;
+  padding-bottom:.5rem;
+  padding-top:.5rem;
+  width:93%;
+}
+
+
+
 /*Problem and Solution flex wrap*/
 
 .container-reverse{
@@ -848,6 +879,11 @@ main {
 #problem_pic{
   width: 90%;
 }
+
+.comp_analysis_pic{
+  width: 100%;
+}
+
 
 /* || Research Section */
 
@@ -893,6 +929,30 @@ main {
   position: relative;
   width:90%;
 }
+
+table {
+  /* font-family: arial, sans-serif; */
+  border-collapse: collapse;
+  display: flex;
+  font-family: "Inter", sans-serif;
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: normal;
+  justify-content: center;
+  line-height: 100%;
+  padding-top: 4rem;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #EAF0FF;
+}
+
 
 
 /*User Personas section*/
@@ -1085,6 +1145,10 @@ margin: 0px;
   width: 40%;
 }
 
+.comp_analysis_caption{
+    padding-bottom:1.5rem;
+}
+
 .branding_color_pic{
   width:28%;
   /* min-width:100px; */
@@ -1107,12 +1171,81 @@ margin: 0px;
   padding-top:0rem;
 }
 
-/*Branding section*/
+
+
+/* || Information Architecture */
+
+#CS-bodyText-1-1{
+  padding-top:1rem;
+}
+
+#CS-bodyText-1-2{
+  padding-bottom:1.5rem;
+}
+
+#s2w-container-1{
+  background-color: #EA9D8C;
+}
+
+#s2w-container-2{
+  background-color: #DF6A50;
+}
+
+.s2w-container{
+  align-items: center;
+  background-color: #F4CEC5;
+  border-radius: 4px;
+  display:flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+  margin-left: 13%;
+  margin-right: 13%;
+  margin-top: 2rem;
+  padding:1.5rem;
+}
+
+.s2w_pic{
+  min-width: 45rem;
+  width:65%;
+}
+
+
+/* || Branding section */
 
 .branding_font_subheading{
   font-size: 1.8rem;
   padding-bottom:1.5rem;
 }
+
+#CS-bodyText-1-3{
+  padding-bottom:1.5rem;
+  padding-top:0rem;
+}
+
+.box-2{
+  display:inline-flex;
+  height: auto;
+  justify-content: space-around;
+  min-width: 300px;
+  padding: 10px;
+  width: 40%;
+}
+#branding_logo_pic1{
+  background-color: #F9F9F9;
+}
+
+#branding_logo_pic1-1{
+  background-color: #FDF7F3;
+  border-radius: 6px;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+}
+
+.branding_font_body{
+  font-size:1.6rem;
+}
+
 
 
 /* || Final Product Section */
@@ -1132,36 +1265,15 @@ margin: 0px;
   width: 74%;
 }
 
-
-/* || 'Other' Section */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (min-width: 901px) {
-  .cs-textBlock1{
-    /* padding-top: 3rem; */
-    padding-left: 13%;
-    padding-right: 13%;
-  }
+#cs-textBlock1-3{
+  padding-bottom:7rem;
 }
+
+
+
+
+
+/* || Horizontal Bar */
 
 
 .horizontalBar{
@@ -1216,201 +1328,6 @@ hr{
 }
 
 
-@media (max-width: 900px) {
-  #problem_pic{
-    left: 0%;
-    margin-left:auto;
-    margin-right:auto;
-    top: 0%;
-    transform: translate(0%, 0%);
-  }
-}
-
-
-@media (max-width: 900px) {
-  .solution_pic {
-      width:60%;
-  }
-}
-
-#caseStudyCard-Overview {
-  grid-column-gap: 2rem;
-  border: 1px solid green;
-  display: grid;
-  margin: 2% 13rem;
-  margin-top: 5rem;
-  max-width: 1200px;
-}
-
-@media (max-width: 900px) {
-  #caseStudyCard-Overview {
-    margin: 5rem 0rem;
-  }
-}
-
-@media (min-width: 900px) {
-  #caseStudyCard-Overview {
-    grid-row-gap: 5rem;
-    grid-template-columns: repeat(2, 1fr);
-    margin: 0% 15%;
-  }
-}
-
-#caseStudyDescription-1{
-  padding: 10% 5%;
-}
-
-
-#CS-bodyText-1-1{
-  padding-top:1rem;
-}
-
-#CS-bodyText-1-2{
-  padding-bottom:1.5rem;
-}
-
-#CS-bodyText-1-3{
-  padding-bottom:1.5rem;
-  padding-top:0rem;
-}
-
-#s2w-container-1{
-  background-color: #EA9D8C;
-}
-
-#s2w-container-2{
-  background-color: #DF6A50;
-}
-
-
-
-table {
-  /* font-family: arial, sans-serif; */
-  border-collapse: collapse;
-  display: flex;
-  font-family: "Inter", sans-serif;
-  font-size: 1.3rem;
-  font-style: normal;
-  font-weight: normal;
-  justify-content: center;
-  line-height: 100%;
-  padding-top: 4rem;
-}
-
-td, th {
-  border: 1px solid #dddddd;
-  padding: 8px;
-  text-align: left;
-}
-
-tr:nth-child(even) {
-  background-color: #EAF0FF;
-}
-
-
-
-
-.header {
-  background: tomato;
-}
-
-
-.container{
-  align-items: center;
-  align-items: center;
-  background-color: #EFF5FF;
-  border-radius: 8px;
-  display: flex;
-  justify-content: space-evenly;
-  margin: 0% auto;
-  min-height: 125px;
-  width:93%;
-}
-
-
-.box-2{
-  display:inline-flex;
-  height: auto;
-  justify-content: space-around;
-  min-width: 300px;
-  padding: 10px;
-  width: 40%;
-}
-
-
-
-
-
-.container-wrap-normal{
-  align-items: center;
-  align-items: center;
-  border-radius: 8px;
-  display: flex;
-  flex-wrap:wrap;
-  justify-content: space-evenly;
-  margin-bottom:0rem;
-  margin-left:auto;
-  margin-right:auto;
-  margin-top:2rem;
-  min-height: 125px;
-  padding-bottom:.5rem;
-  padding-top:.5rem;
-  /* margin: 0% auto; */
-  width:93%;
-}
-
-.comp_analysis_pic{
-  width: 100%;
-}
-
-.comp_analysis_caption{
-    padding-bottom:1.5rem;
-}
-
-.s2w-container{
-  align-items: center;
-  background-color: #F4CEC5;
-  border-radius: 4px;
-  /* margin-left: 22%;
-  margin-right: 22%; */
-  display:flex;
-  justify-content: center;
-  margin-bottom: 3rem;
-  margin-left: 13%;
-  margin-right: 13%;
-  margin-top: 2rem;
-  padding:1.5rem;
-
-}
-
-.s2w_pic{
-  min-width: 45rem;
-  width:65%;
-}
-
-.homepage-section{
-  margin-left: 8%;
-  margin-right: 8%;
-}
-
-#branding_logo_pic1{
-  background-color: #F9F9F9;
-}
-
-#branding_logo_pic1-1{
-  background-color: #FDF7F3;
-  border-radius: 6px;
-  margin-bottom: 1.5rem;
-  margin-top: 1.5rem;
-  padding: 1.5rem;
-}
-
-.branding_font_body{
-  font-size:1.6rem;
-}
-
-
-
 /* nav bar in project */
 
 csText {
@@ -1446,17 +1363,16 @@ csText:hover {
    .navigation ul {
       flex-wrap: wrap;
    }
-
    .navigation li {
       flex: 1 1 33.33%;
    }
-
    csText {
      padding: 1.25rem 0;
    }
-
 }
 
+
+/* || Media Queries*/
 
 @media (min-width: 900px) and (max-width: 945px){
   .box {
