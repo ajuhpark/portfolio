@@ -196,12 +196,19 @@ h7{
 #latestWorkArrow {
   display: block;
   height: .8rem;
-  margin-bottom: 3rem;
+  padding:2rem;
+  margin-bottom: 1rem;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 2.2rem;
+  margin-top: .2rem;
   width: 1.3rem;
 }
+
+#section-caseStudies{
+  position: relative;
+  top: -4px;
+}
+
 
 /* || Horizontal Bar */
 .horizontalBar-header{
@@ -383,6 +390,39 @@ h7{
   font-size: 1.6rem;
   font-style: italic;
   padding-bottom: 2rem;
+}
+
+@media (min-width:800px) and (max-width:1000px){
+  #recTextSection {
+    padding-left: 18%;
+    padding-right: 18%;
+  }
+
+  #recText {
+    min-width:50rem;
+  }
+}
+
+@media (min-width:500px) and (max-width:800px){
+  #recTextSection {
+    padding-left: 13%;
+    padding-right: 13%;
+  }
+
+  #recText {
+    min-width:40rem;
+  }
+}
+
+@media (max-width:500px){
+  #recTextSection {
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+
+  #recText {
+    min-width:30rem;
+  }
 }
 
 #recName {

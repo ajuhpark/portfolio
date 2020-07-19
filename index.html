@@ -11,6 +11,14 @@
 
   <!-- Custom Styles -->
   <link rel="stylesheet" href="styles/main.css">
+
+  <!-- load jquery -->
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous">
+  </script>
+
 </head>
 
 <body>
@@ -21,7 +29,10 @@
     <img id="homeIcon" src="images/Logo_v2.png" alt="icon" />
     </a>
     <div id="rightIcons">
-      <a href="#work">Work</a>
+      <!-- <a href="#section-caseStudies" class="js-anchor-link"> -->
+        <a href="#section-caseStudies" class="js-anchor-link">Work</a>
+      <!-- </a> -->
+
       <a href="#about">About</a>
       <a href="#contact">Contact</a>
     </div>
@@ -38,12 +49,16 @@
     </div>
     <p id="bannerText3">I design clear, communicative and friendly user experiences.</p>
     <div id="latestWorkLink">SEE MY LATEST WORK</div>
-    <img id="latestWorkArrow" src="images/latestWorkArrow.png" alt="latestWorkArrow" />
+    <a href="#section-caseStudies" class="js-anchor-link">
+    <img id="latestWorkArrow" src="images/latestWorkArrow.png" alt="latestWorkArrow">
+    </a>
+
   </header>
 
   <hr class="horizontalBar-header" id="horizontalBar-orange">
 
   <!-- Featured Work -->
+  <a class="anchor-offset" id="section-caseStudies"></a>
   <section class="HP-Sections">
     <h1>Featured Work</h1>
   </section>
@@ -59,7 +74,6 @@
           <h2 class="projectTitle">TAKE</h2>
           <h4>Take is a community for creative fan content. Creatives can discover and share takes on their favorite tv shows, movies and books.</h3>
             <a class="btn_viewCaseStudy" href="project.html">VIEW CASE STUDY</a>
-            <!--eventually <a class="btn_viewCaseStudy" href="/takeCaseStudy">VIEW CASE STUDY</a>-->
         </div>
       </div>
       <!--row 1 image-->
@@ -193,6 +207,10 @@
     <h4 class="footerText-3">© 2020 Designed by Andrew Park</h4>
     </div>
   </Section>
+
+  <!--links to our JavaScript file
+    -->
+  <script src="portfolio-js.js"></script>
 
   </body>
 
