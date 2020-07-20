@@ -730,6 +730,67 @@ main {
   padding-right: 22%;
 }
 
+.skip2prototype{
+  float:right;
+}
+
+#latestWorkLink{
+  font-size:1.4rem;
+  color: #DC784C;
+  width: 103px;
+  /* text-decoration: underline solid #DC784C; */
+  text-align:left;
+}
+
+#skip2prototypeArrow{
+  display:inline-block;
+  width: 14px;
+  float:right;
+  transform: translate(0, 17%);
+}
+
+#skip2prototypeLink{
+  display:block;
+}
+
+#skip2prototypeLink1{
+  display:none;
+}
+
+@media (max-width: 750px){
+  #skip2prototypeLink{
+    display:none;
+  }
+
+  #skip2prototypeLink1{
+    display:block;
+    margin-bottom:2.5rem;
+  }
+
+  .skip2prototype{
+    float:none;
+    display:inline-block;
+
+  }
+
+  #skip2prototypeArrow{
+    display:inline-block;
+    width: 14px;
+    float:none;
+    transform: translate(0, 0%);
+  }
+
+  #latestWorkLink{
+    display:inline-block;
+    width: 85px;
+  }
+
+  #takeDescription{
+    padding-bottom:2rem;
+  }
+}
+
+
 #takeFinalProductImage {
   padding-bottom: 50px;
   width: 70%;
@@ -1006,6 +1067,14 @@ tr:nth-child(even) {
 
 /*User Personas section*/
 
+.main1 {
+   margin: 0 auto;
+   padding: 0 0 0;
+   /* position:-webkit-sticky;
+   position:sticky; */
+   top:0;
+}
+
 .wrapper {
   align-items: flex-start;
   display: flex;
@@ -1047,10 +1116,10 @@ tr:nth-child(even) {
 }
 
 @media all and (min-width: 1250px) {
-  .main    { flex: 3 0px; }
+  .main1    { flex: 3 0px; }
   .aside-1 { order: 1; }
   .aside-2 { order: 2; }
-  .main    { order: 3; }
+  .main1    { order: 3; }
   .footer1  { order: 4; }
 }
 
@@ -1273,12 +1342,22 @@ margin: 0px;
 
 .box-2{
   display:inline-flex;
+  max-height: 120px;
+  justify-content: space-around;
+  min-width: 300px;
+  padding: 10px;
+  width: 40%;
+}
+
+.box-3{
+  display:inline-flex;
   height: auto;
   justify-content: space-around;
   min-width: 300px;
   padding: 10px;
   width: 40%;
 }
+
 #branding_logo_pic1{
   background-color: #F9F9F9;
 }
@@ -1318,8 +1397,34 @@ margin: 0px;
   padding-bottom:7rem;
 }
 
+/* || Scroll to top arrow */
 
+.scrolltotop{
+  position: fixed;
+  left: 0px;
+  top: auto;
+  right: 0px;
+  bottom: 0px;
+  z-index: 5;
+  display: block;
+  overflow: visible;
+  height: 100px;
+  margin: auto;
+  padding-top: auto;
+  padding-bottom: auto;
+}
 
+.link-block.scrolltotop{
+  position: static;
+  display: block;
+  height: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  padding-right: auto;
+  padding-left: auto;
+  float: right;
+}
 
 
 /* || Horizontal Bar */
@@ -1405,7 +1510,22 @@ csText:hover {
   csText {
     font-size:1.0rem;
   }
+
+  .footerText-1{
+        font-size:2rem;
+  }
+
+  .footerText-2{
+    font-size:2rem;
+    }
+
+  #takeLogo{
+    padding-top:3.5rem;
+    width: 15.8rem;
+  }
 }
+
+
 
 
 @media all and (max-width: 1000px) {
@@ -1463,8 +1583,8 @@ csText:hover {
   }
 
   #takeDescription {
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 20%;
+    padding-right: 20%;
   }
 
   #takeLogo {

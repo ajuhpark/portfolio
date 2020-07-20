@@ -22,9 +22,13 @@
 </head>
 
 <body>
+  <!--Scroll to Top anchor-->
+  <a class="anchor-offset" id="top"></a>
+
   <!--Navigation Bar-->
   <div  class="caseStudy-section" id="topnav">
-    <a id="homeIconContainer" href="index.html">
+    <a
+     href="index.html">
     <img id="homeIcon" src="images/Logo_v2.png" alt="icon" />
     </a>
 
@@ -40,7 +44,25 @@
   <!--Header Section-->
   <header class="caseStudy-section">
     <img id="takeLogo" src="images/takeLogo.png" alt="takeLogo" />
+
+    <!--This skip2prototype link will show over 750px-->
+    <a href="#section-finprod" class="js-anchor-link" id="skip2prototypeLink">
+      <div class="skip2prototype">
+        <img id="skip2prototypeArrow" src="images/skip2prototypeArrow.png" alt="latestWorkArrow">
+        <div id="latestWorkLink">SKIP TO PROTOTYPE</div>
+      </div>
+    </a>
+
     <h4 id="takeDescription">Take is a community for creative fan content. Creatives can discover and share takes on their favorite tv shows, movies and books.</h4>
+
+    <!--This skip2prototype link will show under 750px-->
+    <a href="#section-finprod" class="js-anchor-link" id="skip2prototypeLink1">
+      <div class="skip2prototype">
+        <div id="latestWorkLink">SKIP TO PROTOTYPE</div>
+        <img id="skip2prototypeArrow" src="images/skip2prototypeArrow.png" alt="latestWorkArrow">
+      </div>
+    </a>
+
     <img id="takeFinalProductImage" src="images/take_desktopMobile.png" alt="takeFinalProduct" />
     <h4 class="roles" id="roleTitle">Role and Responsibilities</h4>
     <h4 class="roles">Created user personas</h4>
@@ -215,7 +237,7 @@
         </div>
       </aside>
 
-      <article class="main">
+      <article class="main1">
         <div class="userPersona-moreInfo">
           <div class="userPersona-moreInfo1">
             <h5>BIO</h5>
@@ -260,7 +282,7 @@
         </div>
       </aside>
 
-      <article class="main">
+      <article class="main1">
         <div class="userPersona-moreInfo">
           <div class="userPersona-moreInfo1">
             <h5>BIO</h5>
@@ -384,7 +406,7 @@
         <img class="branding_color_pic" src="images/branding_color_gray.png" alt="branding_color_pic">
         <img class="branding_color_pic" src="images/branding_color_orange.png" alt="branding_color_pic">
       </div>
-      <div class="box-2">
+      <div class="box-3">
         <h4 class="projectBrief" id="cs-textBlock1-1">The site consists of a white background, black outlines and shades of grey with orange accents. I wanted it to be simple so the user posts would be at the forefront.</h4>
       </div>
     </div>
@@ -472,9 +494,20 @@
         </div>
       </Section>
 
+      <!--Footer Section-->
+      <section class="scrolltotop">
+        <a href="#top" class="link-block scrolltotop w-inline-block w-clearfix w--current"
+        data-ix="opacity-on-hover"
+        style="opacity: 1;
+        /* transform: translateX(0px) translateY(0px) translateZ(0px); */
+        transition: opacity 400ms ease 0s;">
+        <img src="https://uploads-ssl.webflow.com/59c5c3e797139c000117aa12/5a26455fbac8a400018d63b3_arrow_up_v2.svg" alt="" class="arrowup" data-ix="fixed-signature" style="opacity: 1; transform: translateX(0px) translateY(0%) translateZ(0px) scaleX(1) scaleY(1) scaleZ(1); transition: opacity 1000ms ease 0s;">
+        </a>
 
-    <!--links to our JavaScript file
-      -->
+      </section>
+
+
+    <!--links to our JavaScript file-->
     <script src="portfolio-js.js"></script>
 
 
