@@ -146,7 +146,7 @@ h7{
 }
 
 /* || Banner */
-#bannerText1 {
+.bannerText1 {
   color: hsla(0, 0%, 100% 0.7);
   font-family: "Lora";
   font-size: 5rem;
@@ -156,6 +156,8 @@ h7{
   padding-right: 15%;
   padding-top: 10.1rem;
 }
+
+
 
 #bannerText2Line {
   position: relative;
@@ -178,7 +180,7 @@ h7{
   /* border: 1px #ccc solid; */
 }
 
-#bannerText3 {
+.bannerText3 {
   color: hsla(0, 0%, 100% 0.7);
   font-family: "Lora";
   font-size: 3rem;
@@ -270,6 +272,14 @@ h7{
   box-sizing: border-box;
   pointer-events: auto;
   width: 100%;
+}
+
+.caseStudyImage2 {
+  border-style: none;
+  box-sizing: border-box;
+  pointer-events: auto;
+  max-width: 35rem;
+  min-width: 25rem;
 }
 
 .caseStudyDescriptionContainer {
@@ -546,6 +556,16 @@ h7{
     padding: 2rem;
     width: 50%;
   }
+
+  .caseStudyImage2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 48rem;
+    min-width: 36rem;
+    padding: 2rem;
+    width: 50%;
+  }
 }
 
 /*when the screen is bigger than 600px, go to two columns*/
@@ -634,11 +654,18 @@ h7{
     padding: 1.1rem 1.4rem;
   }
 
-  #bannerText1 {
+  .bannerText1 {
     font-size: 2rem;
 	  padding-top: 6rem;
 	  padding-bottom:	0rem;
 	  margin-block-end: 0rem;
+  }
+
+  #bannerText1-1{
+    padding-bottom: 2rem;
+    padding-left: 15%;
+    padding-right: 0%;
+    padding-top: 0rem;
   }
 
   #bannerText2 {
@@ -648,7 +675,7 @@ h7{
     line-height: 12.6rem
   }
 
-  #bannerText3 {
+  .bannerText3 {
     font-size: 1.6rem;
     height: 5rem;
     line-height: 130%;
@@ -1462,7 +1489,7 @@ margin: 0px;
 
 #scrollUpArrow{
   width: 28px;
-  padding: 10px 10px;
+  padding: 10px 8px;
 }
 
 #myBtn:hover {
@@ -1599,6 +1626,61 @@ csText:hover {
    }
 }
 
+
+/* || About Page*/
+
+#bannerText1-1{
+  padding-bottom: 1rem;
+  padding-left: 15%;
+  padding-right: 0%;
+  padding-top: 15%;
+}
+
+#bannerText3-1 {
+  /* color: hsla(0, 0%, 100% 0.7);
+  font-family: "Lora";
+  font-size: 3rem;
+  font-weight: normal;
+  height: 80px;
+  line-height: 3.8rem; */
+  margin-bottom: 16rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15%;
+  padding-right: 0%;
+  padding-top: 1.5rem;
+}
+
+#aboutmeImageContainer{
+  justify-content:left;
+}
+
+.caseStudyImage1-1 {
+  border-style: none;
+  box-sizing: border-box;
+  pointer-events: auto;
+  width: 70%;
+  min-width: 275px;
+}
+
+.box-5 {
+  height: auto;
+  min-width: 300px;
+  padding: 10px;
+  /* background-color: whitesmoke; */
+  /* border: 1px solid white; */
+  width: 30%;
+}
+
+
+.box-4 {
+  height: auto;
+  min-width: 300px;
+  padding: 10px;
+  /* background-color: whitesmoke; */
+  /* border: 1px solid white; */
+  width: 50%;
+}
 
 /* || Media Queries*/
 
@@ -1815,6 +1897,10 @@ csText:hover {
     margin-left: 0%;
     margin-right: 0%;
     width: 100%;
+  }
+
+  #aboutmeImageContainer{
+    justify-content:center;
   }
 }
 
