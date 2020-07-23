@@ -39,9 +39,6 @@ function onReady(){
 
 }
 
-//set newLi to an empty string.
-// newLi.textContent = '';
-
 
 window.onload = function() {
   onReady();

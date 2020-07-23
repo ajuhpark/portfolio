@@ -195,11 +195,11 @@ h7{
   padding-top: 2rem;
 }
 
-#latestWorkLinkHomepage{
+.latestWorkLinkHomepage{
   display:inline-block;
   text-align: center;
   font-family: "Inter", sans-serif;
-  font-size: 2rem;
+  font-size: 1.8rem;
   color:black;
 }
 
@@ -693,8 +693,8 @@ h7{
     position: relative;
   }
 
-  #latestWorkLinkHomepage {
-    font-size: 1.6rem;
+  .latestWorkLinkHomepage {
+    font-size: 1.4rem;
   }
 
   .rightElements {
@@ -1624,6 +1624,7 @@ csText:hover {
    csText {
      padding: 1.25rem 0;
    }
+
 }
 
 
@@ -1681,6 +1682,98 @@ csText:hover {
   /* border: 1px solid white; */
   width: 50%;
 }
+
+.aboutHeading{
+  padding-top:7rem;
+  font-size:3rem;
+}
+
+#Leslie-1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  padding:8rem 0;
+}
+
+.aboutHeading-1{
+  text-align: center;
+  padding:5rem 0;
+}
+
+#about-pnrSection{
+  background-color: #FDF3F1;
+  padding: 1rem 0;
+}
+
+@media (max-width:1000px){
+  #bannerText1-1{
+    padding-top:12%;
+    font-size: 3rem;
+  }
+
+  #bannerText3-1 {
+    font-size: 2rem;
+  }
+
+  #aboutmeImageContainer{
+    justify-content:center;
+  }
+}
+@media (max-width:694px){
+  #bannerText1-1{
+    text-align:center;
+    padding-left:0%;
+    padding-top: 10%;
+  }
+
+  #bannerText3-1 {
+    text-align:center;
+    padding-left:0%;
+    margin-bottom: 0rem;
+  }
+}
+
+@media (max-width:600px){
+  #bannerText1-1{
+    font-size: 2rem;
+    padding-top:8%;
+  }
+
+  #bannerText3-1 {
+    font-size: 1.6rem;
+    /* text-align:center;
+    padding-left:0%; */
+  }
+
+  .caseStudyImage1-1{
+    min-width:240px;
+  }
+}
+
+.giphy-embed{
+  width:300px;
+  margin-left:auto;
+  margin-right:auto;
+  position:relative;
+  display:block;
+}
+
+.giphy-container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#giphy-box{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:12rem;
+}
+
+
+
 
 /* || Media Queries*/
 
@@ -1899,9 +1992,7 @@ csText:hover {
     width: 100%;
   }
 
-  #aboutmeImageContainer{
-    justify-content:center;
-  }
+
 }
 
 @media (max-width: 500px) {
