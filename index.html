@@ -3,15 +3,16 @@
 
 <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-173265597-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-173265597-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-  gtag('config', 'UA-173265597-1');
-</script>
+    gtag('config', 'UA-173265597-1');
+  </script>
 
+  <!-- Website Title -->
   <title>Portfolio | Andrew</title>
   <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
@@ -21,6 +22,9 @@
 
   <!-- Custom Styles -->
   <link rel="stylesheet" href="styles/main.css">
+
+  <!-- CSS Reset -->
+  <link rel="stylesheet" type="text/css" href="reset.css">
 
   <!-- load jquery -->
   <script
@@ -32,6 +36,19 @@
 </head>
 
 <body>
+
+  <!--Scroll to Top anchor-->
+  <a class="anchor-offset" id="top"></a>
+
+  <!--Scroll to top Button-->
+  <button href="#top" class="js-anchor-link" id="myBtn" title="Go to top">
+    <!-- <img id="arrowUp" src="https://uploads-ssl.webflow.com/59c5c3e797139c000117aa12/5a26455fbac8a400018d63b3_arrow_up_v2.svg
+  " alt="icon" /> -->
+
+    <img id="scrollUpArrow" src="images/scrollUpArrow.png" alt="scrollUpArrow">
+    <!-- <img id="scrollUpHoverCircle" src="images/scrollUpHoverCircle.png" alt="scrollUpHoverCircle"> -->
+
+  </button>
 
   <!-- Top Navigation Bar -->
   <div  class="caseStudy-section" id="topnav">
