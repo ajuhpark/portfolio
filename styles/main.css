@@ -1757,6 +1757,8 @@ csText:hover {
   margin-right:auto;
   position:relative;
   display:block;
+  data-autoplay="0";
+
 }
 
 .giphy-container{

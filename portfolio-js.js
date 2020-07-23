@@ -37,7 +37,8 @@ function onReady(){
   }
 
 
-}
+
+};
 
 
 window.onload = function() {
