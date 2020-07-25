@@ -16,6 +16,10 @@
   <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
 
+  <!-- AOS animate -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
   <!-- Font Awesome -->
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
@@ -49,14 +53,14 @@
   </button>
 
   <!-- Top Navigation Bar -->
-  <div  class="caseStudy-section" id="topnav">
+  <div class="caseStudy-section" id="topnav">
     <a id="homeIconContainer" href="index.html">
     <img id="homeIcon" src="images/Logo_v2.png" alt="icon" />
     </a>
     <div id="rightIcons">
-      <a href="http://andrewjypark.com/#section-caseStudies" class="js-anchor-link">Work</a>
+      <a href="index.html#section-caseStudies">Work</a>
       <a href="about.html">About</a>
-      <a href="#contact">Contact</a>
+      <a href="#section-footer" class="js-anchor-link">Contact</a>
     </div>
   </div>
 
@@ -196,7 +200,8 @@
 
 
   <!--Footer Section-->
-  <section class="footer">
+  <section id="footer" class="footer">
+    <a class="anchor-offset" id="section-footer"></a>
     <div class="footerContent">
     <h1 class="footerText-1">Thank you for visiting!</h1>
     <h1 class="footerText-1">Please feel free to reach out.</h1>
@@ -212,6 +217,14 @@
   <!--links to our JavaScript file
     -->
   <script src="portfolio-js.js"></script>
+
+  <!--AOS Script-->
+  <script>
+    AOS.init({
+      offset: 400,
+      duration: 1200,
+    });
+  </script>
 
   </body>
 

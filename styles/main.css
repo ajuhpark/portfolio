@@ -1968,6 +1968,11 @@ csText:hover {
     margin-right: 0%;
     width: 100%;
   }
+
+  #scrollUpArrow{
+    width: 20px;
+    padding: 5px 5px;
+  }
 }
 
 @media (max-width: 400px) {

@@ -36,7 +36,13 @@ function onReady(){
     document.documentElement.animate({scrollTop: scrollTo+'px'}, 1000) = 0;
   }
 
+  function zoomFooter(){
+    document.getElementById("footer").aos="zoom-out";
+  }
 
+  // function zoomFooter() {
+  //   document.getElementById("footer").style.['background-color'] = "orange";
+  // }
 
 };
 
