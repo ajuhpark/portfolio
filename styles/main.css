@@ -1709,6 +1709,10 @@ csText:hover {
   .caseStudyImage1-1{
     min-width:240px;
   }
+
+  #Leslie-1{
+    width: 40%;
+  }
 }
 
 .giphy-embed{
@@ -1736,6 +1740,9 @@ csText:hover {
   line-height: 145%;
 }
 
+#caseStudyImageContainer1{
+    bottom: 90px;
+}
 
 
 
@@ -1970,8 +1977,8 @@ csText:hover {
   }
 
   #scrollUpArrow{
-    width: 20px;
-    padding: 5px 5px;
+    width: 28px;
+    padding: 6px 10px;
   }
 }
 
