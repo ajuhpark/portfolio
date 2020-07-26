@@ -1444,7 +1444,7 @@ margin: 0px;
 
 #scrollUpArrow{
   width: 28px;
-  padding: 10px 0px;
+  padding: 10px 8px;
 }
 
 #myBtn:hover {
@@ -1978,7 +1978,7 @@ csText:hover {
 
   #scrollUpArrow{
     width: 28px;
-    padding: 10px 6px;
+    padding: 10px 0px;
   }
 }
 
