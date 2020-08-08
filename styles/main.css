@@ -514,18 +514,7 @@ h7{
   text-decoration: underline;
 }
 
-#resumeFooter{
-  color: white;
-  font-size: 1.6rem;
-  margin-bottom:20px;
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
-  padding:10px;
-  border-radius: 8px;
-  text-align: center;
-  border: 1px solid white;
-  display:inline-block;
-}
+
 
 .footerText-3{
   color: white;
@@ -556,82 +545,92 @@ h7{
   margin-top:40px;
 
 }
-.footerIcon {
+
+
+#resumeFooter{
+  color: white;
+  font-size: 1.6rem;
+  margin-bottom:20px;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  padding:10px;
+  border-radius: 8px;
+  text-align: center;
+  border: 1px solid white;
+  display:inline-block;
+}
+section button {
+  margin: 0 auto;
+  font-size: 1.6rem;
+  padding:10px;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  display:inline-block;
+  background-color: #2E3A40;
+  color: white;
+  border-color: white;
+  border: 1px solid ;
+  font-weight: 300;
+  /* -webkit-border-radius: 3px; */
+  border-radius: 3px;
+  /* -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; */
+}
+
+section button:hover {
+  background-color: white;
+  color: #2E3A40;
+  border-color: white;
+}
+
+
+.linkedin_icon{
   height: 4rem;
   padding-bottom: 2.4rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   padding-top:0px;
   width: 4rem;
+  content: url("/Users/andrewpark/Documents/portfolio/images/carbon_logo-linkedin_outline.png");
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+.linkedin_icon:hover {
+    content: url("/Users/andrewpark/Documents/portfolio/images/carbon_logo-linkedin.png");
+    height: 4rem;
+    width: 4rem;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    /* transition: all 1s ease-in-out; */
+    transition: 3s;
+
 }
 
-.links {
-  width: 90%;
-  margin: 0 auto;
+.github_icon{
+  height: 4rem;
+  padding-bottom: 2.4rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top:0px;
+  width: 4rem;
+  content: url("/Users/andrewpark/Documents/portfolio/images/carbon_logo-github_outline.png");
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
-
-.link {
-  display: inline-block;
-  vertical-align: top;
-  width: 100px;
-  height: 34px;
-  line-height: 36px;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #fff;
-  letter-spacing: 0.1em;
-  text-align: center;
-  font-size: 0.8rem;
-  margin: 10px;
-  position: relative;
-}
-
-.wipe, .slide, .opacity {
-  border: 2px solid #fff;
-  border-radius: 4px;
-  overflow: hidden;
-}
-
-.opacity {
-  -webkit-transition: background-color 0.3s linear, color 0.3s linear;
-  transition: background-color 0.3s linear, color 0.3s linear;
-  background: rgba(255, 255, 255, 0);
-}
-.opacity:hover {
-  color: #124a58;
-  background: rgba(255, 255, 255, 0.9);
-}
-
-.wipe {
-  -webkit-transition: color 0.3s ease-out;
-  transition: color 0.3s ease-out;
-}
-.wipe::after {
-  width: 100%;
-  height: 100%;
-  display: block;
-  background-color: #fff;
-  content: " ";
-  position: absolute;
-  top: 0;
-  -webkit-transition: -webkit-transform 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
-  transition: -webkit-transform 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
-  transition: transform 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
-  transition: transform 0.2s cubic-bezier(0.215, 0.61, 0.355, 1), -webkit-transform 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
-  -webkit-transform: translateY(34px);
-          transform: translateY(34px);
-  z-index: -1;
-}
-.wipe:hover {
-  color: #124a58;
-}
-.wipe:hover::after {
-  -webkit-transform: translateY(0px);
-          transform: translateY(0px);
-}
+.github_icon:hover {
+    content: url("/Users/andrewpark/Documents/portfolio/images/carbon_logo-github.png");
+    height: 4rem;
+    width: 4rem;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    /* transition: all 1s ease-in-out; */
+    transition: 3s;
 
 
-
+}
 
 /* || Media Query for Homepage*/
 
