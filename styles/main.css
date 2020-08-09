@@ -592,13 +592,13 @@ section button:hover {
   padding-right: 1.5rem;
   padding-top:0px;
   width: 4rem;
-  content: url("/Users/andrewpark/Documents/portfolio/images/carbon_logo-linkedin_outline.png");
+  content: url("/images/carbon_logo-linkedin_outline.png");
   -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
 }
 .linkedin_icon:hover {
-    content: url("/Users/andrewpark/Documents/portfolio/images/carbon_logo-linkedin.png");
+    content: url("/images/carbon_logo-linkedin.png");
     height: 4rem;
     width: 4rem;
     -webkit-transition: all 1s ease-in-out;
@@ -615,13 +615,13 @@ section button:hover {
   padding-right: 1.5rem;
   padding-top:0px;
   width: 4rem;
-  content: url("/Users/andrewpark/Documents/portfolio/images/carbon_logo-github_outline.png");
+  content: url("/images/carbon_logo-github_outline.png");
   -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
 }
 .github_icon:hover {
-    content: url("/Users/andrewpark/Documents/portfolio/images/carbon_logo-github.png");
+    content: url("/images/carbon_logo-github.png");
     height: 4rem;
     width: 4rem;
     -webkit-transition: all 1s ease-in-out;
@@ -1174,6 +1174,46 @@ tr:nth-child(even) {
   background-color: #EAF0FF;
 }
 
+.moreInfo2{
+  display:flex;
+  justify-content: center;
+}
+
+#underline1 {
+  border: 2px solid transparent;
+  color: #DF6A50;
+  padding-top:30px;
+  display:inline-block;
+  text-align: center;
+}
+
+#underline1::after {
+  width: 20%;
+  height: 2px;
+  display: block;
+  /* background-color: #DF6A50; */
+
+  color: #DF6A50;
+  content: " ";
+  /* position: absolute; */
+  top: 34px;
+  left: 50%;
+  -webkit-transition: left 0.2s cubic-bezier(0.215, 0.61, 0.355, 1), width 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: left 0.2s cubic-bezier(0.215, 0.61, 0.355, 1), width 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+#underline1:hover::after {
+  width: 100%;
+  height: 2px;
+  display: block;
+  background-color: #DF6A50;
+  color: #DF6A50;
+  content: " ";
+
+  /* position: absolute; */
+  top: 34px;
+  left: 0;
+}
 
 
 /*User Personas section*/
@@ -2100,7 +2140,7 @@ csText:hover {
 
   #scrollUpArrow{
     width: 28px;
-    padding: 10px 2px;
+    padding: 10px 0px;
   }
 }
 
