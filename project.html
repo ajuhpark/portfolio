@@ -9,9 +9,11 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'UA-173265597-1');
 </script>
+
+<!-- Chart JS Script -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js" integrity="sha512-s+xg36jbIujB2S2VKfpGmlC3T5V2TF3lY48DX7u2r9XzGzgPsa6wTpOQA7J9iffvdeBN0q9tKzRxVxw1JviZPg==" crossorigin="anonymous"></script>
 
   <title>Case Study | Andrew</title>
   <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
@@ -124,7 +126,7 @@
     <!--Background Section-->
     <section id="backgroundSection">
       <h2 class="CS-Subheading">Background</h2>
-      <h4 class="cs-textBlock1" id="cs-textBlock1-1">
+      <h4 class="CS-bodyText-1" id="cs-textBlock1-1">
         My talented friends created an Instagram account called Secret Society of Artists where every week they would select a movie, game or tv show and everyone would draw and submit fan artwork for that property.  Here are screenshots of the Instagram account:
       </h4>
 
@@ -141,14 +143,14 @@
         </div>
       </div>
 
-      <h4 class="cs-textBlock1">
+      <h4 class="CS-bodyText-1">
         It looked great on the feed but there were a few things that were cumbersome about the process.
       </h4>
       <ol class="cs-textBlock-list">
         <li>People had to send in artwork to the account holder and the account holder had to upload it onto the page. There was little control on the formatting of the image and caption. </li>
         <li style="padding-top:2rem">The artist had to be tagged in the post in order for other users to see more of their work. The artist would not get notifications if there were comments or feedback on their post. </li>
       </ol>
-      <h4 class="cs-textBlock1" id="cs-textBlock1-2">
+      <h4 class="CS-bodyText-1" id="cs-textBlock1-2">
         I thought there could be a better way to share artwork so I began by looking at the needs of the fan art community to define the problem.
       </h4>
       <hr class="horizontalBar" id="horizontalBar-pink">
@@ -197,17 +199,243 @@
 
     <!--User Survey-->
     <h3 class="CS-Subheading-1" id="CS-Subheading-userSurvey"="">User Survey</h3>
-    <h4 class="CS-bodyText-1">I took a user survey to see how participants use cloud services and found that they often have the same goals. </h4>
+    <h4 class="CS-bodyText-1">I began the project with a wider scope of looking to solve issues that users have with cloud services. I took a user survey to see how participants use cloud services and found that they often have the same goals. </h4>
     <h4 class="CS-bodyText-1">For example:</h4>
-    <h4 class="cs-textBlock-list">The type of content that participants shared the most were images and documents.</h4>
-    <img class="user-survey_pic" src="images/user-survey_pic1.png" alt="user-survey_pic1">
-    <h4 class="cs-textBlock-list" id="user-survey-1">Their main purpose for cloud storage is to collaborate with people and to back up and organize files.</h4>
-    <img class="user-survey_pic" src="images/user-survey_pic2.png" alt="user-survey_pic1">
+
+
+    <!-- Chart JS 1 -->
+    <div class="CS-bodyText-1">
+    <canvas id="chart1"></canvas>
+    </div>
+
+    <script>
+    //https://stackoverflow.com/questions/50475563/making-the-labels-responsive-in-chart-js
+    // Global Options
+    Chart.defaults.global.defaultFontFamily = 'Lato';
+    Chart.defaults.global.defaultFontSize = 15;
+    Chart.defaults.global.defaultFontColor = '#777';
+
+    var chart1 = new Chart('chart1', {
+           type: 'horizontalBar',
+           data:{
+             labels:['Images', 'Videos','Messages', 'Documents'],
+             datasets:[{
+               data:[
+                 7,
+                 1,
+                 2,
+                 6,
+                 0
+               ],
+               backgroundColor: '#673AB7',
+               borderWidth:4,
+               borderColor:'white',
+               hoverBorderWidth:4,
+               hoverBorderColor:'lightgray'
+             }]
+           },
+           options:{
+               responsive: true,
+               maintainAspectRatio: true,
+               title:{
+                 display:true,
+                 text:['What are your main personal uses for cloud storage apps?'],
+                 // fontSize='16px'
+               },
+               plugins: {
+                   datalabels: {
+                       color: 'black',
+                       anchor: "end",
+                       align: "right",
+                       offset: 10,
+                       display: function (context) {
+                           return context.dataset.data[context.dataIndex];
+                       },
+                       /* Adjust data label font size according to chart size */
+                      font: function(context) {
+                           var width = context.chart.width;
+                           var size = Math.round(width / 32);
+
+                           return {
+                              weight: 'bold',
+                               size: size
+                           };
+                        },
+                       formatter: Math.round
+                   }
+               },
+               legend: {
+                   "display": false
+               },
+               tooltips: {
+                   "enabled": false
+               },
+               scales: {
+                   yAxes: [{
+                       barPercentage: 1.0,
+                       gridLines: {
+                           display: true
+                       },
+                       // ticks: {
+                       //     fontSize: 20,
+                       //     beginAtZero: true,
+                       // },
+                       /* Keep y-axis width proportional to overall chart width */
+                       afterFit: function(scale) {
+                           var chartWidth = scale.chart.width;
+                           var new_width=chartWidth*.2;
+
+                           scale.width = new_width;
+                       }
+                   }],
+                   xAxes: [{
+                       gridLines: {
+                           display: true
+                       },
+                       // ticks: {
+                       //     min: 0,
+                       //     max: 100,
+                       //     stepSize: 20
+                       // }
+                   }]
+               }
+           },
+           plugins: [{
+              /* Adjust axis labelling font size according to chart size */
+              beforeDraw: function(c) {
+                  var chartHeight = c.chart.height;
+                  var size = chartHeight * 4.2 / 100;
+                  c.scales['y-axis-0'].options.ticks.minor.fontSize = size;
+              }
+           }]
+
+           })
+    </script>
+
+
+    <h4 class="CS-bodyText-1">The type of content that participants shared the most were <span style="font-weight:bold;">images</span> and <span style="font-weight:bold;">documents</span>.</h4>
+
+    <!-- <img class="user-survey_pic" src="images/user-survey_pic1.png" alt="user-survey_pic1"> -->
+
+
+    <!-- Chart JS 2 -->
+    <div class="CS-bodyText-1">
+    <canvas id="chart2"></canvas>
+    </div>
+
+    <script>
+    var chart2 = new Chart('chart2', {
+           type: 'horizontalBar',
+           data:{
+             labels:[['To collaborate', 'with people'], 'To back up files','To organize files', 'To transfer files', 'To view files'],
+             datasets:[{
+               data:[
+                 7,
+                 8,
+                 5,
+                 3,
+                 4,
+                 0
+               ],
+               backgroundColor: '#673AB7',
+               borderWidth:4,
+               borderColor:'white',
+               hoverBorderWidth:4,
+               hoverBorderColor:'lightgray'
+             }]
+           },
+           options:{
+               responsive: true,
+               maintainAspectRatio: true,
+               title:{
+                 display:true,
+                 text:['What are your main personal uses of cloud storage apps?'],
+                 // fontSize='16px'
+               },
+               plugins: {
+                   datalabels: {
+                       color: 'black',
+                       anchor: "end",
+                       align: "right",
+                       offset: 10,
+                       display: function (context) {
+                           return context.dataset.data[context.dataIndex];
+                       },
+                       /* Adjust data label font size according to chart size */
+                       font: function(context) {
+                            var width = context.chart.width;
+                            var size = Math.round(width / 32);
+                            return {
+                               weight: 'bold',
+                                size: size
+                            };
+                         },
+
+                       formatter: Math.round
+                   }
+               },
+               legend: {
+                   "display": false
+               },
+               tooltips: {
+                   "enabled": false
+               },
+               scales: {
+                   yAxes: [{
+                       barPercentage: 1.0,
+                       gridLines: {
+                           display: true
+                       },
+                       // ticks: {
+                       //     fontSize: 20,
+                       //     beginAtZero: true,
+                       // },
+                       /* Keep y-axis width proportional to overall chart width */
+                       afterFit: function(scale) {
+                           var chartWidth = scale.chart.width;
+                           var new_width=chartWidth*.2;
+
+                           scale.width = new_width;
+                       }
+                   }],
+                   xAxes: [{
+                       gridLines: {
+                           display: true
+                       },
+                       // ticks: {
+                       //     min: 0,
+                       //     max: 100,
+                       //     stepSize: 20
+                       // }
+                   }]
+               }
+           },
+           plugins: [{
+              /* Adjust axis labelling font size according to chart size */
+              beforeDraw: function(c) {
+                  var chartHeight = c.chart.height;
+                  var size = chartHeight * 4.5 / 100;
+                  c.scales['y-axis-0'].options.ticks.minor.fontSize = size;
+              }
+           }]
+
+           })
+    </script>
+
+    <h4 class="CS-bodyText-1">The participants' main purposes for cloud storage were to <span style="font-weight:bold;">collaborate with people</span> and to <span style="font-weight:bold;">back up and organize files.</span></h4>
+    <!-- <img class="user-survey_pic" src="images/user-survey_pic2.png" alt="user-survey_pic1"> -->
+
+    <div class="moreInfo2">
+      <a href="https://forms.gle/URZ8FN2nBseBVRVD9" target="_blank">
+        <h3 id="underline1">VIEW FULL QUESTIONNAIRE</h3>
+      </a>
+    </div>
+
     <hr class="horizontalBar" id="horizontalBar-pink">
 
     <!--User Stories-->
     <h3 class="CS-Subheading-1">User Stories</h3>
-    <h4 class="CS-bodyText-1">I took a user survey to see how participants use cloud services and found that they often have the same goals. </h4>
+    <h4 class="CS-bodyText-1">Based on the survey, I created user stories and these are a few tasks that people might want to accomplish using a cloud platform.</h4>
     <table>
       <tr>
         <th>Role</th>
@@ -245,6 +473,13 @@
         <td>Low</td>
       </tr>
     </table>
+
+    <div class="moreInfo2">
+      <a href="https://docs.google.com/spreadsheets/d/16ONXHNtFdMIx8Won79E0ADT1MDQxV1kAy8GMB1NSqn8/edit?usp=sharing" target="_blank">
+        <h3 id="underline1">VIEW ALL USER STORIES</h3>
+      </a>
+    </div>
+
     <hr class="horizontalBar" id="horizontalBar-pink">
 
     <!--User Personas-->
@@ -279,7 +514,6 @@
               <li>Share creative images and projects on social media.</li>
             </ul>
           </div>
-
           <!--Frustrations-->
           <div class="userPersona-moreInfo1">
             <h5>FRUSTRATIONS</h5>
@@ -333,6 +567,12 @@
           </div>
         </div>
       </article>
+    </div>
+
+    <div class="moreInfo2">
+      <a href="https://www.figma.com/proto/paJvZu2ECD3UphW7JDwmxw/User-Persona-Cloud-Storage?node-id=1%3A3&scaling=min-zoom" target="_blank">
+        <h3 id="underline1">VIEW COMPLETE USER PERSONAS</h3>
+      </a>
     </div>
 
     <hr class="horizontalBar" id="horizontalBar-pink">
@@ -438,6 +678,12 @@
     </div>
   </section>
 
+  <div class="moreInfo2">
+    <a href="resources\style_guide.pdf" target="_blank">
+      <h3 id="underline1">VIEW STYLE GUIDE ASSETS</h3>
+    </a>
+  </div>
+
   <hr class="horizontalBar" id="horizontalBar-blue">
 
       <!--Testing Section-->
@@ -493,6 +739,7 @@
         <div class="take-video-section">
           <iframe class="take-video" width="560" height="315" src="https://www.youtube.com/embed/KzrTxM87yjg?rel=0&color=white" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
+
         <div class="moreInfo2">
           <a href="https://www.figma.com/proto/2xXiyRjexPEQ61geZBqyqA/Take-Wireframe?node-id=8280%3A7832&scaling=min-zoom" target="_blank">
             <h3 id="underline1">VIEW PROTOTYPE ON FIGMA</h3>
@@ -506,7 +753,7 @@
         <div>
           <h2 class="CS-Subheading" id="CS-Subheading-2">Conclusion</h2>
 
-          <h4 class="cs-textBlock1" id="cs-textBlock1-3">'Take' was created with the foundation of user research, surveying and testing. Through different iterations, this app accomplishes goal of creating a collaborative service where users can save, organize and upload fan artwork.</h4>
+          <h4 class="CS-bodyText-1" id="cs-textBlock1-3">'Take' was created with the foundation of user research, surveying and testing. Through different iterations, this app accomplishes goal of creating a collaborative service where users can save, organize and upload fan artwork.</h4>
         </div>
       </section>
 
