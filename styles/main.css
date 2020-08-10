@@ -1529,6 +1529,14 @@ margin: 0px;
   width:65%;
 }
 
+/* Hide short text by default (resolution > 1200px)*/
+.short-text { display: none; }
+
+/* When resolution <= 1200px, hide full text and show short text*/
+@media (max-width: 500px) {
+    .short-text { display: inline-block; }
+    .full-text { display: none; }
+}
 
 /* || Branding section */
 
@@ -1762,7 +1770,7 @@ csText:hover {
 
 @media all and (max-width: 550px) {
   csText {
-    font-size:1.0rem;
+    font-size:1.2rem;
   }
 
   .footerText-1{
@@ -1781,7 +1789,7 @@ csText:hover {
 
 @media all and (max-width: 360px) {
   csText {
-    font-size:.8rem;
+    font-size:1.2rem;
   }
 }
 
