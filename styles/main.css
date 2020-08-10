@@ -329,7 +329,7 @@ h7{
 
 .btn_viewCaseStudy {
   border: 1px solid black;
-  color: #2A3636;
+  color: black;
   display: inline-block;
   font-family: "Inter", sans-serif;
   font-size: 1.6rem;
@@ -340,7 +340,19 @@ h7{
   padding: 1rem 2.4rem;
   text-align: center;
   text-decoration: none;
+  /* -webkit-border-radius: 3px; */
+  border-radius: 3px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
+
+.btn_viewCaseStudy:hover {
+  background-color: #FFF4F2;
+  color: black;
+  border-color: black;
+}
+
 
 
 /* || Design Process */
@@ -808,6 +820,14 @@ section button:hover {
   }
 }
 
+@media (max-width: 400px) {
+  #topnav a {
+    font-size: 1.3rem;
+    padding: 1.1rem 1rem;
+  }
+}
+
+
 /*
 We don't want the main content to span the full width of the page.
 Otherwise it'll be difficult to read on large screens.
@@ -1088,6 +1108,13 @@ main {
   width:93%;
 }
 
+@media (max-width: 500px){
+  .cs-image-grid-1{
+  grid-template-columns: repeat(1, 1fr);
+  max-width: 600px;
+  }
+}
+
 .box {
   height: auto;
   min-width: 300px;
@@ -1105,7 +1132,31 @@ main {
   width: 100%;
 }
 
+.comp_analysis_pic1{
+  width: 100%;
+}
 
+@media (max-width: 400px){
+  .container-reverse{
+    width:100%;
+  }
+  .container-wrap-normal{
+    width:100%;
+  }
+  .projectBrief{
+  margin-left:2%;
+  margin-right:2%;
+  }
+  .projectTitle{
+  margin-left:2%;
+  margin-right:2%;
+  }
+  .comp_analysis_pic1{
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+}
 /* || Research Section */
 
 #CS-Subheading-userSurvey{
@@ -1728,7 +1779,11 @@ csText:hover {
   }
 }
 
-
+@media all and (max-width: 360px) {
+  csText {
+    font-size:.8rem;
+  }
+}
 
 
 @media all and (max-width: 1000px) {
