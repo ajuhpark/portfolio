@@ -197,7 +197,7 @@ h7{
   font-family: "Lato";
   font-size: 5rem;
   font-weight: normal;
-  padding-bottom: 2rem;
+  padding-bottom: 0rem;
   padding-left: 15%;
   padding-right: 15%;
   padding-top: 10.1rem;
@@ -225,6 +225,12 @@ h7{
   width: 8.75rem;
   /* border: 1px #ccc solid; */
 }
+
+.imageWithText{
+    width:auto;
+    height:8rem;
+    vertical-align:text-bottom;/*or text-bottom or text-top*/
+ }
 
 .bannerText3 {
   color: #000000;
@@ -277,7 +283,7 @@ h7{
 
 /* || Featured Work */
 #featured-work-section{
-  background-color: #fafafa;
+  background-color: #f3f6f9;
   padding-bottom:4rem;
 }
 .HP-Sections {
@@ -361,7 +367,7 @@ h7{
 /* || Design Process */
 
 #designProcessSection {
-  background-color: #faf4f6;
+  background-color: #efebde;
 }
 
 #designProcessTitle {
@@ -382,7 +388,7 @@ h7{
 }
 
 .DP-section {
-  background-color: #faf4f6;
+  background-color: #efebde;
   /* border: 2px solid white; */
   color: black;
   height: auto;
@@ -401,7 +407,7 @@ h7{
 }
 
 .DP-Title {
-  height: 5rem;
+  height: 4rem;
   margin-bottom: 1.4rem;
   margin-left: auto;
   margin-right: auto;
@@ -420,7 +426,7 @@ h7{
   margin-left: auto;
   margin-right: auto;
   max-width: 90%;
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
 }
 
 
@@ -696,6 +702,13 @@ section button:hover {
   .DP-Grid{
     padding:5rem 6rem;
   }
+  .designPic {
+  padding-bottom: 2rem;
+  }
+
+  .DP-Title {
+  height: 3rem;
+  }
 }
 
 @media (max-width:950px) {
@@ -703,7 +716,10 @@ section button:hover {
     max-width:80%
   }
   .DP-Grid{
-    padding:5rem 4rem;
+    padding-top:4rem;
+    padding-bottom:5rem;
+    padding-right: 4rem;
+    padding-left:4rem;
   }
 }
 @media (max-width:850px) {
@@ -711,7 +727,10 @@ section button:hover {
     max-width:90%
   }
   .DP-Grid{
-    padding:5rem 3rem;
+    padding-top:3rem;
+    padding-bottom:5rem;
+    padding-right: 3rem;
+    padding-left:3rem;
   }
 }
 
@@ -721,7 +740,10 @@ section button:hover {
   }
 
   .DP-Grid{
-    padding:5rem 2rem;
+    padding-top:1rem;
+    padding-bottom:5rem;
+    padding-right: 4rem;
+    padding-left:4rem;
   }
 }
 
@@ -775,6 +797,12 @@ section button:hover {
     line-height: 12.6rem
   }
 
+  .imageWithText{
+      width:auto;
+      height:5rem;
+      vertical-align:text-bottom;/*or text-bottom or text-top*/
+   }
+
   .bannerText3 {
     font-size: 1.6rem;
     height: 5rem;
@@ -786,12 +814,30 @@ section button:hover {
   }
 
   #palmTreeVector {
-    display: block;
-    margin-bottom: 6rem;
+    display: inline;
+    margin-bottom: 0rem;
     margin-left: auto;
     margin-right: auto;
     position: relative;
+    height:5rem;
+    width:auto;
   }
+
+  .HP-Heading{
+      font-size: 3rem;
+  }
+
+  .HP-Sections {
+    align-items: center;
+    display: flex;
+    height: 12rem;
+    justify-content: center;
+  }
+
+  .dp-grid{
+    padding-top:0rem;
+  }
+
 
   .latestWorkLinkHomepage {
     font-size: 1.4rem;
@@ -834,6 +880,11 @@ section button:hover {
   }
 }
 
+@media (max-width: 350px) {
+  #palmTreeVector {
+    margin-bottom:5rem;
+  }
+}
 
 /*
 We don't want the main content to span the full width of the page.
