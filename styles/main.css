@@ -882,7 +882,9 @@ section button:hover {
 
 @media (max-width: 350px) {
   #palmTreeVector {
-    margin-bottom:5rem;
+    height:2.5rem;
+    width:auto;
+    /* margin-bottom:5rem; */
   }
 }
 
@@ -2270,6 +2272,11 @@ csText:hover {
   #scrollUpArrow{
     width: 28px;
     padding: 10px 0px;
+  }
+
+  #palmTreeVector{
+    height:3rem;
+    width:auto;
   }
 }
 
