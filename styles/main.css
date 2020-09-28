@@ -2263,11 +2263,6 @@ csText:hover {
     width: 28px;
     padding: 10px 0px;
   }
-
-  #palmTreeVector{
-    height:5rem;
-    width:auto;
-  }
 }
 
 @media (max-width: 400px) {
@@ -2284,7 +2279,7 @@ csText:hover {
      margin-left: auto;
      margin-right: auto;
      position: relative;
-     height:5rem;
+     height:3rem;
      width:auto;
    }
  }
