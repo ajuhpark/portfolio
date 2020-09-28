@@ -2306,3 +2306,43 @@ csText:hover {
     width: 100%;
   }
 }
+
+
+/**/
+.CS-bodyText-2{
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-top:2.5rem;
+}
+
+@media (max-width: 1150px) {
+  .CS-bodyText-2{
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+@media (max-width: 900px) {
+  .CS-bodyText-2{
+    margin-left: 14%;
+    margin-right: 14%;
+  }
+}
+
+@media (max-width: 600px) {
+  .CS-bodyText-2{
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+}
+
+#CS-bodyText-2-1{
+  padding-top:1rem;
+}
+
+#CS-bodyText-2-2{
+  padding-bottom:1.5rem;
+}
+
+#CS-bodyText-2-3{
+  padding-top:2rem;
+}
