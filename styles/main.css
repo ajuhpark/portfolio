@@ -227,10 +227,13 @@ h7{
 }
 
 .imageWithText{
+    display:none;
     width:auto;
     height:8rem;
     vertical-align:text-bottom;/*or text-bottom or text-top*/
  }
+
+
 
 .bannerText3 {
   color: #000000;
@@ -797,12 +800,6 @@ section button:hover {
     line-height: 12.6rem
   }
 
-  .imageWithText{
-      width:auto;
-      height:5rem;
-      vertical-align:text-bottom;/*or text-bottom or text-top*/
-   }
-
   .bannerText3 {
     font-size: 1.6rem;
     height: 5rem;
@@ -880,13 +877,6 @@ section button:hover {
   }
 }
 
-@media (max-width: 350px) {
-  #palmTreeVector {
-    height:2.5rem;
-    width:auto;
-    /* margin-bottom:5rem; */
-  }
-}
 
 /*
 We don't want the main content to span the full width of the page.
@@ -2275,11 +2265,29 @@ csText:hover {
   }
 
   #palmTreeVector{
-    height:3rem;
+    height:5rem;
     width:auto;
   }
 }
 
+@media (max-width: 400px) {
+
+  .imageWithText{
+      display:inline;
+      width:auto;
+      height:5rem;
+      vertical-align:text-bottom;/*or text-bottom or text-top*/
+   }
+   #palmTreeVector {
+     display: none;
+     margin-bottom: 0rem;
+     margin-left: auto;
+     margin-right: auto;
+     position: relative;
+     height:5rem;
+     width:auto;
+   }
+ }
 @media (max-width: 400px) {
   .take-video{
     display:block;
