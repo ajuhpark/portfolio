@@ -2268,10 +2268,10 @@ csText:hover {
 @media (max-width: 400px) {
 
   .imageWithText{
-      display:block;
+      display:inline-block;
       width:auto;
       height:5rem;
-      vertical-align:text-bottom;/*or text-bottom or text-top*/
+      vertical-align:text-top;/*or text-bottom or text-top*/
    }
    #palmTreeVector {
      display: none;
