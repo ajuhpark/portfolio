@@ -2268,7 +2268,7 @@ csText:hover {
 @media (max-width: 400px) {
 
   .imageWithText{
-      display:inline;
+      display:block;
       width:auto;
       height:5rem;
       vertical-align:text-bottom;/*or text-bottom or text-top*/
