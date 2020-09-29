@@ -1256,8 +1256,8 @@ main {
 }
 
 .CS-Subheading-1{
-  margin-left: 13%;
-  margin-right: 13%;
+  margin-left: 14%;
+  margin-right: 14%;
 }
 
 .solution_pic{
@@ -2310,15 +2310,15 @@ csText:hover {
 
 /**/
 .CS-bodyText-2{
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 20%;
+  margin-right: 20%;
   padding-top:2.5rem;
 }
 
 @media (max-width: 1150px) {
   .CS-bodyText-2{
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 16%;
+    margin-right: 16%;
   }
 }
 @media (max-width: 900px) {
@@ -2345,4 +2345,26 @@ csText:hover {
 
 #CS-bodyText-2-3{
   padding-top:2rem;
+}
+
+#problem_outline{
+  border: 1px solid lightgray;
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#solution_outline{
+  border: 1px solid lightgray;
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imageWithText1{
+  width:auto;
+  height:2.4rem;
+  vertical-align:text-bottom;/*or text-bottom or text-top*/
 }
