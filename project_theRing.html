@@ -243,7 +243,7 @@
            },
            options:{
                responsive: true,
-               maintainAspectRatio: true,
+               maintainAspectRatio: false,
                title:{
                  display:true,
                  text:['When is it no longer appropriate to ghost someone?'],
@@ -260,7 +260,7 @@
     </script>
 
 
-    <h4 class="CS-bodyText-2">I asked users when they feel like it was no longer appropriate to ghost someone.  More than half the people marked that it was never appropriate to ghost. On the other end of the spectrum, three people marked that ghosting would be appropriate up until 2 dates - these were two men and a nonbinary person. Women had a stronger dislike for ghosting than men in the survey.</h4>
+    <h4 class="CS-bodyText-2" id="CS-Subheading-userSurvey">I also wanted to get a sense of how people felt about texting so I asked participants how much more thought was put into text conversations with their matches relative to their normal conversations. More than half the people responded that texts with their matches required more thought. With that in mind, I thought there was room to lessen thought and anxiety in that space and create more opportunity for natural and flowing conversations.</h4>
 
     <!-- <img class="user-survey_pic" src="images/user-survey_pic1.png" alt="user-survey_pic1"> -->
 
@@ -274,23 +274,17 @@
     var chart2 = new Chart('chart2', {
       type: 'pie',
       data:{
-        labels:['after a few days of texting', 'after a call or video chat','after one date', 'after two + dates', 'it is never appropriate to ghost'],
+        labels:['Less thought', 'Same amount of thought','More thought'],
         datasets:[{
           data:[
             1,
-            1,
-            2,
-            3,
+            6,
             7
           ],
           backgroundColor: [
              'rgba(255, 99, 132, 0.6)',
              'rgba(54, 162, 235, 0.6)',
-             'rgba(255, 206, 86, 0.6)',
-             'rgba(75, 192, 192, 0.6)',
-             'rgba(153, 102, 255, 0.6)',
-             'rgba(255, 159, 64, 0.6)',
-             'rgba(255, 99, 132, 0.6)'
+             'rgba(255, 206, 86, 0.6)'
           ],
           borderWidth:2,
           borderColor:'white',
@@ -300,10 +294,10 @@
       },
       options:{
           responsive: true,
-          maintainAspectRatio: true,
+          maintainAspectRatio: false,
           title:{
             display:true,
-            text:['When is it no longer appropriate to ghost someone?'],
+            text:['Relative to texting with normal contacts, how much thought', 'was put into text content and response times with matches?'],
             // fontSize='16px'
           },
           legend: {
@@ -316,10 +310,7 @@
      })
     </script>
 
-    <h4 class="CS-bodyText-1">The participants' main purposes for cloud storage were to <span style="font-weight:bold;">collaborate with people</span> and to <span style="font-weight:bold;">back up and organize files.</span></h4>
-    <!-- <img class="user-survey_pic" src="images/user-survey_pic2.png" alt="user-survey_pic1"> -->
-
-    <div class="moreInfo2">
+    <div class="moreInfo2" id="CS-bodyText-2-3">
       <a href="https://forms.gle/URZ8FN2nBseBVRVD9" target="_blank">
         <h3 id="underline1">VIEW FULL QUESTIONNAIRE</h3>
       </a>

@@ -2368,3 +2368,11 @@ csText:hover {
   height:2.4rem;
   vertical-align:text-bottom;/*or text-bottom or text-top*/
 }
+
+#chart1{
+  height:330px;
+}
+
+#chart2{
+  height:300px;
+}
