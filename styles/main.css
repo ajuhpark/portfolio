@@ -1397,6 +1397,7 @@ tr:nth-child(even) {
 
 .userPersona-basicStats{
   display:inline-block;
+  text-align: left;
 }
 
 .userPersona-moreInfo{
