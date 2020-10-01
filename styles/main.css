@@ -2398,16 +2398,16 @@ csText:hover {
 
 .comp_analysis_pic_theRing1{
   /* width: auto; */
-  height: 18rem;
-  padding-bottom:1.5rem;
+  height: 15rem;
+  padding-bottom:3.5rem;
 }
 
 .box-1_theRing_content2{
+  width: 80%;
+  padding-top:1rem;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 95%;
-  padding-top:1rem;
 }
 
 .box-1_theRing{
@@ -2416,6 +2416,9 @@ csText:hover {
   padding: 10px;
   width: 40%;
   background-color: #FCF0EE;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media (min-width: 900px) and (max-width: 945px){
@@ -2424,8 +2427,14 @@ csText:hover {
   }
 }
 
-.comp_analysis_pic_theRing2{
+.comp_analysis_pic_theRing3{
   /* width: auto; */
   height: 40rem;
+  padding-bottom:1.5rem;
+}
+
+.comp_analysis_pic_theRing2{
+  /* width: auto; */
+  height: 20rem;
   padding-bottom:1.5rem;
 }
