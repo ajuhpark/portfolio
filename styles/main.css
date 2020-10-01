@@ -2377,3 +2377,55 @@ csText:hover {
 #chart2{
   height:300px;
 }
+
+.box-1_theRing_content1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:70%;
+}
+
+.comp_analysis_pic_theRing{
+  /* width: auto; */
+  height: 45rem;
+}
+
+.comp_analysis_caption_theRing{
+    padding-bottom:1.5rem;
+    text-align: left;
+}
+
+
+.comp_analysis_pic_theRing1{
+  /* width: auto; */
+  height: 18rem;
+  padding-bottom:1.5rem;
+}
+
+.box-1_theRing_content2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  padding-top:1rem;
+}
+
+.box-1_theRing{
+  height: 48rem;
+  min-width: 280px;
+  padding: 10px;
+  width: 40%;
+  background-color: #FCF0EE;
+}
+
+@media (min-width: 900px) and (max-width: 945px){
+  .box-1_theRing{
+    min-width: 300px;
+  }
+}
+
+.comp_analysis_pic_theRing2{
+  /* width: auto; */
+  height: 40rem;
+  padding-bottom:1.5rem;
+}
