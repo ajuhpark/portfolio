@@ -3,6 +3,9 @@
 /*Inter*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lato:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+
 html {
   font-size: 10px;
 }
@@ -1642,6 +1645,11 @@ margin: 0px;
   background-color: #F9F9F9;
 }
 
+#branding_logo_pic2{
+  background-color: white;
+}
+
+
 #branding_logo_pic1-1{
   background-color: #FDF7F3;
   border-radius: 6px;
@@ -2425,6 +2433,10 @@ csText:hover {
   .box-1_theRing{
     min-width: 300px;
   }
+  .box-1_theRing_green{
+    min-width: 300px;
+  }
+
 }
 
 .comp_analysis_pic_theRing3{
@@ -2437,4 +2449,55 @@ csText:hover {
   /* width: auto; */
   height: 20rem;
   padding-bottom:1.5rem;
+}
+
+.box-1_theRing_green{
+  height: 48rem;
+  min-width: 280px;
+  padding: 10px;
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:#F0F4EE;
+}
+
+
+.container-reverse-2{
+  align-items:baseline;
+  border-radius: 8px;
+  display: flex;
+  flex-wrap:wrap-reverse;
+  justify-content: space-evenly;
+  margin-bottom:0rem;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:2rem;
+  min-height: 125px;
+  padding-bottom:2rem;
+  padding-top:2rem;
+  /* margin: 0% auto; */
+  width:93%;
+}
+
+@media (max-width: 400px){
+  .container-reverse-2{
+    width:100%;
+  }
+}
+
+#cs-textBlock1-4{
+  padding-bottom:3rem;
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#container-reverse-lightPink{
+  background-color: #FFF4F2;
+}
+
+#container-reverse-regPink{
+  background-color: #FFECE9;
 }
