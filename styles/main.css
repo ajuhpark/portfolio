@@ -1138,7 +1138,6 @@ main {
 
 .container-wrap-normal{
   align-items: center;
-  align-items: center;
   border-radius: 8px;
   display: flex;
   flex-wrap:wrap;
@@ -1450,7 +1449,6 @@ margin: 0px;
 
 .container-wrap-normal-1{
   align-items: center;
-  align-items: center;
   border-radius: 8px;
   display: flex;
   flex-wrap:wrap;
@@ -1486,7 +1484,6 @@ margin: 0px;
 }
 
 .container-wrap-normal-3{
-  align-items: center;
   align-items: center;
   border-radius: 8px;
   display: flex;
@@ -2465,14 +2462,13 @@ csText:hover {
 
 .container-reverse-2{
   align-items:baseline;
-  border-radius: 8px;
   display: flex;
   flex-wrap:wrap-reverse;
   justify-content: space-evenly;
   margin-bottom:0rem;
   margin-left:auto;
   margin-right:auto;
-  margin-top:2rem;
+  /* margin-top:2rem; */
   min-height: 125px;
   padding-bottom:2rem;
   padding-top:2rem;
@@ -2500,4 +2496,76 @@ csText:hover {
 
 #container-reverse-regPink{
   background-color: #FFECE9;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.container-reverse-4{
+  align-items:baseline;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  display: flex;
+  flex-wrap:wrap-reverse;
+  justify-content: space-evenly;
+  margin-bottom:0rem;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:2rem;
+  /* min-height: 125px; */
+  padding-bottom:2rem;
+  padding-top:2rem;
+  /* margin: 0% auto; */
+  width:93%;
+  background-color: #FFF4F2;
+}
+
+@media (max-width: 400px){
+  .container-reverse-4{
+    width:100%;
+  }
+}
+
+.container-wrap-normal-4{
+  align-items: baseline;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-evenly;
+  margin-bottom:0rem;
+  margin-left:auto;
+  margin-right:auto;
+  /* margin-top:2rem; */
+  padding-bottom:2rem;
+  padding-top:2rem;
+  width:93%;
+  background-color: #F9FBF8;
+}
+
+@media (max-width: 400px){
+  .container-wrap-normal-4{
+    width:100%;
+  }
+}
+
+#container-wrap-normal-4-title{
+  margin-top:2rem;
+}
+
+#cs-textBlock1-5{
+  padding-bottom:1rem;
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#container-reverse-lightGreen{
+  background-color: #F9FBF8;
+}
+
+#container-reverse-regGreen{
+  background-color: #F0F4EE;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
 }
