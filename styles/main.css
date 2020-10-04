@@ -788,7 +788,7 @@ section button:hover {
 
   .bannerText1 {
     font-size: 2rem;
-	  padding-top: 6rem;
+	  padding-top: 14rem;
 	  padding-bottom:	0rem;
 	  margin-block-end: 0rem;
   }
@@ -811,7 +811,7 @@ section button:hover {
     font-size: 1.6rem;
     height: 5rem;
     line-height: 130%;
-    margin-bottom: 10rem;
+    margin-bottom: 15rem;
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 0;
@@ -840,7 +840,7 @@ section button:hover {
   .HP-Sections {
     align-items: center;
     display: flex;
-    height: 10rem;
+    height: 14rem;
     justify-content: center;
   }
 
