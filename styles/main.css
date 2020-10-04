@@ -2596,6 +2596,8 @@ csText:hover {
   background-color: #F0F4EE;
   border-bottom-right-radius: 8px;
   border-bottom-left-radius: 8px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
 }
 
 csText1 {
