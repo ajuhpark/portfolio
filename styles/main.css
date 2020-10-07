@@ -292,10 +292,7 @@ h7{
   padding-bottom:4rem;
 }
 .HP-Sections {
-  align-items: center;
-  display: flex;
-  height: 19rem;
-  justify-content: center;
+  display:block;
 }
 
 .homepage-section{
@@ -704,9 +701,15 @@ section button:hover {
   .designPic{
     max-width:65%
   }
+
   .DP-Grid{
     padding:5rem 6rem;
+    padding-top:5rem;
+    padding-bottom:9rem;
+    padding-right: 6rem;
+    padding-left:6rem;
   }
+
   .designPic {
   padding-bottom: 2rem;
   }
@@ -722,7 +725,7 @@ section button:hover {
   }
   .DP-Grid{
     padding-top:4rem;
-    padding-bottom:5rem;
+    padding-bottom:9rem;
     padding-right: 4rem;
     padding-left:4rem;
   }
@@ -733,7 +736,7 @@ section button:hover {
   }
   .DP-Grid{
     padding-top:3rem;
-    padding-bottom:5rem;
+    padding-bottom:9rem;
     padding-right: 3rem;
     padding-left:3rem;
   }
@@ -745,8 +748,8 @@ section button:hover {
   }
 
   .DP-Grid{
-    padding-top:1rem;
-    padding-bottom:5rem;
+    padding-top:3rem;
+    padding-bottom:8rem;
     padding-right: 4rem;
     padding-left:4rem;
   }
@@ -776,7 +779,11 @@ section button:hover {
 /*Navigation Bar Media Queries*/
 
 .HP-Heading{
-    font-size: 3rem;
+  display: block;
+  text-align: center;
+  font-size: 3rem;
+  padding-top: 8rem;
+  margin-top: 0rem;
 }
 
 
@@ -838,10 +845,7 @@ section button:hover {
   }
 
   .HP-Sections {
-    align-items: center;
-    display: flex;
-    height: 14rem;
-    justify-content: center;
+    display: block;
   }
 
   .DP-Title {
