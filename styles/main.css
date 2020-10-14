@@ -50,7 +50,7 @@ h3 {
   font-size: 1.6rem;
   font-style: normal;
   font-weight: bold;
-  line-height: 130%;
+  line-height: 140%;
   margin: 0px;
   /* or 2.1rem */
 }
@@ -60,7 +60,7 @@ h4 {
   font-size: 1.6rem;
   font-style: normal;
   font-weight: normal;
-  line-height: 130%;
+  line-height: 140%;
   margin-block-end: 0rem;
   margin-block-start: 0rem;
 }
@@ -70,7 +70,7 @@ h5{
   font-size: 1.4rem;
   font-style: normal;
   font-weight: bold;
-  line-height: 130%;
+  line-height: 140%;
   margin: 0px;
 }
 
@@ -79,7 +79,7 @@ h6{
   font-size: 1.4rem;
   font-style: normal;
   font-weight:normal;
-  line-height: 130%;
+  line-height: 140%;
   margin: 0px;
 }
 
@@ -289,8 +289,10 @@ h7{
 /* || Featured Work */
 #featured-work-section{
   background-color: #f3f6f9;
-  padding-bottom:4rem;
+  padding-bottom:3rem;
 }
+
+
 .HP-Sections {
   display:block;
 }
