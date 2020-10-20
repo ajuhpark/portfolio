@@ -93,7 +93,7 @@ h7{
   margin: 0px;
 }
 
-h8, h9, h10 { /* You can just go on adding headings */
+h8, h9, h10, h11, h12 { /* You can just go on adding headings */
    display: block; /* Because this is block level element */
 }
 
@@ -110,9 +110,28 @@ h9 {
 }
 
 h10 {
-   font-size: /*Whatever */ ;
+   font-family: "Roboto";
+   font-size: 4.6rem;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 1;
 }
 
+h11 {
+  font-family: "Roboto";
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.4;
+}
+
+h12 {
+  font-size: /*Whatever */ ;
+}
+
+h13 {
+   font-size: /*Whatever */ ;
+}
 /* || Top Menu Bar */
 
 #topnav {
@@ -297,7 +316,7 @@ h10 {
 }
 
 #bannerText2-1 {
-  color: #000000;
+  color: ##212529;
   display: inline-block;
 }
 
@@ -315,14 +334,19 @@ h10 {
   /* position: absolute; */
   width: 5.414rem;
   /* border: 1px #ccc solid; */
+  vertical-align: baseline;
 }
 
 .imageWithText{
     width:auto;
-    height:8rem;
-    vertical-align:text-bottom;/*or text-bottom or text-top*/
+    height:4rem;
+    vertical-align:baseline;/*or text-bottom or text-top*/
  }
-
+@media (min-width: 780px) {
+  .imageWithText{
+      height:4.5rem;
+   }
+}
 
 
 .bannerText3 {
@@ -369,7 +393,7 @@ h10 {
 .horizontalBar-header{
   border-radius: 14px;
   border-style: solid;
-  border-width: 2px;
+  border-width: 3px;
   display: block;
   overflow: hidden;
 }
@@ -432,8 +456,8 @@ h10 {
   border: 1px solid black;
   color: black;
   display: inline-block;
-  font-family: "Inter", sans-serif;
-  font-size: 1.6rem;
+  font-family: "Roboto";
+  font-size: 1.8rem;
   line-height: 2.2rem;
   margin-top: 2.4rem;
   /* padding-top, padding-bottom: 1rem;
@@ -452,6 +476,7 @@ h10 {
   background-color: #FFF4F2;
   color: black;
   border-color: black;
+  text-decoration: none;
 }
 
 
@@ -878,7 +903,7 @@ section button:hover {
 .HP-Heading-1{
   text-align: left;
   padding-top: 3.2rem;
-  padding-bottom: 7.2rem;
+  padding-bottom: 8rem;
 
 }
 
@@ -930,9 +955,10 @@ section button:hover {
   }
 
   .imageWithText{
-      width:auto;
+      /* width:auto;
       height:3rem;
-      vertical-align:text-bottom;/*or text-bottom or text-top*/
+      vertical-align:text-bottom;*/
+      /*or text-bottom or text-top*/
    }
 
   .HP-Heading{
@@ -995,16 +1021,6 @@ section button:hover {
   }
 }
 
-
-@media (min-width: 700px) {
-
-  .imageWithText{
-      display:none;
-      width:auto;
-      height:3rem;
-      vertical-align:text-bottom;/*or text-bottom or text-top*/
-   }
- }
 
 @media (max-width: 400px) {
   #topnav a {
@@ -1914,6 +1930,7 @@ hr{
 
 #horizontalBar-pink{
     color: #FFF4F2;
+    border-top: none;
 }
 
 #horizontalBar-orange{
@@ -2415,11 +2432,7 @@ csText:hover {
 
 @media (max-width: 400px) {
 
-  .imageWithText{
-      width:auto;
-      height:3rem;
-      vertical-align:text-bottom;/*or text-bottom or text-top*/
-   }
+
    #palmTreeVector {
      display: none;
      margin-bottom: 0rem;
@@ -2897,29 +2910,87 @@ gap:2rem;
 }
 
 .img-fluid-1{
-  max-width: 80%;
+  max-width: 60%;
   height:auto;
-  min-width:40rem;
+  min-width:43rem;
   max-height:47rem;
-  border: black solid 1px;
-
+  /* border: black solid 1px; */
+  margin:auto;
+  display: block;
 }
 
-@media (max-width: 768px) {
+.img-fluid-2{
+  max-width: 90%;
+  height:auto;
+  min-width:60rem;
+  /* max-height:47rem; */
+  /* border: black solid 1px; */
+  float:right;
+}
+
+
+@media (max-width:474px) {
   .img-fluid-1{
-    float:left;
+    min-width:30rem;
+    max-width: 100%;
   }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 767px) {
+  .img-fluid-1{
+    float:left;
+    padding-bottom: 3rem;
+  }
+
+  .img-fluid-2{
+    padding-bottom: 3rem;
+  }
+}
+
+@media (min-width:767px) and (max-width:1050px) {
   .img-fluid-1{
     float:right;
   }
 }
 
-@media (min-width:1100px) {
+@media (min-width:1050px) {
   .img-fluid-1{
     margin:auto;
     display: block;
+    min-width:43rem;
   }
+}
+
+@media (max-width:1225px) {
+  .img-fluid-2{
+    min-width:30rem;
+  }
+}
+
+.navbar.navbar-default {
+    background-color: #99ccff;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.navbar.navbar-default .navbar-collapse {
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.container-reverse-6{
+  display: flex;
+  flex-wrap:wrap-reverse;
+  padding-bottom:13rem;
+}
+
+.caseStudyImage-1{
+  /* border: black solid 1px; */
+}
+
+.caseStudyDescription1-1{
+  position:relative;
+  /* border: black solid 1px; */
 }
