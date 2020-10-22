@@ -126,7 +126,11 @@ h11 {
 }
 
 h12 {
-  font-size: /*Whatever */ ;
+  font-family: "Roboto";
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 3.5rem;
 }
 
 h13 {
@@ -734,7 +738,7 @@ section button:hover {
   padding-right: 1.5rem;
   padding-top:0px;
   width: 4rem;
-  content: url("/images/carbon_logo-linkedin_outline.png");
+  /* content: url("/images/carbon_logo-linkedin_outline.png"); */
   -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
@@ -2900,8 +2904,8 @@ gap:2rem;
 }
 
 [class*="col"]{
-  /* border: black solid 1px;
-  background-color: rgb(100, 0, 228);
+  /* border: black solid 1px; */
+  /* background-color: rgb(100, 0, 228);
   color: rgb(255, 255, 255); */
   margin-right:0rem;
   margin-left:0rem;
@@ -3006,4 +3010,129 @@ gap:2rem;
 .caseStudyDescription1-1{
   position:relative;
   /* border: black solid 1px; */
+}
+
+.left-pad-4{
+padding-right:6rem;
+}
+
+.middle-pad-4{
+padding-right:10px;
+padding-left:10px;
+}
+
+.right-pad-4{
+padding-left:20px;
+float:right;
+}
+
+.DP-section-1{
+    padding-top:1.5rem;
+    padding-bottom:5.5rem;
+}
+
+.DP-Title-1 {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 14rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.designPic-1 {
+  margin-bottom: 2.5rem;
+  margin-top: 1.5rem;
+  display: block;
+  /* margin-bottom: 2.4rem; */
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 20rem;
+}
+
+.DP-floatLeft{
+  float:left;
+  max-width: 23rem;
+}
+
+.DP-floatRight{
+  float:left;
+  max-width: 23rem;
+}
+
+/* .DP-col{
+  min-width: 30rem;
+} */
+
+/* @media (max-width:1050px) {
+  .DP-col{
+    min-width: 40rem;
+  }
+} */
+
+.bold{
+  font-weight: bold;
+}
+
+.footer-1{
+  align-items: center;
+  background-color: #FBE8E4;
+}
+
+.footerText-4{
+  font-size: 1.4rem;
+}
+
+.footerIcons2{
+  display:flex;
+}
+
+.linkedin_icon-1{
+  height: 4rem;
+  width: 4rem;
+  padding-bottom: ;
+  padding-left: ;
+  padding-right: ;
+  padding-top: 0px;
+  content: url("/images/carbon_logo-linkedin_outline.png");
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  margin-right:1.5rem;
+}
+
+.linkedin_icon-1:hover {
+    content: url("/images/carbon_logo-linkedin.png");
+    height: 4rem;
+    width: 4rem;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    /* transition: all 1s ease-in-out; */
+    transition: 3s;
+}
+
+
+.github_icon{
+  height: 4rem;
+  width: 4rem;
+  padding-bottom: ;
+  padding-left: ;
+  padding-right: ;
+  padding-top: 0px;
+  content: url("/images/carbon_logo-github_outline.png");
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  margin-right:1.5rem;
+}
+.github_icon:hover {
+    content: url("/images/carbon_logo-github.png");
+    height: 4rem;
+    width: 4rem;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    /* transition: all 1s ease-in-out; */
+    transition: 3s;
+
+
 }
