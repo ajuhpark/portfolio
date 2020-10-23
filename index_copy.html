@@ -127,8 +127,9 @@
           </div>
         </div>
         <div class="col-md-8 caseStudyImage-1">
-          <img src="images/theRing_Mobile_3.png" class="img-fluid-1" id="ring_firstImage" alt="Responsive image">
-          <img src="images/theRing_Mobile_4.png" class="img-fluid-1" id="ring_secondImage" alt="Responsive image">
+          <div class="image_columnContainer">
+            <img src="images/theRing_Mobile_3.png" class="img-fluid-1" id="ring_firstImage" alt="Responsive image">
+          </div>
         </div>
       </div>
     </div>
@@ -146,9 +147,16 @@
               <!--eventually <a class="btn_viewCaseStudy" href="/takeCaseStudy">VIEW CASE STUDY</a>-->
           </div>
         </div>
+
         <div class="col-md-8 caseStudyImage-1">
-          <img src="images/take_desktopmobile_5.png" class="img-fluid-1" alt="Responsive image">
+          <div class="image_columnContainer">
+            <img src="images/take_desktopMobile_5.png" class="img-fluid-1" alt="Responsive image">
+          </div>
         </div>
+
+        <!-- <div class="col-md-8 caseStudyImage-1">
+          <img src="images/take_desktopMobile_5.png" class="img-fluid-1" alt="Responsive image">
+        </div> -->
       </div>
     </div>
 
@@ -203,21 +211,24 @@
       <!-- <hr class="horizontalBar-header" id="horizontalBar-white"> -->
 
   </section>
+</div>
+
 <!-- <hr class="horizontalBar-header" id="horizontalBar-orange"> -->
 
 
-
+<div class="dp-section-2">
+  <div class="caseStudy-section">
   <!--Design Process Grid-->
   <section>
     <!--Design Process Title-->
     <div id="designProcessTitle" class="HP-Sections">
-      <h9 class="HP-Heading-1">Design Process</h9>
+      <h9 class="HP-Heading-2">Design Process</h9>
     </div>
 
-    <div class="row">
+    <div class="row" id="row-dp">
       <!--Research Column-->
-      <div class="DP-col col-lg-3 col-md-6 col-sm-6 col-xs-12 left-pad-4">
-        <div class="DP-floatLeft">
+      <div class="DP-col col-lg-3 col-md-6 col-sm-6 col-xs-12" id="noRightBorder_DP-1">
+        <div class="DP-middle-1">
           <div class="DP-section-1">
             <h11 class="DP-Title-1">Research</h11>
             <img class="designPic-1" src="images/researchpic2.png" alt="researchpic1">
@@ -229,8 +240,8 @@
       </div>
 
       <!--Info Arch Column-->
-      <div class="DP-col col-lg-3 col-md-6 col-sm-6 col-xs-12 left-pad-4">
-        <div class="DP-floatLeft">
+      <div class="DP-col col-lg-3 col-md-6 col-sm-6 col-xs-12" id="noRightBorder_DP">
+        <div class="DP-middle-1">
           <div class="DP-section-1">
             <h11 class="DP-Title-1">Info Architecture</h11>
             <img class="designPic-1" src="images/infoarch3.png" alt="researchpic1">
@@ -242,8 +253,8 @@
       </div>
 
       <!--Visual Design Column-->
-      <div class="DP-col col-lg-3 col-md-6 col-sm-6 col-xs-12 left-pad-4">
-        <div class="DP-floatLeft">
+      <div class="DP-col col-lg-3 col-md-6 col-sm-6 col-xs-12" id="noRightBorder_DP-1">
+        <div class="DP-middle-2">
           <div class="DP-section-1">
             <h11 class="DP-Title-1">Visual Design</h11>
             <img class="designPic-1" src="images/visdev3.png" alt="researchpic1">
@@ -255,8 +266,8 @@
       </div>
 
       <!--Technical Column-->
-      <div class="DP-col col-lg-3 col-md-6 col-sm-6 col-xs-12 left-pad-4">
-        <div class="DP-floatLeft">
+      <div class="DP-col col-lg-3 col-md-6 col-sm-6 col-xs-12">
+        <div class="DP-middle-1">
           <div class="DP-section-1">
             <h11 class="DP-Title-1">Technical</h11>
             <img class="designPic-1" src="images/technical3.png" alt="researchpic1">
@@ -271,6 +282,21 @@
     </div>
 
   </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   <!-- <hr class="horizontalBar-header" id="horizontalBar-lightGreen"> -->
 
@@ -288,12 +314,13 @@
       <h4 id="positionName">Position</h4>
     </div>
   </section> -->
+  </div>
 
 </div>
 
 <!--New Footer Section-->
 
-<div class="footer-1">
+<section class="footer-1">
   <a class="anchor-offset" id="section-footer"></a>
   <div class="caseStudy-section">
     <div class="row">
@@ -326,7 +353,7 @@
       </div>
     </div>
   </div>
-</div>
+</section>
 
 
 <!--Footer Section-->

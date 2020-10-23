@@ -911,6 +911,13 @@ section button:hover {
 
 }
 
+.HP-Heading-2{
+  text-align: left;
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+
+}
+
 @media (max-width: 700px) {
   #topnav a {
     font-size: 1.6rem;
@@ -2896,8 +2903,8 @@ gap:2rem;
 }
 
 .row {
-  /* background-color: rgb(236, 93, 23);
-  border: rgb(255, 199, 64) solid 1px; */
+  /* background-color: #; */
+  /* border: rgb(255, 199, 64) solid 1px; */
   margin-right:0rem;
   margin-left:0rem;
 
@@ -2914,13 +2921,15 @@ gap:2rem;
 }
 
 .img-fluid-1{
-  max-width: 60%;
+  max-width: 100%;
   height:auto;
   min-width:43rem;
   max-height:47rem;
   /* border: black solid 1px; */
   margin:auto;
   display: block;
+  /* float:right; */
+  padding:2rem;
 }
 
 .img-fluid-2{
@@ -2946,27 +2955,27 @@ gap:2rem;
 
 @media (max-width: 767px) {
   .img-fluid-1{
-    float:left;
-    padding-bottom: 3rem;
+    /* float:left; */
+    /* padding-bottom: 3rem; */
   }
 
   .img-fluid-2{
-    padding-bottom: 3rem;
+    /* padding-bottom: 3rem; */
   }
 
   #ring_secondImage{
-    display: inherit;
+    /* display: inherit; */
   }
 
   #ring_firstImage{
-    display:none;
+    /* display:none; */
   }
 
 }
 
 @media (min-width:768px) and (max-width:1050px) {
   .img-fluid-1{
-    float:right;
+    /* float:right; */
   }
 }
 
@@ -3027,8 +3036,9 @@ float:right;
 }
 
 .DP-section-1{
-    padding-top:1.5rem;
-    padding-bottom:5.5rem;
+    padding-top:3rem;
+    padding-bottom:3rem;
+
 }
 
 .DP-Title-1 {
@@ -3046,8 +3056,8 @@ float:right;
   /* margin-bottom: 2.4rem; */
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
-  max-width: 20rem;
+  width: 90%;
+  max-width: 21rem;
 }
 
 .DP-floatLeft{
@@ -3056,19 +3066,24 @@ float:right;
 }
 
 .DP-floatRight{
-  float:left;
+  float:right;
   max-width: 23rem;
 }
 
-/* .DP-col{
-  min-width: 30rem;
-} */
+.DP-middle-1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* max-width: 23rem; */
+}
 
-/* @media (max-width:1050px) {
-  .DP-col{
-    min-width: 40rem;
-  }
-} */
+.DP-middle-2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 23rem;
+}
+
 
 .bold{
   font-weight: bold;
@@ -3133,6 +3148,99 @@ float:right;
     -moz-transition: all 1s ease-in-out;
     /* transition: all 1s ease-in-out; */
     transition: 3s;
+}
+
+.row-1{
+  margin-right:0rem;
+  margin-left:0rem;
+  display:flex;
+  justify-content: space-between;
+  flex-wrap:wrap;
+}
+
+@media (max-width: 1200px) {
+  .row-1 {
+    grid-template-columns: repeat(2, 1fr);
+    /* margin: auto 3rem; */
+  }
+}
+
+/* Create four equal columns */
+.DP-column-1{
+  /* flex:25%; */
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 1050px) {
+  .DP-column-1 {
+    /* flex: 50%; */
+  }
+}
 
 
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .DP-column-1 {
+    flex-direction: column;
+  }
+}
+
+
+.image_columnContainer{
+  width:90%;
+  float:right;
+  background-color: #F5F5F5;
+  /* border: orange solid 1px; */
+  border-radius: 6px;
+
+}
+
+@media (max-width:768px) {
+  .image_columnContainer{
+    /* float:left; */
+    width:100%;
+    margin-bottom: 3rem;
+  }
+}
+
+@media (max-width:800px) {
+  .img-fluid-1{
+  min-width: auto;
+  }
+}
+
+#row-dp{
+  background-color:#fdf8f3;
+  /* margin-bottom: 8rem; */
+  border-radius: 6px;
+}
+
+.dp-section-2{
+  background-color: #fdf8f3; /*fbf2e9*/
+  padding-bottom:8rem;
+}
+
+#rightBorder_DP{
+  border-right: 2px solid #f7e3cf;
+}
+
+#noRightBorder_DP{
+  border-right: 2px solid #f7e3cf;
+}
+
+#noRightBorder_DP-1{
+  border-right: 2px solid #f7e3cf;
+}
+
+@media (max-width:992px) {
+  #noRightBorder_DP{
+    border-right: 0px;
+  }
+}
+
+
+@media (max-width:575px) {
+  #noRightBorder_DP-1{
+    border-right: 0px;
+  }
 }
