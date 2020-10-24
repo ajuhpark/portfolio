@@ -57,7 +57,7 @@
     <!-- <img id="arrowUp" src="https://uploads-ssl.webflow.com/59c5c3e797139c000117aa12/5a26455fbac8a400018d63b3_arrow_up_v2.svg
   " alt="icon" /> -->
 
-    <img id="scrollUpArrow" src="images/scrollUpArrow.png" alt="scrollUpArrow">
+    <img id="scrollUpArrow" src="images/s.png" alt="scrollUpArrow">
     <!-- <img id="scrollUpHoverCircle" src="images/scrollUpHoverCircle.png" alt="scrollUpHoverCircle"> -->
 
   </button>
@@ -79,37 +79,40 @@
   <!-- Banner -->
   <div class="caseStudy-section">
 
-  <header>
-    <h8 class="bannerText1-2">Hi, I'm Andrew.</h8>
-    <div id="bannerText2Line-1">
-      <h8 id="bannerText2-1">
-        A UX Designer based in Los Angeles.
-      <img class="imageWithText" src="images/PalmTreeIconVector.png">
-      </h8>
-      <!-- <img id="palmTreeVector-1" src="images/PalmTreeIconVector.png" alt="palmTreeVector"/> -->
-      <!-- <p>
-        I have a <img class="imageWithText" src="images/PalmTreeIconVector.png">.
+    <header>
+      <h8 class="bannerText1-2">Hi, I'm Andrew.</h8>
+      <div id="bannerText2Line-1">
+        <h8 id="bannerText2-1">
+          A UX Designer based in Los Angeles.
+        <img class="imageWithText" src="images/PalmTreeIconVector.png">
+        </h8>
+        <!-- <img id="palmTreeVector-1" src="images/PalmTreeIconVector.png" alt="palmTreeVector"/> -->
+        <!-- <p>
+          I have a <img class="imageWithText" src="images/PalmTreeIconVector.png">.
 
-      </p> -->
-    </div>
-<!--
+        </p> -->
+      </div>
+  <!--
 
-    <a href="#section-caseStudies" class="js-anchor-link">
-      <div class="latestWorkLinkHomepage">SEE MY LATEST WORK</div>
-      <img id="latestWorkArrowHomepage" src="images/latestWorkArrow.png" alt="latestWorkArrow">
-    </a> -->
+      <a href="#section-caseStudies" class="js-anchor-link">
+        <div class="latestWorkLinkHomepage">SEE MY LATEST WORK</div>
+        <img id="latestWorkArrowHomepage" src="images/latestWorkArrow.png" alt="latestWorkArrow">
+      </a> -->
 
-  </header>
+    </header>
+  </div>
 
   <!-- <hr class="horizontalBar-header" id="horizontalBar-orange"> -->
 
   <!-- Featured Work -->
   <!-- <section id="featured-work-section"> -->
+  <div class="featuredWorks">
+    <div class="caseStudy-section">
   <section>
     <a class="anchor-offset" id="section-caseStudies"></a>
     <!-- <section class="HP-Sections"> -->
     <h9 class="HP-Heading-1">Projects</h9>
-    </section>
+  </section>
 
     <!-- <hr class="horizontalBar-header" id="horizontalBar-lightBlue"> -->
 
@@ -159,7 +162,8 @@
         </div> -->
       </div>
     </div>
-
+  </div>
+</div>
 
     <!--row 1-->
       <!-- <div class="container-reverse-5"> -->
@@ -323,33 +327,41 @@
 <section class="footer-1">
   <a class="anchor-offset" id="section-footer"></a>
   <div class="caseStudy-section">
-    <div class="row">
+    <div class="row" id="footer-spacing">
       <div class="col-sm-12 col-md-8">
         <div class="footerContent-1">
-          <h12>Thank you for visiting!</h12>
-          <h12>Please feel free to reach out.</h12>
+          <h12 class="footerText-5" id="footer_textLine1">Thank you for visiting!</h12>
+          <div class="footerText-5">
+          <h13 id="footer_textLine2">I would love to connect to build something together.</h13>
+        </div>
+          <div>
+            <a href="mailto:andrewjypark@gmail.com" target="_blank">
+              <h13 class="footerText-5 footerText-6" id="footer_textLine2">andrewjypark@gmail.com</h13>
+            </a>
+          </div>
         </div>
       </div>
-      <div class="col-sm-12 col-md-4 caseStudyImage-1">
-        <div class="footerIcons2">
+      <div class="col-sm-12 col-md-4 caseStudyImage-1 footerIconsText">
+        <div class="footerIcons2 footerText-5">
           <!--linkedin-->
           <a href="https://linkedin.com/in/ajypark" target="_blank">
-            <div class="linkedin_icon-1"></div>
-              <!-- <img src="images/carbon_logo-linkedin_outline.png" class="linkedin_icon-1"> -->
+            <!-- <div class="linkedin_icon-1"></div> -->
+              <img src="images/linkedin_blackOutline.png" class="linkedin_icon-2">
             <!-- </div> -->
           </a>
           <!--github-->
-          <a href="https://github.com/ajuhpark" target="_blank">
-            <div class="github_icon"></div>
+          <a href="https://github.com/ajuhpark" target="_blank" class="github_icon-2">
+            <!-- <div class="github_icon"></div> -->
+            <img src="images/github_blackOutline.png" class="linkedin_icon-2">
           </a>
           <!--resume-->
           <a href="resources\resume.pdf" target="_blank">
-            <button type="button">Resume</button>
+            <button-resume type="button-resume">Resume</button-resume>
           </a>
         </div>
-
+        <div>
         <h11 class="footerText-4">© 2020 Designed by Andrew Park</h11>
-
+        </div>
       </div>
     </div>
   </div>
@@ -357,7 +369,7 @@
 
 
 <!--Footer Section-->
-<section class="footer">
+<!-- <section class="footer">
   <a class="anchor-offset" id="section-footer"></a>
   <div class="footerContent">
     <h1 class="footerText-1">Thank you for visiting!</h1>
@@ -365,24 +377,24 @@
     <a href="mailto:andrewjypark@gmail.com" target="_blank">
       <h4 class="footerText-2">andrewjypark@gmail.com</h4>
     </a>
-    <div class="footerIcons1">
+    <div class="footerIcons1"> -->
       <!--linkedin-->
-      <a href="https://linkedin.com/in/ajypark" target="_blank">
+      <!-- <a href="https://linkedin.com/in/ajypark" target="_blank">
         <div class="linkedin_icon"></div>
-      </a>
+      </a> -->
       <!--github-->
-      <a href="https://github.com/ajuhpark" target="_blank">
+      <!-- <a href="https://github.com/ajuhpark" target="_blank">
         <div class="github_icon"></div>
-      </a>
+      </a> -->
       <!--resume-->
-      <a href="resources\resume.pdf" target="_blank">
+      <!-- <a href="resources\resume.pdf" target="_blank">
         <button type="button">Resume</button>
       </a>
     </div>
 
     <h4 class="footerText-3">© 2020 Designed by Andrew Park</h4>
   </div>
-</Section>
+</Section> -->
   <!--links to our JavaScript file-->
   <script src="portfolio-js.js"></script>
 
