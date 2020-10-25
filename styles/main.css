@@ -1306,8 +1306,7 @@ main {
 /*Problem and Solution flex wrap*/
 
 .container-reverse{
-  align-items: center;
-  align-items: center;
+  align-items: inherit;
   /* background-color: #EFF5FF; */
   border-radius: 8px;
   display: flex;
@@ -1694,7 +1693,7 @@ margin: 0px;
 }
 
 .branding_color_pic{
-  width:28%;
+  width:9rem;
   /* min-width:100px; */
   /* background-color: blue; */
 }
@@ -3221,6 +3220,12 @@ float:right;
     width:100%;
     margin-bottom: 3rem;
   }
+
+  .image_columnContainer-1{
+    /* float:left; */
+    width:100%;
+    margin-bottom: 3rem;
+  }
 }
 
 @media (max-width:800px) {
@@ -3322,7 +3327,7 @@ section button-resume {
 } */
 
 #footer-spacing{
-  padding:8rem 0 8rem 0;
+  padding:8rem 0 10rem 0;
 }
 
 .featuredWorks{
@@ -3373,4 +3378,18 @@ section button-resume {
     float:none;
     text-align: center;
   }
+}
+
+
+.image_columnContainer-1{
+  width:90%;
+  float:left;
+}
+
+#solution_outline-1{
+  border: 1px solid lightgray;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
