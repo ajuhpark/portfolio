@@ -38,7 +38,7 @@ h1 {
 
 h2 {
   color: #000000;
-  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 2.6rem;
   font-style: normal;
   font-weight: normal;
@@ -46,7 +46,7 @@ h2 {
 }
 
 h3 {
-  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.6rem;
   font-style: normal;
   font-weight: bold;
@@ -56,17 +56,23 @@ h3 {
 }
 
 h4 {
-  font-family: "Inter", sans-serif;
+  /* font-family: "Roboto", sans-serif;
   font-size: 1.6rem;
   font-style: normal;
   font-weight: normal;
   line-height: 140%;
   margin-block-end: 0rem;
-  margin-block-start: 0rem;
+  margin-block-start: 0rem; */
+
+  font-family: "Roboto";
+  font-size: 1.7rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.6;
 }
 
 h5{
-  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.4rem;
   font-style: normal;
   font-weight: bold;
@@ -75,7 +81,7 @@ h5{
 }
 
 h6{
-  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.4rem;
   font-style: normal;
   font-weight:normal;
@@ -375,7 +381,7 @@ h13 {
 .latestWorkLinkHomepage{
   display:inline-block;
   text-align: center;
-  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.8rem;
   color:black;
 }
@@ -1085,7 +1091,7 @@ main {
   font-size:1.4rem;
   color: #DC784C;
   width: 103px;
-  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
   /* text-decoration: underline solid #DC784C; */
   text-align:left;
 }
@@ -1145,7 +1151,7 @@ main {
 }
 
 .roles {
-  padding: 2px 0;
+  /* padding: 2px 0; */
 }
 
 #roleTitle {
@@ -1192,7 +1198,7 @@ main {
 
 .CS-Section-Title-text{
   color: black;
-  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 3rem;
   font-style: normal;
 }
@@ -1204,7 +1210,7 @@ main {
 .CS-Section-Title-number{
   color: #E9723F;
   display:inline;
-  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 4rem;
   font-style: normal;
   font-weight: bold;
@@ -1243,7 +1249,7 @@ main {
 }
 
 .cs-textBlock-list{
-  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.6rem;
   font-style: normal;
   font-weight: normal;
@@ -1286,11 +1292,11 @@ main {
 }
 
 .container-wrap-normal{
-  align-items: center;
+  align-items: inherit;
   border-radius: 8px;
   display: flex;
   flex-wrap:wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin-bottom:0rem;
   margin-left:auto;
   margin-right:auto;
@@ -1298,7 +1304,7 @@ main {
   min-height: 125px;
   padding-bottom:.5rem;
   padding-top:.5rem;
-  width:93%;
+  /* width:74%; */
 }
 
 
@@ -1311,7 +1317,7 @@ main {
   border-radius: 8px;
   display: flex;
   flex-wrap:wrap-reverse;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin-bottom:0rem;
   margin-left:auto;
   margin-right:auto;
@@ -1320,7 +1326,7 @@ main {
   padding-bottom:.5rem;
   padding-top:.5rem;
   /* margin: 0% auto; */
-  width:93%;
+  /* width:74%; */
 }
 
 @media (max-width: 500px){
@@ -1336,8 +1342,9 @@ main {
   padding: 10px;
   /* background-color: whitesmoke; */
   /* border: 1px solid white; */
-  width: 40%;
+  width: 45%;
 }
+
 
 #problem_pic{
   width: 90%;
@@ -1355,21 +1362,21 @@ main {
   .container-reverse{
     width:100%;
   }
-  .container-wrap-normal{
-    width:100%;
+  /* .container-wrap-normal{
+    width:93%; */
   }
   .projectBrief{
-  margin-left:2%;
-  margin-right:2%;
+  /* margin-left:2%;
+  margin-right:2%; */
   }
   .projectTitle{
-  margin-left:2%;
-  margin-right:2%;
+  /* margin-left:2%;
+  margin-right:2%; */
   }
   .comp_analysis_pic1{
-    width: 96%;
+    /* width: 96%;
     margin-left: 2%;
-    margin-right: 2%;
+    margin-right: 2%; */
   }
 }
 /* || Research Section */
@@ -1421,7 +1428,7 @@ table {
   /* font-family: arial, sans-serif; */
   border-collapse: collapse;
   display: flex;
-  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.3rem;
   font-style: normal;
   font-weight: normal;
@@ -1559,7 +1566,7 @@ tr:nth-child(even) {
 }
 
 .userPersona-moreInfo1 ul {
-font-family: "Inter", sans-serif;
+font-family: "Roboto", sans-serif;
 font-size: 1.4rem;
 font-style: normal;
 font-weight:normal;
@@ -1987,7 +1994,7 @@ csText {
   background: #2E3A40;
   color: white;
   display: inline-block;
-  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.4rem;
   font-style: normal;
   font-weight: normal;
@@ -2509,7 +2516,7 @@ csText:hover {
 
 #problem_outline{
   border: 1px solid lightgray;
-  width: 80%;
+  width: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -2517,7 +2524,7 @@ csText:hover {
 
 #solution_outline{
   border: 1px solid lightgray;
-  width: 80%;
+  width: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -2730,7 +2737,7 @@ csText1 {
   background: #2E3A40;
   color: white;
   display: inline-block;
-  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.4rem;
   font-style: normal;
   font-weight: normal;
@@ -2771,7 +2778,7 @@ csText1:hover {
 font-size:1.4rem;
   color: #2D5173;
   width: 103px;
-  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
   /* text-decoration: underline solid #DC784C; */
   text-align:left;
 }
@@ -2786,7 +2793,7 @@ font-size:1.4rem;
 .CS-Section-Title-number-1{
   color: #2D5173;
   display:inline;
-  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 4rem;
   font-style: normal;
   font-weight: bold;
@@ -3392,4 +3399,45 @@ section button-resume {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.caseStudy-section-1{
+  margin-left: 13%;
+  margin-right: 13%;
+}
+
+.box-probSol {
+  height: auto;
+  min-width: 300px;
+  padding:10px 0 10px 0;
+  /* background-color: whitesmoke; */
+  /* border: 1px solid white; */
+  width: 45%;
+}
+
+#probSol_description{
+  width: 45%;
+}
+@media (max-width: 1100px) {
+.caseStudy-section-1{
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  .box-probSol {
+    width: 48%;
+  }
+}
+
+@media (max-width: 700px) {
+  #probSol_description{
+    width: 100%;
+  }
+}
+
+}
+@media (min-width: 900px) and (max-width: 945px){
+  .box-probSol {
+    min-width: 0px;
+  }
 }
