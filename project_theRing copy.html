@@ -147,30 +147,34 @@
 
   <!--Background Section-->
   <section id="backgroundSection">
-    <h2 class="CS-Subheading">Background</h2>
+    <div class="caseStudy-section-1">
+      <h2 class="CS-Subheading">Background</h2>
 
-    <h4 class="CS-bodyText-2">So you’ve matched online.</h4>
+      <h4 class="CS-bodyText-2">So you’ve matched online.</h4>
 
-    <h4 class="CS-bodyText-2" id="CS-bodyText-2-3">💖💖.</h4>
+      <h4 class="CS-bodyText-2" id="CS-bodyText-2-3">💖💖.</h4>
 
-    <h4 class="CS-bodyText-2" id="CS-bodyText-2-3">It's on to chatting but for some people the text game, for lack of a better word,
-      <img class="imageWithText1" src="images/theRing_images/vacuum.png">
-      (it can suck).</h4>
+      <h4 class="CS-bodyText-2" id="CS-bodyText-2-3">It's on to chatting but for some people the text game, for lack of a better word,
+        <img class="imageWithText1" src="images/theRing_images/vacuum.png">
+        (it can suck).</h4>
 
-    <h4 class="CS-bodyText-2" id="CS-bodyText-2-3">These are some of the thoughts that can run through text sender’s heads:</h4>
+      <h4 class="CS-bodyText-2" id="CS-bodyText-2-3">These are some of the thoughts that can run through text sender’s heads:</h4>
 
-    <ul class="cs-textBlock-list">
-      <li>"Should I wait to text as long as they made me wait?"</li>
-      <li style="padding-top:1rem">"I’m not interested enough to continue but I feel bad ghosting."</li>
-      <li style="padding-top:1rem">"Was my text too long or awkward? Did my text sound too short and blunt?"</li>
-    </ul>
+      <ul class="cs-textBlock-list">
+        <li>"Should I wait to text as long as they made me wait?"</li>
+        <li style="padding-top:1rem">"I’m not interested enough to continue but I feel bad ghosting."</li>
+        <li style="padding-top:1rem">"Was my text too long or awkward? Did my text sound too short and blunt?"</li>
+      </ul>
+    </div>
     <hr class="horizontalBar" id="horizontalBar-pink">
   </section>
+
+  <div class="caseStudy-section-1">
 
     <!--Problem and Solution flex wrap-->
     <!--row 1-->
     <!--row 1 description-->
-    <div class="container-reverse caseStudy-section-1" id="container-reverse-blue">
+    <div class="container-reverse" id="container-reverse-blue">
       <div class="box-probSol" id="probSol_description">
         <h2 class="projectTitle">Problem</h2>
         <h4 class="projectBrief" id="cs-textBlock1-1">Texting an online match can drag on for weeks without anything of substance being said - and that's if both parties decide not to ghost.
@@ -185,7 +189,7 @@
 
     <!--row 2-->
     <!--row 2 image-->
-    <div class="container-wrap-normal caseStudy-section-1" id="container-wrap-normal-blue">
+    <div class="container-wrap-normal" id="container-wrap-normal-blue">
       <div class="box-probSol">
         <img class="comp_analysis_pic1" id="solution_outline" src="images/theRing_images/solution_gif.gif" alt="comp_analysis_pic2">
       </div>
@@ -197,6 +201,9 @@
         <h4 class="projectBrief">Once users match, they have a limited time to schedule a meeting in 'the Ring' where they can text, call or videochat for five minutes. This takes the guesswork out of texting and allows users to quickly find out about their match.</h4>
       </div>
     </div>
+
+  </div>
+
   </section>
 
 
@@ -227,8 +234,11 @@
     <div class="CS-Section-Title-number-1">2</div>RESEARCH
   </div>
 
+  <!--Research section-->
+  <div class="caseStudy-section-1">
+
   <!--User Survey-->
-  <h3 class="CS-Subheading-1" id="CS-Subheading-userSurvey"="">User Survey</h3>
+  <h2 class="CS-Subheading-1 CS-Subheading" id="CS-Subheading-userSurvey"="">User Survey</h2>
   <h4 class="CS-bodyText-1">I started with research and began by creating a survey and the participants included a range of genders and gender preferences for dating. These were a couple takeaways I had.</h4>
   <h4 class="CS-bodyText-2">I asked users when they feel like it was no longer appropriate to ghost someone. More than half the people marked that it was never appropriate to ghost. On the other end of the spectrum, three people marked that ghosting
     would be appropriate up until 2 dates - these were two men and a nonbinary person. Women had a stronger dislike for ghosting than men in the survey.</h4>
@@ -236,7 +246,7 @@
 
 
   <!-- Chart JS 1 -->
-  <div class="CS-bodyText-1">
+  <div class="CS-graph">
     <canvas id="chart1"></canvas>
   </div>
 
@@ -344,15 +354,13 @@
     </script>
 
     <div class="moreInfo2" id="CS-bodyText-2-3">
-      <a href="https://forms.gle/DytwyMivfzk6JdKZ6" target="_blank">
-        <h3 id="underline2">VIEW FULL QUESTIONNAIRE</h3>
-      </a>
+      <a class="btn_cs1" href="https://forms.gle/DytwyMivfzk6JdKZ6"  target="_blank">VIEW FULL QUESTIONNAIRE</a>
     </div>
 
     <hr class="horizontalBar" id="horizontalBar-pink">
 
     <!--User Stories-->
-    <h3 class="CS-Subheading-1">User Stories</h3>
+    <h2 class="CS-Subheading-1">User Stories</h2>
     <h4 class="CS-bodyText-1">After finding out results from the user survey, I created some user stories. These are the five user stories I specifically wanted to focus on in the app. These user stories all occur <span style="font-weight:bold;">after a user matches with another user</span>.</h4>
     <table>
       <tr>
@@ -377,7 +385,7 @@
       </tr>
       <tr>
         <!-- <td>As a returning user</td> -->
-        <td>3. I want to accept or Propose new time to meet.</td>
+        <td>3. I want to accept or propose new time to meet.</td>
         <!-- <td>High</td> -->
       </tr>
       <tr>
@@ -393,15 +401,13 @@
     </table>
 
     <div class="moreInfo2">
-      <a href="https://docs.google.com/spreadsheets/d/1SynCBrE-uZtUqzPD4flpPIgdd8EPFZhdOzqwEnYshWs/edit?usp=sharing" target="_blank">
-        <h3 id="underline2">VIEW ALL USER STORIES</h3>
-      </a>
+      <a class="btn_cs1" href="https://docs.google.com/spreadsheets/d/1SynCBrE-uZtUqzPD4flpPIgdd8EPFZhdOzqwEnYshWs/edit?usp=sharing"  target="_blank">VIEW ALL USER STORIES</a>
     </div>
 
     <hr class="horizontalBar" id="horizontalBar-pink">
 
     <!--User Personas-->
-    <h3 class="CS-Subheading-1">User Personas</h3>
+    <h2 class="CS-Subheading-1">User Personas</h2>
     <!--User Persona 1-->
     <div class="wrapper">
       <!-- <header class="header">Header</header> -->
@@ -488,57 +494,66 @@
     </div>
 
     <div class="moreInfo2">
-      <a href="resources\userPersonas_theRing.pdf" target="_blank">
-        <h3 id="underline2">VIEW COMPLETE USER PERSONAS</h3>
-      </a>
+      <a class="btn_cs1" href="resources\userPersonas_theRing.pdf" target="_blank">VIEW COMPLETE USER PERSONAS</a>
     </div>
 
     <hr class="horizontalBar" id="horizontalBar-pink">
 
     <!--Competitive Analysis-->
-    <h3 class="CS-Subheading-1">Competitive Analysis</h3>
+    <h2 class="CS-Subheading-1">Competitive Analysis</h2>
     <h4 class="CS-bodyText-1">For my competitive analysis, I took a look at different dating apps to see how they approached user interactions and specifically interactions after users would matched. The three I focused on were Coffee Meets Bagel, Hinge and Goat Date.</h4>
 
-    <!--Comp Analysis Grid-->
-    <div class="container-reverse-1" id="container-reverse-green">
-      <div class="box-1">
-        <h4 class="projectBrief" id="cs-textBlock1-1"><span style="font-weight:bold;">Coffee Meets Bagel</span></h4>
-        <h4 class="projectBrief" id="cs-textBlock1-1">Coffee Meets Bagel encouraged users to take things slower by giving them a set amount of matches that they would have to decide on within the day.  Users would have to pay more attention and think about the person’s profile instead of swiping so quickly.</h4>
-        <h4 class="projectBrief" id="cs-textBlock1-1">I appreciated the thought behind limited interactions and slowing down the app. I wanted to bring the same intentionality to The Ring by putting time limits on user decisions, for example users would have to propose a meeting time within 48 hours.</h4>
-      </div>
-      <div class="box-1">
-        <div class="box-1_theRing_content1">
-          <img class="comp_analysis_pic_theRing" src="images/theRing_images/cmb_screenshot.png" alt="comp_analysis_pic1">
-        </div>
-      </div>
-    </div>
 
-    <div class="container-wrap-normal-1" id="container-wrap-normal-green">
-      <div class="box-1">
-        <div class="box-1_theRing_content1">
-          <img class="comp_analysis_pic_theRing" src="images/theRing_images/hinge_screenshot.png" alt="comp_analysis_pic1">
-        </div>
-      </div>
 
-      <div class="box-1">
-        <h4 class="projectBrief" id="cs-textBlock1-1"><span style="font-weight:bold;">Hinge</span></h4>
-        <h4 class="projectBrief" id="cs-textBlock1-1">Hinge’s strength was its clean and modern user interface.  They also offered different mediums of communication. In this screenshot, they emphasize their in-app video capabilities.</h4>
-      </div>
-    </div>
-    <div class="container-reverse-1" id="container-reverse-green">
-      <div class="box-1">
-        <h4 class="projectBrief" id="cs-textBlock1-1"><span style="font-weight:bold;">Goat Date</span></h4>
-        <h4 class="projectBrief" id="cs-textBlock1-1">Goatdate is an app that focuses on video chatting after matching. After users match, they could call their match for a five minute video chat. I really liked the idea for time limited video chats and wanted to build on it by giving users a chance to schedule their meetings.</h4>
-        <h4 class="projectBrief" id="cs-textBlock1-1">In Goatdate, users could call at any time but there’s a chance that the call comes in at a time that doesn’t work for the other user. I thought there was an opportunity there to be more intentional by setting aside a set time much like how people approach business meetings.</h4>
-      </div>
 
-      <div class="box-1">
-        <div class="box-1_theRing_content1">
-          <img class="comp_analysis_pic_theRing" src="images/theRing_images/Goatdate_Screenshot.png" alt="comp_analysis_pic1">
+
+        <!--flex wrap-->
+        <!--Coffee Meets Bagel - row 1-->
+        <!--row 1 description-->
+        <div class="container-reverse" id="container-reverse-blue">
+          <div class="box-probSol" id="probSol_description">
+            <h4 class="projectBrief" id="cs-textBlock1-1"><span style="font-weight:bold;">Coffee Meets Bagel</span></h4>
+            <h4 class="projectBrief" id="cs-textBlock1-1">Coffee Meets Bagel encouraged users to take things slower by giving them a set amount of matches that they would have to decide on within the day.  Users would have to pay more attention and think about the person’s profile instead of swiping so quickly.</h4>
+            <h4 class="projectBrief" id="cs-textBlock1-1">I appreciated the thought behind limited interactions and slowing down the app. I wanted to bring the same intentionality to The Ring by putting time limits on user decisions, for example users would have to propose a meeting time within 48 hours.</h4>
+          </div>
+          <!--row 1 image-->
+          <div class="box-probSol" id="probSol_compAnalysis">
+            <img class="comp_analysis_pic_theRing" src="images/theRing_images/cmb_screenshot.png" alt="comp_analysis_pic1">
+          </div>
         </div>
-      </div>
-    </div>
+
+        <!--Hinge - row 2-->
+        <!--row 2 image-->
+        <div class="container-wrap-normal" id="container-wrap-normal-blue">
+          <div class="box-probSol" id="probSol_compAnalysis">
+            <img class="comp_analysis_pic_theRing" src="images/theRing_images/hinge_screenshot.png" alt="comp_analysis_pic1">
+          </div>
+          <!--row 2 description-->
+          <div class="box-probSol" id="probSol_description">
+            <h4 class="projectBrief" id="cs-textBlock1-1"><span style="font-weight:bold;">Hinge</span></h4>
+            <h4 class="projectBrief" id="cs-textBlock1-1">Hinge’s strength was its clean and modern user interface.  They also offered different mediums of communication. In this screenshot, they emphasize their in-app video capabilities.</h4>
+          </div>
+        </div>
+
+        <!--Goat Date - row 1-->
+        <!--row 1 description-->
+        <div class="container-reverse" id="container-reverse-blue">
+          <div class="box-probSol" id="probSol_description">
+            <h4 class="projectBrief" id="cs-textBlock1-1"><span style="font-weight:bold;">Goat Date</span></h4>
+            <h4 class="projectBrief" id="cs-textBlock1-1">Goatdate is an app that focuses on video chatting after matching. After users match, they could call their match for a five minute video chat. I really liked the idea for time limited video chats and wanted to build on it by giving users a chance to schedule their meetings.</h4>
+            <h4 class="projectBrief" id="cs-textBlock1-1">In Goatdate, users could call at any time but there’s a chance that the call comes in at a time that doesn’t work for the other user. I thought there was an opportunity there to be more intentional by setting aside a set time much like how people approach business meetings.</h4>
+          </div>
+          <!--row 1 image-->
+          <div class="box-probSol" id="probSol_compAnalysis">
+            <img class="comp_analysis_pic_theRing" src="images/theRing_images/Goatdate_Screenshot.png" alt="comp_analysis_pic1">
+          </div>
+        </div>
+
+
+  </div>
+
   </section>
+
 
   <hr class="horizontalBar" id="horizontalBar-blue">
 
@@ -550,44 +565,47 @@
       INFORMATION ARCHITECTURE
     </div>
 
-    <!--Sketches to Wireframes-->
-    <h3 class="CS-Subheading-1" id="CS-Subheading-s2w-1">Sketches to Mockups</h3>
-    <h4 class="CS-bodyText-1">These are the sketches turned mockups for the <span style="font-weight:bold;">Calendar</span> and <span style="font-weight:bold;">Chat</span> screens.</h4>
+    <div class="caseStudy-section-1">
+
+      <!--Sketches to Wireframes-->
+      <h2 class="CS-Subheading-1" id="CS-Subheading-s2w-1">Sketches to Mockups</h2>
+      <h4 class="CS-bodyText-1">These are the sketches turned mockups for the <span style="font-weight:bold;">Calendar</span> and <span style="font-weight:bold;">Chat</span> screens.</h4>
 
 
-    <!--cmb sketches and mockups-->
-    <!--calendar-->
-    <div class="container-wrap-normal-1" id="container-wrap-normal-green">
-      <div class="box-1_theRing">
-        <div class="box-1_theRing_content2">
-          <h4 class="projectBrief" id="cs-textBlock1-1"><span style="font-weight:bold;">Calendar Sketches</span></h4>
-          <img class="comp_analysis_pic_theRing1" src="images/theRing_images/sketch_cal1.jpeg" alt="comp_analysis_pic1">
-          <img class="comp_analysis_pic_theRing2" src="images/theRing_images/sketch_cal2.jpeg" alt="comp_analysis_pic1">
+      <!--cmb sketches and mockups-->
+      <!--calendar-->
+      <div class="container-wrap-normal-1" id="container-wrap-normal-green">
+        <div class="box-1_theRing">
+          <div class="box-1_theRing_content2">
+            <h4 class="projectBrief" id="cs-textBlock1-1"><span style="font-weight:bold;">Calendar Sketches</span></h4>
+            <img class="comp_analysis_pic_theRing1" src="images/theRing_images/sketch_cal1.jpeg" alt="comp_analysis_pic1">
+            <img class="comp_analysis_pic_theRing2" src="images/theRing_images/sketch_cal2.jpeg" alt="comp_analysis_pic1">
+          </div>
+        </div>
+
+        <div class="box-1_theRing">
+          <div class="box-1_theRing_content2">
+            <h4 class="projectBrief" id="cs-textBlock1-1"><span style="font-weight:bold;">Calendar Mockup</span></h4>
+            <img class="comp_analysis_pic_theRing3" src="images/theRing_images/mockup_cal.png" alt="comp_analysis_pic1">
+          </div>
         </div>
       </div>
 
-      <div class="box-1_theRing">
-        <div class="box-1_theRing_content2">
-          <h4 class="projectBrief" id="cs-textBlock1-1"><span style="font-weight:bold;">Calendar Mockup</span></h4>
-          <img class="comp_analysis_pic_theRing3" src="images/theRing_images/mockup_cal.png" alt="comp_analysis_pic1">
+      <!--chat-->
+      <div class="container-wrap-normal-1" id="container-wrap-normal-green">
+        <div class="box-1_theRing_green">
+          <div class="box-1_theRing_content2">
+            <h4 class="projectBrief" id="cs-textBlock1-1"><span style="font-weight:bold;">Chat Sketches</span></h4>
+            <img class="comp_analysis_pic_theRing1" src="images/theRing_images/sketch_chat1.jpeg" alt="comp_analysis_pic1">
+            <img class="comp_analysis_pic_theRing2" src="images/theRing_images/sketch_chat2.jpeg" alt="comp_analysis_pic1">
+          </div>
         </div>
-      </div>
-    </div>
 
-    <!--chat-->
-    <div class="container-wrap-normal-1" id="container-wrap-normal-green">
-      <div class="box-1_theRing_green">
-        <div class="box-1_theRing_content2">
-          <h4 class="projectBrief" id="cs-textBlock1-1"><span style="font-weight:bold;">Chat Sketches</span></h4>
-          <img class="comp_analysis_pic_theRing1" src="images/theRing_images/sketch_chat1.jpeg" alt="comp_analysis_pic1">
-          <img class="comp_analysis_pic_theRing2" src="images/theRing_images/sketch_chat2.jpeg" alt="comp_analysis_pic1">
-        </div>
-      </div>
-
-      <div class="box-1_theRing_green">
-        <div class="box-1_theRing_content2">
-          <h4 class="projectBrief" id="cs-textBlock1-1"><span style="font-weight:bold;">Chat Mockup</span></h4>
-          <img class="comp_analysis_pic_theRing3" src="images/theRing_images/mockup_chat.png" alt="comp_analysis_pic1">
+        <div class="box-1_theRing_green">
+          <div class="box-1_theRing_content2">
+            <h4 class="projectBrief" id="cs-textBlock1-1"><span style="font-weight:bold;">Chat Mockup</span></h4>
+            <img class="comp_analysis_pic_theRing3" src="images/theRing_images/mockup_chat.png" alt="comp_analysis_pic1">
+          </div>
         </div>
       </div>
     </div>
@@ -621,7 +639,7 @@
     </div>
 
     <!--Logo-->
-    <h3 class="CS-Subheading-1" id="CS-Subheading-s2w-1">Logo</h3>
+    <h2 class="CS-Subheading-1" id="CS-Subheading-s2w-1">Logo</h2>
     <h4 class="CS-bodyText-1">For the logo, I wanted to give the idea that they would meet in “The Ring”, kind of like a boxing match. I looked at MMA, boxing and video game designs for inspiration.</h4>
     <div class="s2w-container" id="branding_logo_pic1">
       <img class="s2w_pic" src="images/theRing_images/logo_inspo.png" alt="branding_logo_pic">
@@ -635,7 +653,7 @@
     <hr class="horizontalBar" id="horizontalBar-pink">
 
     <!--Font-->
-    <h3 class="CS-Subheading-1">Fonts</h3>
+    <h2 class="CS-Subheading-1">Fonts</h2>
     <!--Merriweather-->
     <div class="CS-bodyText-1" id="branding_logo_pic1-1">
       <h7 class="branding_font_subheading"><span style="font-family:'Fira Code';">Fira Code</span></h7>
@@ -650,7 +668,7 @@
     <hr class="horizontalBar" id="horizontalBar-pink">
 
     <!--Color-->
-    <h3 class="CS-Subheading-1">Color</h3>
+    <h2 class="CS-Subheading-1">Color</h2>
     <div class="container-wrap-normal-1" id="container-wrap-normal-green">
       <div class="box-2">
         <img class="branding_color_pic" src="images/theRing_images/branding_color_darkBlue.png" alt="branding_color_pic">
@@ -664,9 +682,7 @@
   </section>
 
   <div class="moreInfo2">
-    <a href="resources\styleGuide_theRing.pdf" target="_blank">
-      <h3 id="underline2">VIEW STYLE GUIDE ASSETS</h3>
-    </a>
+    <a class="btn_cs1" href="resources\styleGuide_theRing.pdf"  target="_blank">VIEW STYLE GUIDE ASSETS</a>
   </div>
 
   <hr class="horizontalBar" id="horizontalBar-blue">
@@ -768,7 +784,7 @@
           <div class="CS-Section-Title-number-1">6</div>FINAL PRODUCT
         </div>
 
-        <h3 class="CS-Subheading-1" id="CS-Subheading-s2w-2">Prototype</h3>
+        <h2 class="CS-Subheading-1" id="CS-Subheading-s2w-2">Prototype</h2>
         <h4 class="CS-bodyText-1" id="CS-bodyText-1-2">Here is a walkthrough of the app.</h4>
         <!--Video-->
         <div class="take-video-section">
@@ -776,10 +792,11 @@
         </div>
 
         <div class="moreInfo2">
-          <a href="https://www.figma.com/proto/VslwlVRmCqlpwI81bafr6m/Prototype-The-Ring-v1?node-id=304%3A1649&scaling=scale-down" target="_blank">
-            <h3 id="underline2">VIEW MOBILE PROTOTYPE</h3>
-          </a>
+
+
+          <a class="btn_cs1" href="https://www.figma.com/proto/VslwlVRmCqlpwI81bafr6m/Prototype-The-Ring-v1?node-id=304%3A1649&scaling=scale-down"  target="_blank">VIEW MOBILE PROTOTYPE</a>
         </div>
+
       </section>
 
       <hr class="horizontalBar" id="horizontalBar-blue">
@@ -804,32 +821,50 @@
       </section>
 
       <!--Footer Section-->
-      <section class="footer">
-        <a class="anchor-offset" id="section-footer"></a>
-        <div class="footerContent">
-        <h1 class="footerText-1">Thank you for visiting!</h1>
-        <h1 class="footerText-1">Please feel free to reach out.</h1>
-        <a href="mailto:andrewjypark@gmail.com" target="_blank">
-          <h4 class="footerText-2">andrewjypark@gmail.com</h4>
-        </a>
-        <div class="footerIcons1">
-          <!--linkedin-->
-          <a href="https://linkedin.com/in/ajypark" target="_blank">
-            <div class="linkedin_icon"></div>
-          </a>
-          <!--github-->
-          <a href="https://github.com/ajuhpark" target="_blank">
-            <div class="github_icon"></div>
-          </a>
-          <!--resume-->
-          <a href="resources\resume.pdf" target="_blank">
-            <button type="button">Resume</button>
-          </a>
-        </div>
+      <!--New Footer Section-->
 
-        <h4 class="footerText-3">© 2020 Designed by Andrew Park</h4>
+      <section class="footer-1">
+        <a class="anchor-offset" id="section-footer"></a>
+        <div class="caseStudy-section">
+          <div class="row" id="footer-spacing">
+            <div class="col-sm-12 col-md-8">
+              <div class="footerContent-1">
+                <h12 class="footerText-5" id="footer_textLine1">Thank you for visiting!</h12>
+                <div class="footerText-5">
+                <h13 id="footer_textLine2">I would love to connect to build something together.</h13>
+              </div>
+                <div>
+                  <a href="mailto:andrewjypark@gmail.com" target="_blank">
+                    <h13 class="footerText-5 footerText-6" id="footer_textLine2">andrewjypark@gmail.com</h13>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4 caseStudyImage-1 footerIconsText">
+              <div class="footerIcons2 footerText-5">
+                <!--linkedin-->
+                <a href="https://linkedin.com/in/ajypark" target="_blank">
+                  <!-- <div class="linkedin_icon-1"></div> -->
+                    <img src="images/linkedin_blackOutline.png" class="linkedin_icon-2">
+                  <!-- </div> -->
+                </a>
+                <!--github-->
+                <a href="https://github.com/ajuhpark" target="_blank" class="github_icon-2">
+                  <!-- <div class="github_icon"></div> -->
+                  <img src="images/github_blackOutline.png" class="linkedin_icon-2">
+                </a>
+                <!--resume-->
+                <a href="resources\resume.pdf" target="_blank">
+                  <button-resume type="button-resume">Resume</button-resume>
+                </a>
+              </div>
+              <div>
+              <h11 class="footerText-4">© 2020 Designed by Andrew Park</h11>
+              </div>
+            </div>
+          </div>
         </div>
-      </Section>
+      </section>
 
     <!--links to our JavaScript file-->
     <script src="portfolio-js.js"></script>
