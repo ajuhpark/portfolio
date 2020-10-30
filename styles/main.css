@@ -777,6 +777,7 @@ section button:hover {
   -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
+  margin-left: 2.5rem;
 }
 .github_icon:hover {
     content: url("/images/github_blackOutline__whiteFill.png");
@@ -3188,28 +3189,6 @@ float:right;
 }
 
 
-.github_icon{
-  height: 4rem;
-  width: 4rem;
-  padding-bottom: ;
-  padding-left: ;
-  padding-right: ;
-  padding-top: 0px;
-  content: url("/images/carbon_logo-github_outline.png");
-  -webkit-transition: all 1s ease-in-out;
-  -moz-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
-  margin-right:1.5rem;
-}
-.github_icon:hover {
-    content: url("/images/carbon_logo-github.png");
-    height: 4rem;
-    width: 4rem;
-    -webkit-transition: all 1s ease-in-out;
-    -moz-transition: all 1s ease-in-out;
-    /* transition: all 1s ease-in-out; */
-    transition: 3s;
-}
 
 .row-1{
   margin-right:0rem;
