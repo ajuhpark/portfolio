@@ -1173,6 +1173,7 @@ main {
    position:-webkit-sticky;
    position:sticky;
    top:0;
+   z-index:1;
 }
 
 .navigation ul {
@@ -3665,7 +3666,7 @@ section button-cs1:hover {
   width: 100%;
   padding-bottom: 56.25%;
   height: 0;
-  z-index: -1;
+  z-index: 0;
 }
 .iframe-container iframe{
   position: absolute;
