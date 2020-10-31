@@ -799,13 +799,13 @@ section button:hover {
 .linkedin_icon-4 {
   height: 4rem;
   width: 4rem;
-	content: url("/images/linkedin_blackOutline.png");
+	background-image: url("/images/linkedin_blackOutline.png");
 	background-repeat: no-repeat;
   background-size: contain;
-	transition: background-image 1s;
+	transition: background-image 2s;
 }
 .linkedin_icon-4:hover {
-	content: url("/images/linkedin_blackOutline_whiteFill.png");
+	background-image: url("/images/linkedin_blackOutline_whiteFill.png");
 }
 
 
