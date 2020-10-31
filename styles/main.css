@@ -802,7 +802,7 @@ section button:hover {
 	background-image: url("/images/linkedin_blackOutline.png");
 	background-repeat: no-repeat;
   background-size: contain;
-	transition: background-image 2s;
+	transition: background-image 1s;
 }
 .linkedin_icon-4:hover {
 	background-image: url("/images/linkedin_blackOutline_whiteFill.png");
@@ -840,7 +840,7 @@ section button:hover {
 	background-image: url("/images/github_blackOutline.png");
 	background-repeat: no-repeat;
   background-size: contain;
-	transition: background-image 2s;
+	transition: background-image 1s;
   margin-left: 2.5rem;
 }
 .github_icon-4:hover {
@@ -1132,7 +1132,7 @@ main {
 }
 
 #takeLogo {
-  padding-bottom: 4.5rem;
+  padding-bottom: 6rem;
   padding-top: 9rem;
   width: 18.8rem;
 }
@@ -1141,6 +1141,7 @@ main {
   padding-bottom: 4.5rem;
   padding-left: 22%;
   padding-right: 22%;
+  margin-top:0rem;
 }
 
 .skip2prototype{
@@ -1273,7 +1274,7 @@ main {
 }
 
 .CS-Section-Title-number{
-  color: #E9723F;
+  color: #B14312;
   display:inline;
   font-family: "Roboto", sans-serif;
   font-size: 4rem;
@@ -2087,7 +2088,7 @@ hr{
 /* nav bar in project */
 
 csText {
-  background: #2E3A40;
+  background: #B14312;
   color: white;
   display: inline-block;
   font-family: "Roboto", sans-serif;
@@ -2105,7 +2106,7 @@ csText {
 
 csText:hover {
   background: white;
-  color: #DC784C;
+  color: #B14312;
 }
 
 @media all and (max-width: 550px) {
@@ -2845,7 +2846,7 @@ text-align: center;
 }
 
 csText1 {
-  background: #2E3A40;
+  background: #2D5173;
   color: white;
   display: inline-block;
   font-family: "Roboto", sans-serif;
