@@ -832,19 +832,6 @@ section button:hover {
     transition: 3s;
 }
 
-.github_icon-4 {
-  height: 4rem;
-  width: 4rem;
-	content: url("/images/github_blackOutline.png");
-	background-repeat: no-repeat;
-  background-size: contain;
-	transition: background-image 1s;
-  margin-left: 2.5rem;
-}
-.github_icon-4:hover {
-	content: url("/images/github_blackOutline__whiteFill.png");
-}
-
 /*new*/
 
 .github_icon-4 {
@@ -854,6 +841,7 @@ section button:hover {
 	background-repeat: no-repeat;
   background-size: contain;
 	transition: background-image 2s;
+  margin-left: 2.5rem;
 }
 .github_icon-4:hover {
 	background-image: url("/images/github_blackOutline__whiteFill.png");
