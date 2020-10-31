@@ -799,12 +799,13 @@ section button:hover {
 .linkedin_icon-4 {
   height: 4rem;
   width: 4rem;
-	background-image: url("/images/linkedin_blackOutline.png");
+	content: url("/images/linkedin_blackOutline.png");
 	background-repeat: no-repeat;
-	transition: background-image 0.5s;
+  background-size: contain;
+	transition: background-image 1s;
 }
 .linkedin_icon-4:hover {
-	background-image: url("/images/linkedin_blackOutline_whiteFill.png");
+	content: url("/images/linkedin_blackOutline_whiteFill.png");
 }
 
 
@@ -829,9 +830,21 @@ section button:hover {
     -moz-transition: all 1s ease-in-out;
     transition: all 1s ease-in-out;
     transition: 3s;
-
-
 }
+
+.github_icon-4 {
+  height: 4rem;
+  width: 4rem;
+	content: url("/images/github_blackOutline.png");
+	background-repeat: no-repeat;
+  background-size: contain;
+	transition: background-image 1s;
+  margin-left: 2.5rem;
+}
+.github_icon-4:hover {
+	content: url("/images/github_blackOutline__whiteFill.png");
+}
+
 
 /* || Media Query for Homepage*/
 
