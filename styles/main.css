@@ -845,6 +845,20 @@ section button:hover {
 	content: url("/images/github_blackOutline__whiteFill.png");
 }
 
+/*new*/
+
+.github_icon-4 {
+  height: 4rem;
+  width: 4rem;
+	background-image: url("/images/github_blackOutline.png");
+	background-repeat: no-repeat;
+  background-size: contain;
+	transition: background-image 2s;
+}
+.github_icon-4:hover {
+	background-image: url("/images/github_blackOutline__whiteFill.png");
+}
+
 
 /* || Media Query for Homepage*/
 
