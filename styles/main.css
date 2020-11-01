@@ -1274,7 +1274,7 @@ main {
 }
 
 .CS-Section-Title-number{
-  color: #B14312;
+  color: #DF6A50;
   display:inline;
   font-family: "Roboto", sans-serif;
   font-size: 4rem;
@@ -1306,7 +1306,7 @@ main {
 }
 
 .cs-image-grid-1 {
-  grid-gap: 2rem;
+  grid-gap: auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin-left: auto;
@@ -1316,7 +1316,7 @@ main {
 
 .cs-textBlock-list{
   font-family: "Roboto", sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   font-style: normal;
   font-weight: normal;
   line-height: 130%;
@@ -2088,7 +2088,8 @@ hr{
 /* nav bar in project */
 
 csText {
-  background: #B14312;
+  /* background: #B14312; */
+  background: #DF6A50;
   color: white;
   display: inline-block;
   font-family: "Roboto", sans-serif;
@@ -2106,7 +2107,8 @@ csText {
 
 csText:hover {
   background: white;
-  color: #B14312;
+  /* color: #B14312; */
+  color: #DF6A50;
 }
 
 @media all and (max-width: 550px) {
@@ -3633,6 +3635,36 @@ section button-cs1:hover {
   border-color: white;
   text-decoration: none;
 }
+
+.btn_cs1-orange {
+  border: 2px solid #DF6A50;
+  color: #DF6A50;
+  display: inline-block;
+  font-family: "Roboto";
+  font-size: 1.6rem;
+  font-weight: bold;
+  line-height: 2.2rem;
+  margin-top: 3.4rem;
+  /* padding-top, padding-bottom: 1rem;
+  padding-left, padding-right: 2.4rem; */
+  padding: .8rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  /* -webkit-border-radius: 3px; */
+  border-radius: 0px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn_cs1-orange:hover {
+  background-color: #DF6A50;
+  color: white;
+  border-color: white;
+  text-decoration: none;
+}
+
+
 
 .infoArch_heading{
   display: block;
