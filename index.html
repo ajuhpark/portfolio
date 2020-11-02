@@ -14,8 +14,13 @@
 
   <!-- Website Title -->
   <title>Portfolio | Andrew</title>
-  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+  <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
 
   <!-- AOS animate -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -52,15 +57,15 @@
     <!-- <img id="arrowUp" src="https://uploads-ssl.webflow.com/59c5c3e797139c000117aa12/5a26455fbac8a400018d63b3_arrow_up_v2.svg
   " alt="icon" /> -->
 
-    <img id="scrollUpArrow" src="images/scrollUpArrow.png" alt="scrollUpArrow">
+    <img id="scrollUpArrow" src="images/scrollUpArrow1.png" alt="scrollUpArrow">
     <!-- <img id="scrollUpHoverCircle" src="images/scrollUpHoverCircle.png" alt="scrollUpHoverCircle"> -->
 
   </button>
 
   <!-- Top Navigation Bar -->
   <div  class="caseStudy-section" id="topnav">
-    <a id="homeIconContainer" href="index.html">
-    <img id="homeIcon" src="images/Logo_v2.png" alt="icon" />
+    <a class="homeIconContainer" style="padding-left: 0;" href="index.html">
+      <img id="homeIcon" src="images/Logo_v2.png" alt="icon" />
     </a>
     <div id="rightIcons">
       <a href="#section-caseStudies" id="underline" class="js-anchor-link">Work</a>
@@ -72,77 +77,131 @@
   <hr class="horizontalBar-header" id="horizontalBar-pink">
 
   <!-- Banner -->
-  <header>
-    <h1 class="bannerText1">Hi, I'm Andrew.</h1>
-    <div id="bannerText2Line">
-      <p id="bannerText2">
-        A UX Designer based in Los Angeles.
+  <div class="caseStudy-section">
+
+    <header>
+      <h8 class="bannerText1-2">Hi, I'm Andrew.</h8>
+      <div id="bannerText2Line-1">
+        <h8 id="bannerText2-1">
+          A UX Designer based in Los Angeles.
         <img class="imageWithText" src="images/PalmTreeIconVector.png">
-      </p>
-      <img id="palmTreeVector" src="images/PalmTreeIconVector.png" alt="palmTreeVector" />
-      <!-- <p>
-        I have a <img class="imageWithText" src="images/PalmTreeIconVector.png">.
+        </h8>
+        <!-- <img id="palmTreeVector-1" src="images/PalmTreeIconVector.png" alt="palmTreeVector"/> -->
+        <!-- <p>
+          I have a <img class="imageWithText" src="images/PalmTreeIconVector.png">.
 
-      </p> -->
-    </div>
+        </p> -->
+      </div>
+  <!--
 
-    <!--old version: I design clear, communicative and friendly user experiences.-->
-    <p class="bannerText3">I design clear, efficient and friendly user experiences.</p>
+      <a href="#section-caseStudies" class="js-anchor-link">
+        <div class="latestWorkLinkHomepage">SEE MY LATEST WORK</div>
+        <img id="latestWorkArrowHomepage" src="images/latestWorkArrow.png" alt="latestWorkArrow">
+      </a> -->
 
-    <a href="#section-caseStudies" class="js-anchor-link">
-      <div class="latestWorkLinkHomepage">SEE MY LATEST WORK</div>
-      <img id="latestWorkArrowHomepage" src="images/latestWorkArrow.png" alt="latestWorkArrow">
-    </a>
-
-  </header>
+    </header>
+  </div>
 
   <!-- <hr class="horizontalBar-header" id="horizontalBar-orange"> -->
 
   <!-- Featured Work -->
-  <section id="featured-work-section">
-    <a class="anchor-offset" id="section-caseStudies"></a>
-    <section class="HP-Sections">
-      <h1 class="HP-Heading">Featured Work</h1>
-    </section>
+  <!-- <section id="featured-work-section"> -->
+  <div class="featuredWorks">
+    <div class="caseStudy-section">
+      <section>
+        <a class="anchor-offset" id="section-caseStudies"></a>
+        <!-- <section class="HP-Sections"> -->
+        <h9 class="HP-Heading-1">Projects</h9>
+      </section>
 
     <!-- <hr class="horizontalBar-header" id="horizontalBar-lightBlue"> -->
 
-    <!--row 1-->
-    <section class="homepage-section">
-      <div class="container-reverse-3">
-        <!--row 1 description-->
-        <div class="box">
-          <div class="caseStudyDescription1">
-            <h2 class="projectTitle">THE RING</h2>
-            <h4>The Ring is a dating app that aims to alleviate the stress in the texting game by allowing users to schedule a short 5 minute meetup via text, call or video after they match.</h4>
-              <a class="btn_viewCaseStudy" href="project_theRing.html">VIEW CASE STUDY</a>
+    <!--trying bootstrap-->
+
+    <!--The Ring Case Study Row-->
+    <div>
+      <div class="row container-reverse-6">
+
+        <div class="col-sm-8 col-md-4">
+          <div class="caseStudyDescription1-1">
+            <h10 class="projectTitle">THE RING</h10>
+            <h11>The Ring is a dating app that aims to alleviate the stress in the texting game by allowing users to schedule a short 5 minute meetup via text, call or video after they match.</h11>
+            <a class="btn_viewCaseStudy" href="project_theRing.html">VIEW CASE STUDY</a>
               <!--eventually <a class="btn_viewCaseStudy" href="/takeCaseStudy">VIEW CASE STUDY</a>-->
           </div>
         </div>
-        <!--row 1 image-->
-        <div class="box">
-          <a href="project_theRing.html">
-            <div class="caseStudyImage" href="project_take.html">
-              <img class="caseStudyImage1" src="images/theRing_Mobile_Square1.png" alt="caseStudyImage1">
-            </div>
+        <div class="col-md-8 caseStudyImage-1">
+          <a class="image_columnContainer" href="project_theRing.html">
+            <img src="images/theRing_Mobile_3.png" class="img-fluid-1" id="ring_firstImage" alt="Responsive image">
           </a>
         </div>
+
       </div>
+    </div>
+
+
+    <!--Take Case Study Row-->
+
+    <div>
+      <div class="row container-reverse-6">
+        <div class="col-sm-8 col-md-4">
+          <div class="caseStudyDescription1-1">
+            <h10 class="projectTitle">TAKE</h10>
+            <h11>Take is a community for creative fan content. Creatives can discover and share takes on their favorite tv shows, movies and books.</h11>
+            <a class="btn_viewCaseStudy" href="project_take.html">VIEW CASE STUDY</a>
+              <!--eventually <a class="btn_viewCaseStudy" href="/takeCaseStudy">VIEW CASE STUDY</a>-->
+          </div>
+        </div>
+
+        <div class="col-md-8 caseStudyImage-1">
+          <a class="image_columnContainer" href="project_take.html">
+            <img src="images/take_desktopMobile_5.png" class="img-fluid-1" alt="Responsive image">
+          </a>
+        </div>
+
+        <!-- <div class="col-md-8 caseStudyImage-1">
+          <img src="images/take_desktopMobile_5.png" class="img-fluid-1" alt="Responsive image">
+        </div> -->
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!--row 1-->
+      <!-- <div class="container-reverse-5"> -->
+        <!--row 1 description-->
+        <!-- <div class="box-6">
+          <div class="caseStudyDescription1">
+            <h2 class="projectTitle">THE RING</h2>
+            <h4>The Ring is a dating app that aims to alleviate the stress in the texting game by allowing users to schedule a short 5 minute meetup via text, call or video after they match.</h4>
+              <a class="btn_viewCaseStudy" href="project_theRing.html">VIEW CASE STUDY</a> -->
+              <!--eventually <a class="btn_viewCaseStudy" href="/takeCaseStudy">VIEW CASE STUDY</a>-->
+          <!-- </div>
+        </div> -->
+        <!--row 1 image-->
+        <!-- <div class="box-7">
+          <a href="project_theRing.html">
+            <div class="caseStudyImage" href="project_take.html"> -->
+              <!-- <img class="caseStudyImage1-2" src="images/theRing_Mobile_2.png" alt="caseStudyImage1"> -->
+            <!-- </div>
+          </a>
+        </div>
+      </div> -->
 
       <!-- <hr class="horizontalBar-header" id="horizontalBar-white"> -->
 
       <!--row 2-->
-      <div class="container-wrap-normal-3">
+      <!-- <div class="container-wrap-normal-3"> -->
         <!--row 2 image-->
-        <div class="box">
+        <!-- <div class="box">
           <a href="project_take.html">
             <div class="caseStudyImage">
               <img class="caseStudyImage1" src="images/take_desktopMobile_Square2.png" alt="caseStudyImage1">
             </div>
           </a>
-        </div>
+        </div> -->
         <!--row 2 description-->
-        <div class="box">
+        <!-- <div class="box">
 
           <div class="caseStudyDescription1">
             <h2 class="projectTitle">TAKE</h2>
@@ -153,61 +212,97 @@
 
 
         </div>
-      </div>
+      </div> -->
 
       <!-- <hr class="horizontalBar-header" id="horizontalBar-white"> -->
 
-    </section>
   </section>
+</div>
+
 <!-- <hr class="horizontalBar-header" id="horizontalBar-orange"> -->
 
 
-
+<div class="dp-section-2">
+  <div class="caseStudy-section">
   <!--Design Process Grid-->
-  <section id="designProcessSection">
+  <section>
     <!--Design Process Title-->
     <div id="designProcessTitle" class="HP-Sections">
-      <h1 class="HP-Heading">Design Process</h1>
+      <h9 class="HP-Heading-2">Design Process</h9>
     </div>
 
-    <div class="DP-Grid">
-      <!--Research column-->
-      <div class="DP-section">
-        <h3 class="DP-Title">Research</h3>
-        <img class="designPic" src="images/researchpic1.png" alt="researchpic1">
-        <h4 class="DP-item">User personas</h4>
-        <h4 class="DP-item">Stories</h4>
-        <h4 class="DP-item">User testing</h4>
+    <div class="row" id="row-dp">
+      <!--Research Column-->
+      <div class="DP-col col-lg-3 col-md-6 col-sm-6 col-xs-12" id="noRightBorder_DP-1">
+        <div class="DP-middle-1">
+          <div class="DP-section-1">
+            <h11 class="DP-Title-1">Research</h11>
+            <img class="designPic-1" src="images/researchpic2.png" alt="researchpic1">
+            <h11 class="DP-item">User personas</h11>
+            <h11 class="DP-item">Stories</h11>
+            <h11 class="DP-item">User testing</h11>
+          </div>
+        </div>
       </div>
 
-      <!--Info Architecture column-->
-      <div class="DP-section">
-        <h3 class="DP-Title">Info Architecture</h3>
-        <img class="designPic" src="images/infoarch2.png" alt="infoarch2">
-        <h4 class="DP-item">User flows</h4>
-        <h4 class="DP-item">Wireframing</h4>
-        <h4 class="DP-item">Prototyping</h4>
+      <!--Info Arch Column-->
+      <div class="DP-col col-lg-3 col-md-6 col-sm-6 col-xs-12" id="noRightBorder_DP">
+        <div class="DP-middle-1">
+          <div class="DP-section-1">
+            <h11 class="DP-Title-1">Info Architecture</h11>
+            <img class="designPic-1" src="images/infoarch3.png" alt="researchpic1">
+            <h11 class="DP-item">User flows</h11>
+            <h11 class="DP-item">Wireframing</h11>
+            <h11 class="DP-item">Prototyping</h11>
+          </div>
+        </div>
       </div>
 
-      <!--Visual Design column-->
-      <div class="DP-section">
-        <h3 class="DP-Title">Visual Design</h3>
-        <img class="designPic" src="images/visdev2.png" alt="visdev2">
-        <h4 class="DP-item">Branding</h4>
-        <h4 class="DP-item">Style guides</h4>
-        <h4 class="DP-item">Logo design</h4>
+      <!--Visual Design Column-->
+      <div class="DP-col col-lg-3 col-md-6 col-sm-6 col-xs-12" id="noRightBorder_DP-1">
+        <div class="DP-middle-2">
+          <div class="DP-section-1">
+            <h11 class="DP-Title-1">Visual Design</h11>
+            <img class="designPic-1" src="images/visdev3.png" alt="researchpic1">
+            <h11 class="DP-item">Branding</h11>
+            <h11 class="DP-item">Style Guides</h11>
+            <h11 class="DP-item">Logo Design</h11>
+          </div>
+        </div>
       </div>
 
-      <!--Technical column-->
-      <div class="DP-section">
-        <h3 class="DP-Title">Technical</h3>
-        <img class="designPic" src="images/technical2.png" alt="technical2">
-        <h4 class="DP-item">HTML/CSS/JS</h4>
-        <h4 class="DP-item">Photoshop/Illustrator</h4>
-        <h4 class="DP-item">Figma/Sketch</h4>
+      <!--Technical Column-->
+      <div class="DP-col col-lg-3 col-md-6 col-sm-6 col-xs-12">
+        <div class="DP-middle-1">
+          <div class="DP-section-1">
+            <h11 class="DP-Title-1">Technical</h11>
+            <img class="designPic-1" src="images/technical3.png" alt="researchpic1">
+            <h11 class="DP-item">HTML/CSS/JS</h11>
+            <h11 class="DP-item">Illustrator/PS</h11>
+            <h11 class="DP-item">Figma/Sketch</h11>
+          </div>
+        </div>
       </div>
+
+
     </div>
+
   </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   <!-- <hr class="horizontalBar-header" id="horizontalBar-lightGreen"> -->
 
@@ -225,34 +320,56 @@
       <h4 id="positionName">Position</h4>
     </div>
   </section> -->
+  </div>
 
-  <!--Footer Section-->
-  <section class="footer">
-    <a class="anchor-offset" id="section-footer"></a>
-    <div class="footerContent">
-    <h1 class="footerText-1">Thank you for visiting!</h1>
-    <h1 class="footerText-1">Please feel free to reach out.</h1>
-    <a href="mailto:andrewjypark@gmail.com" target="_blank">
-      <h4 class="footerText-2">andrewjypark@gmail.com</h4>
-    </a>
-    <div class="footerIcons1">
-      <!--linkedin-->
-      <a href="https://linkedin.com/in/ajypark" target="_blank">
-        <div class="linkedin_icon"></div>
-      </a>
-      <!--github-->
-      <a href="https://github.com/ajuhpark" target="_blank">
-        <div class="github_icon"></div>
-      </a>
-      <!--resume-->
-      <a href="resources\resume.pdf" target="_blank">
-        <button type="button">Resume</button>
-      </a>
-    </div>
+</div>
 
-    <h4 class="footerText-3">© 2020 Designed by Andrew Park</h4>
+<!--New Footer Section-->
+
+<section class="footer-1">
+  <a class="anchor-offset" id="section-footer"></a>
+  <div class="caseStudy-section">
+    <div class="row" id="footer-spacing">
+      <div class="col-sm-12 col-md-8">
+        <div class="footerContent-1">
+          <h12 class="footerText-5" id="footer_textLine1">Thank you for visiting!</h12>
+          <div class="footerText-5">
+          <h13 id="footer_textLine2">I would love to connect to build something together.</h13>
+        </div>
+          <div>
+            <a href="mailto:andrewjypark@gmail.com" target="_blank">
+              <h13 class="footerText-5 footerText-6" id="footer_textLine2">andrewjypark@gmail.com</h13>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4 caseStudyImage-1 footerIconsText">
+        <div class="footerIcons2 footerText-5">
+          <!--linkedin-->
+          <a href="https://linkedin.com/in/ajypark" target="_blank">
+            <div class="linkedin_icon-4"></div>
+          </a>
+
+          <!--github-->
+          <a href="https://github.com/ajuhpark" target="_blank">
+            <div class="github_icon-4"></div>
+          </a>
+
+          <!--resume-->
+          <a href="resources\resume.pdf" target="_blank">
+            <button-resume type="button-resume">Resume</button-resume>
+          </a>
+        </div>
+        <div>
+        <h11 class="footerText-4">© 2020 Designed by Andrew Park</h11>
+        </div>
+      </div>
     </div>
-  </Section>
+  </div>
+</section>
+
+
+
 
   <!--links to our JavaScript file-->
   <script src="portfolio-js.js"></script>

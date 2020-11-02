@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-173265597-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-173265597-1');
+</script>
+
+<!-- Chart JS Script -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js" integrity="sha512-s+xg36jbIujB2S2VKfpGmlC3T5V2TF3lY48DX7u2r9XzGzgPsa6wTpOQA7J9iffvdeBN0q9tKzRxVxw1JviZPg==" crossorigin="anonymous"></script>
+
+  <title>Case Study | Andrew</title>
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+
+
+  <!-- AOS animate -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- Font Awesome -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- CSS Reset -->
+  <link rel="stylesheet" type="text/css" href="reset.css">
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="styles/main.css">
+
+
+  <!-- load jquery -->
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous">
+  </script>
+
+  <!-- favicon -->
+  <link rel="icon" type="image/png" href="images/Logo_v2.png"/>
+
+</head>
+
+<body>
+  <!--Scroll to Top anchor-->
+  <a class="anchor-offset" id="top"></a>
+
+  <!--Scroll to top Button-->
+  <button href="#top" class="js-anchor-link" id="myBtn" title="Go to top">
+    <!-- <img id="arrowUp" src="https://uploads-ssl.webflow.com/59c5c3e797139c000117aa12/5a26455fbac8a400018d63b3_arrow_up_v2.svg
+" alt="icon" /> -->
+
+    <img id="scrollUpArrow" src="images/scrollUpArrow.png" alt="scrollUpArrow">
+    <!-- <img id="scrollUpHoverCircle" src="images/scrollUpHoverCircle.png" alt="scrollUpHoverCircle"> -->
+
+  </button>
+
+  <!-- Top Navigation Bar -->
+  <div  class="caseStudy-section" id="topnav">
+    <a class="homeIconContainer" style="padding-left: 0;" href="index.html">
+      <img id="homeIcon" src="images/Logo_v2.png" alt="icon" />
+    </a>
+    <div id="rightIcons">
+      <a href="#section-caseStudies" id="underline" class="js-anchor-link">Work</a>
+      <a href="about.html" id="underline">About</a>
+      <a href="#section-footer" id="underline" class="js-anchor-link">Contact</a>
+    </div>
+  </div>
+
+  <hr class="horizontalBar-header" id="horizontalBar-pink">
+
+
+  <!--Header Section-->
+  <header class="caseStudy-section" data-aos="fade-up">
+    <img id="takeLogo" src="images/takeLogo.png" alt="takeLogo" />
+
+    <!--This skip2prototype link will show over 750px-->
+    <a href="#section-finprod" class="js-anchor-link" id="skip2prototypeLink">
+      <div class="skip2prototype">
+        <img id="skip2prototypeArrow" src="images/skip2prototypeArrow.png" alt="latestWorkArrow">
+        <div class="latestWorkLink">SKIP TO PROTOTYPE</div>
+      </div>
+    </a>
+
+    <h4 id="takeDescription">Take is a community for creative fan content. Creatives can discover and share takes on their favorite tv shows, movies and books.</h4>
+
+    <!--This skip2prototype link will show under 750px-->
+    <a href="#section-finprod" class="js-anchor-link" id="skip2prototypeLink1">
+      <div class="skip2prototype">
+        <div id="latestWorkLink">SKIP TO PROTOTYPE</div>
+        <img id="skip2prototypeArrow" src="images/skip2prototypeArrow.png" alt="latestWorkArrow">
+      </div>
+    </a>
+
+    <img id="takeFinalProductImage" src="images/take_desktopMobile.png" alt="takeFinalProduct" />
+    <h4 class="roles" id="roleTitle">Role and Responsibilities</h4>
+    <h4 class="roles">Created user personas</h4>
+    <h4 class="roles">Performed user testing. </h4>
+    <h4 class="roles" id="roleBody">Created wireframes and prototypes.</h4>
+  </header>
+
+  <!--https://www.ostraining.com/blog/webdesign/create-navmenu-with-flexbox/-->
+  <!--Nav Bar for Case Study-->
+  <div class="main">
+    <nav class="navigation">
+       <ul>
+          <li><csText href="#section-overview" class="js-anchor-link">1. Overview</csText></li>
+          <li><csText href="#section-research" class="js-anchor-link">2. Research</csText></li>
+          <li>
+            <csText href="#section-infoarch" class="js-anchor-link">
+              <span class="full-text">3. Information Architecture</span>
+              <span class="short-text">3. Info Architecture</span>
+            </csText>
+          </li>
+
+          <li><csText href="#section-branding" class="js-anchor-link">4. Branding</csText></li>
+          <li><csText href="#section-testing" class="js-anchor-link">5. Testing</csText></li>
+          <li><csText href="#section-finprod" class="js-anchor-link">6. Final Product</csText></li>
+       </ul>
+    </nav>
+  </div>
+
+  <!--Overview Section-->
+  <section class="caseStudy-section" id="overviewSection">
+    <section class="CS-Sections">
+      <div class="CS-Section-Title-text"  id="overviewSectionHeading">
+        <a class="anchor-offset" id="section-overview"></a>
+
+        <div class="CS-Section-Title-number">1</div>OVERVIEW</div>
+    </section>
+
+    <!--Background Section-->
+    <section id="backgroundSection">
+      <h2 class="CS-Subheading">Background</h2>
+      <h4 class="CS-bodyText-1" id="cs-textBlock1-1">
+        My talented friends created an Instagram account called Secret Society of Artists where every week they would select a movie, game or tv show and everyone would draw and submit fan artwork for that property.  Here are screenshots of the Instagram account:
+      </h4>
+
+      <!--SSA images w captions using grid</a>-->
+      <div class="cs-image-grid-1">
+        <div class="cs-image-section-1">
+          <h4 class="cs-image-caption">Feed</h4>
+          <img class="SSA_pics" src="images/SSA_feed.png" alt="SSA_feed">
+        </div>
+
+        <div class="cs-image-section-1">
+          <h4 class="cs-image-caption">Post</h4>
+          <img class="SSA_pics" src="images/SSA_Post.png" alt="SSA_post">
+        </div>
+      </div>
+
+      <h4 class="CS-bodyText-1">
+        It looked great on the feed but there were a few things that were cumbersome about the process.
+      </h4>
+      <ol class="cs-textBlock-list">
+        <li>People had to send in artwork to the account holder and the account holder had to upload it onto the page. There was little control on the formatting of the image and caption. </li>
+        <li style="padding-top:2rem">The artist had to be tagged in the post in order for other users to see more of their work. The artist would not get notifications if there were comments or feedback on their post. </li>
+      </ol>
+      <h4 class="CS-bodyText-1" id="cs-textBlock1-2">
+        I thought there could be a better way to share artwork so I began by looking at the needs of the fan art community to define the problem.
+      </h4>
+      <hr class="horizontalBar" id="horizontalBar-pink">
+    </section>
+
+
+    <!--Problem and Solution flex wrap-->
+    <!--row 1-->
+    <!--row 1 description-->
+    <div class="container-reverse" id="container-reverse-blue">
+      <div class="box">
+        <h2 class="projectTitle">Problem</h2>
+        <h4 class="projectBrief" id="cs-textBlock1-1">The emergence of media and storytelling has given rise to the number of artists drawing fan art. Artists give their creative interpretations on different shows, movies and books that expand and personalize the storytelling experience.</h4>
+        <h4 class="projectBrief">Although the community of fan artists is large, there isn't a singular online hub for fan artwork. There is a gap in the market for an app that allows users to save, organize and upload fan artwork. </h4>
+      </div>
+      <!--row 1 image-->
+      <div class="box">
+        <img class="comp_analysis_pic1" src="images/problem_pic_1.png" alt="comp_analysis_pic1">
+      </div>
+    </div>
+
+    <!--row 2-->
+    <!--row 2 image-->
+    <div class="container-wrap-normal" id="container-wrap-normal-blue">
+      <div class="box">
+        <img class="comp_analysis_pic1" src="images/solution_pic_combined.png" alt="comp_analysis_pic2">
+      </div>
+      <!--row 2 description-->
+      <div class="box">
+        <h2 class="projectTitle">Solution</h2>
+        <h4 class="projectBrief">‘Take’ is an app focused specifically on <span style="font-weight:bold;">fan art</span>. It has an image based feed and can be filtered and categorized by the different shows and movies as well as the different mediums of artwork. </h4>
+      </div>
+    </div>
+
+
+  </section>
+
+    <hr class="horizontalBar" id="horizontalBar-blue">
+
+  <!--Research Section-->
+  <a class="anchor-offset" id="section-research"></a>
+  <section class="caseStudy-section">
+    <div class="CS-Section-Title-text">
+      <div class="CS-Section-Title-number">2</div>RESEARCH
+    </div>
+
+    <!--User Survey-->
+    <h3 class="CS-Subheading-1" id="CS-Subheading-userSurvey"="">User Survey</h3>
+    <h4 class="CS-bodyText-1">I began the project with a wider scope of looking to solve issues that users have with cloud services. I took a user survey to see how participants use cloud services and found that they often have the same goals. </h4>
+    <h4 class="CS-bodyText-1">For example:</h4>
+
+
+    <!-- Chart JS 1 -->
+    <div class="CS-bodyText-1">
+    <canvas id="chart1"></canvas>
+    </div>
+
+    <script>
+    //https://stackoverflow.com/questions/50475563/making-the-labels-responsive-in-chart-js
+    // Global Options
+    Chart.defaults.global.defaultFontFamily = 'Lato';
+    Chart.defaults.global.defaultFontSize = 15;
+    Chart.defaults.global.defaultFontColor = '#777';
+
+    var chart1 = new Chart('chart1', {
+           type: 'horizontalBar',
+           data:{
+             labels:['Images', 'Videos','Messages', 'Documents'],
+             datasets:[{
+               data:[
+                 7,
+                 1,
+                 2,
+                 6,
+                 0
+               ],
+               backgroundColor: '#673AB7',
+               borderWidth:4,
+               borderColor:'white',
+               hoverBorderWidth:4,
+               hoverBorderColor:'lightgray'
+             }]
+           },
+           options:{
+               responsive: true,
+               maintainAspectRatio: true,
+               title:{
+                 display:true,
+                 text:['What are your main personal uses for cloud storage apps?'],
+                 // fontSize='16px'
+               },
+               plugins: {
+                   datalabels: {
+                       color: 'black',
+                       anchor: "end",
+                       align: "right",
+                       offset: 10,
+                       display: function (context) {
+                           return context.dataset.data[context.dataIndex];
+                       },
+                       /* Adjust data label font size according to chart size */
+                      font: function(context) {
+                           var width = context.chart.width;
+                           var size = Math.round(width / 32);
+
+                           return {
+                              weight: 'bold',
+                               size: size
+                           };
+                        },
+                       formatter: Math.round
+                   }
+               },
+               legend: {
+                   "display": false
+               },
+               tooltips: {
+                   "enabled": false
+               },
+               scales: {
+                   yAxes: [{
+                       barPercentage: 1.0,
+                       gridLines: {
+                           display: true
+                       },
+                       // ticks: {
+                       //     fontSize: 20,
+                       //     beginAtZero: true,
+                       // },
+                       /* Keep y-axis width proportional to overall chart width */
+                       afterFit: function(scale) {
+                           var chartWidth = scale.chart.width;
+                           var new_width=chartWidth*.2;
+
+                           scale.width = new_width;
+                       }
+                   }],
+                   xAxes: [{
+                       gridLines: {
+                           display: true
+                       },
+                       // ticks: {
+                       //     min: 0,
+                       //     max: 100,
+                       //     stepSize: 20
+                       // }
+                   }]
+               }
+           },
+           plugins: [{
+              /* Adjust axis labelling font size according to chart size */
+              beforeDraw: function(c) {
+                  var chartHeight = c.chart.height;
+                  var size = chartHeight * 4.2 / 100;
+                  c.scales['y-axis-0'].options.ticks.minor.fontSize = size;
+              }
+           }]
+
+           })
+    </script>
+
+
+    <h4 class="CS-bodyText-1">The type of content that participants shared the most were <span style="font-weight:bold;">images</span> and <span style="font-weight:bold;">documents</span>.</h4>
+
+    <!-- <img class="user-survey_pic" src="images/user-survey_pic1.png" alt="user-survey_pic1"> -->
+
+
+    <!-- Chart JS 2 -->
+    <div class="CS-bodyText-1">
+    <canvas id="chart2"></canvas>
+    </div>
+
+    <script>
+    var chart2 = new Chart('chart2', {
+           type: 'horizontalBar',
+           data:{
+             labels:[['To collaborate', 'with people'], 'To back up files','To organize files', 'To transfer files', 'To view files'],
+             datasets:[{
+               data:[
+                 7,
+                 8,
+                 5,
+                 3,
+                 4,
+                 0
+               ],
+               backgroundColor: '#673AB7',
+               borderWidth:4,
+               borderColor:'white',
+               hoverBorderWidth:4,
+               hoverBorderColor:'lightgray'
+             }]
+           },
+           options:{
+               responsive: true,
+               maintainAspectRatio: true,
+               title:{
+                 display:true,
+                 text:['What are your main personal uses of cloud storage apps?'],
+                 // fontSize='16px'
+               },
+               plugins: {
+                   datalabels: {
+                       color: 'black',
+                       anchor: "end",
+                       align: "right",
+                       offset: 10,
+                       display: function (context) {
+                           return context.dataset.data[context.dataIndex];
+                       },
+                       /* Adjust data label font size according to chart size */
+                       font: function(context) {
+                            var width = context.chart.width;
+                            var size = Math.round(width / 32);
+                            return {
+                               weight: 'bold',
+                                size: size
+                            };
+                         },
+
+                       formatter: Math.round
+                   }
+               },
+               legend: {
+                   "display": false
+               },
+               tooltips: {
+                   "enabled": false
+               },
+               scales: {
+                   yAxes: [{
+                       barPercentage: 1.0,
+                       gridLines: {
+                           display: true
+                       },
+                       // ticks: {
+                       //     fontSize: 20,
+                       //     beginAtZero: true,
+                       // },
+                       /* Keep y-axis width proportional to overall chart width */
+                       afterFit: function(scale) {
+                           var chartWidth = scale.chart.width;
+                           var new_width=chartWidth*.2;
+
+                           scale.width = new_width;
+                       }
+                   }],
+                   xAxes: [{
+                       gridLines: {
+                           display: true
+                       },
+                       // ticks: {
+                       //     min: 0,
+                       //     max: 100,
+                       //     stepSize: 20
+                       // }
+                   }]
+               }
+           },
+           plugins: [{
+              /* Adjust axis labelling font size according to chart size */
+              beforeDraw: function(c) {
+                  var chartHeight = c.chart.height;
+                  var size = chartHeight * 4.5 / 100;
+                  c.scales['y-axis-0'].options.ticks.minor.fontSize = size;
+              }
+           }]
+
+           })
+    </script>
+
+    <h4 class="CS-bodyText-1">The participants' main purposes for cloud storage were to <span style="font-weight:bold;">collaborate with people</span> and to <span style="font-weight:bold;">back up and organize files.</span></h4>
+    <!-- <img class="user-survey_pic" src="images/user-survey_pic2.png" alt="user-survey_pic1"> -->
+
+    <div class="moreInfo2">
+      <a href="https://forms.gle/URZ8FN2nBseBVRVD9" target="_blank">
+        <h3 id="underline1">VIEW FULL QUESTIONNAIRE</h3>
+      </a>
+    </div>
+
+    <hr class="horizontalBar" id="horizontalBar-pink">
+
+    <!--User Stories-->
+    <h3 class="CS-Subheading-1">User Stories</h3>
+    <h4 class="CS-bodyText-1">Based on the survey, I created user stories and these are a few tasks that people might want to accomplish using a cloud platform.</h4>
+    <table>
+      <tr>
+        <th>Role</th>
+        <th>Task</th>
+        <th>Importance</th>
+      </tr>
+      <tr>
+        <td>As a new user</td>
+        <td>I want a simple onboarding process.</td>
+        <td>High</td>
+      </tr>
+      <tr>
+        <td>As a returning user</td>
+        <td>I want to share pictures and videos with friends and family.</td>
+        <td>High</td>
+      </tr>
+      <tr>
+        <td>As a returning user</td>
+        <td>I want to save files.</td>
+        <td>High</td>
+      </tr>
+      <tr>
+        <td>As a returning user</td>
+        <td>I want to organize files into folders.</td>
+        <td>High</td>
+      </tr>
+      <tr>
+        <td>As a returning user</td>
+        <td>I want the app to be compatible with other apps.</td>
+        <td>Medium</td>
+      </tr>
+      <tr>
+        <td>As a returning user</td>
+        <td>I want to make comments on people’s content.</td>
+        <td>Low</td>
+      </tr>
+    </table>
+
+    <div class="moreInfo2">
+      <a href="https://docs.google.com/spreadsheets/d/16ONXHNtFdMIx8Won79E0ADT1MDQxV1kAy8GMB1NSqn8/edit?usp=sharing" target="_blank">
+        <h3 id="underline1">VIEW ALL USER STORIES</h3>
+      </a>
+    </div>
+
+    <hr class="horizontalBar" id="horizontalBar-pink">
+
+    <!--User Personas-->
+    <h3 class="CS-Subheading-1">User Personas</h3>
+    <!--User Persona 1-->
+    <div class="wrapper">
+      <!-- <header class="header">Header</header> -->
+      <aside class="aside aside-1">
+        <img class="user-persona_pic" src="images/user-persona-pic1.png" alt="user-persona_pic1">
+      </aside>
+      <aside class="aside aside-2">
+        <!--Basic Info-->
+        <div class="userPersona-basicStats">
+          <h5>Amy</h5>
+          <h5>30</h5>
+          <h5>File Clerk</h5>
+          <h5>Denver, CO</h5>
+        </div>
+      </aside>
+
+      <article class="main1">
+        <div class="userPersona-moreInfo">
+          <div class="userPersona-moreInfo1">
+            <h5>BIO</h5>
+            <h6>Amy is a file clerk and outside of work, she enjoys drawing Star Wars fan art.</h6>
+          </div>
+          <!--Goals-->
+          <div class="userPersona-moreInfo1">
+            <h5>GOALS</h5>
+            <ul>
+              <li>Access docs and pictures from all devices including her work and home computer.</li>
+              <li>Share creative images and projects on social media.</li>
+            </ul>
+          </div>
+          <!--Frustrations-->
+          <div class="userPersona-moreInfo1">
+            <h5>FRUSTRATIONS</h5>
+            <ul>
+              <li h6>Has trouble finding a platform to share her creative projects.</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <hr class="horizontalBar" id="horizontalBar-gray">
+
+    <!--User Persona 2-->
+    <div class="wrapper">
+      <!-- <header class="header">Header</header> -->
+      <aside class="aside aside-1">
+        <img class="user-persona_pic" src="images/user-persona-pic2.png" alt="user-persona_pic2">
+      </aside>
+      <aside class="aside aside-2">
+        <!--Basic Info-->
+        <div class="userPersona-basicStats">
+          <h5>Daniel</h5>
+          <h5>20</h5>
+          <h5>Student</h5>
+          <h5>Irvine, CA</h5>
+        </div>
+      </aside>
+
+      <article class="main1">
+        <div class="userPersona-moreInfo">
+          <div class="userPersona-moreInfo1">
+            <h5>BIO</h5>
+            <h6>Daniel is a student at California Institute of the Arts.</h6>
+          </div>
+          <!--Goals-->
+          <div class="userPersona-moreInfo1">
+            <h5>GOALS</h5>
+            <ul>
+              <li>Save images he likes in folders for inspiration.</li>
+              <li>Upload art projects outside of his curriculum.</li>
+            </ul>
+          </div>
+
+          <!--Frustrations-->
+          <div class="userPersona-moreInfo1">
+            <h5>FRUSTRATIONS</h5>
+            <ul>
+              <li h6>Has a hard time finding other people’s artwork and inspiration on one platform.</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <div class="moreInfo2">
+      <a href="https://www.figma.com/proto/paJvZu2ECD3UphW7JDwmxw/User-Persona-Cloud-Storage?node-id=1%3A3&scaling=min-zoom" target="_blank">
+        <h3 id="underline1">VIEW COMPLETE USER PERSONAS</h3>
+      </a>
+    </div>
+
+    <hr class="horizontalBar" id="horizontalBar-pink">
+
+    <!--Competitive Analysis-->
+    <h3 class="CS-Subheading-1">Competitive Analysis</h3>
+    <h4 class="CS-bodyText-1">Once I decided to do a fanart based app, I started looking at different websites for inspiration. These were some aspects that I liked from different sites:</h4>
+
+    <!--Comp Analysis Grid-->
+    <div class="container-reverse-1" id="container-reverse-green">
+      <div class="box-1">
+        <h4 class="projectBrief" id="cs-textBlock1-1">VSCO’s grid has images with a common width but different heights. The stagger gave it an interesting look. </h4>
+      </div>
+      <div class="box-1">
+        <h4 class="comp_analysis_caption"><span style="font-weight:bold;">VSCO</span> | Feed</h4>
+        <img class="comp_analysis_pic" src="images/comp_analysis_pic1.png" alt="comp_analysis_pic1">
+      </div>
+    </div>
+
+    <div class="container-wrap-normal-1" id="container-wrap-normal-green">
+      <div class="box-1">
+        <h4 class="comp_analysis_caption"><span style="font-weight:bold;">Rotten Tomatoes</span> | Menu Bar</h4>
+        <img class="comp_analysis_pic" src="images/comp_analysis_pic2.png" alt="comp_analysis_pic2">
+      </div>
+      <div class="box-1">
+        <h4 class="projectBrief" id="cs-textBlock1-1">Rotten Tomatoes used their menu bar to clearly organize content.</h4>
+      </div>
+    </div>
+  </section>
+
+  <hr class="horizontalBar" id="horizontalBar-blue">
+
+<!--Information Architecture Section-->
+  <a class="anchor-offset" id="section-infoarch"></a>
+  <section class="caseStudy-section">
+    <div class="CS-Section-Title-text">
+      <div class="CS-Section-Title-number">3</div>
+      INFORMATION ARCHITECTURE
+    </div>
+
+    <!--Sketches to Wireframes-->
+    <h3 class="CS-Subheading-1" id="CS-Subheading-s2w-1">Sketches to Wireframes</h3>
+    <h4 class="CS-bodyText-1">These are sketches for the menu bar, the feed, and search results page.</h4>
+    <div class="s2w-container">
+      <img class="s2w_pic" src="images/sketches_pic1.png" alt="sketches_pic1">
+    </div>
+
+    <h4 class="CS-bodyText-1" id="CS-bodyText-1-1">I compiled the sketches to create a homepage.</h4>
+    <div class="s2w-container" id="s2w-container-1">
+      <img class="s2w_pic" src="images/sketches_pic2.png" alt="sketches_pic2">
+    </div>
+
+    <h4 class="CS-bodyText-1" id="CS-bodyText-1-1">From the sketch, I created this wireframe of the homepage.</h4>
+    <div class="s2w-container" id="s2w-container-2">
+      <img class="s2w_pic" src="images/wireframe_pic1.png" alt="wireframe_pic1">
+    </div>
+
+  </section>
+
+  <hr class="horizontalBar" id="horizontalBar-blue">
+
+  <!--Branding-->
+  <a class="anchor-offset" id="section-branding"></a>
+  <section class="caseStudy-section">
+    <div class="CS-Section-Title-text">
+      <div class="CS-Section-Title-number">4</div>BRANDING
+    </div>
+
+    <!--Logo-->
+    <h3 class="CS-Subheading-1" id="CS-Subheading-s2w-1">Logo</h3>
+    <h4 class="CS-bodyText-1">I named the app ‘Take’ because users would be giving their creative takes on different media. These are a few iterations of the logos. I landed on the last logo. The logo is meant to have a sketch feeling to highlight the creation process.  </h4>
+    <div class="s2w-container" id="branding_logo_pic1">
+      <img class="s2w_pic" src="images/branding_logo_pic.png" alt="branding_logo_pic">
+    </div>
+
+    <hr class="horizontalBar" id="horizontalBar-pink">
+
+    <!--Font-->
+    <h3 class="CS-Subheading-1">Fonts</h3>
+    <!--Merriweather-->
+    <div class="CS-bodyText-1" id="branding_logo_pic1-1">
+      <h7 class="branding_font_subheading">Merriweather</h7>
+      <h7 class="branding_font_body">Merriweather is a study serif typeface and is used in the banner and for branding.</h7>
+    </div>
+    <!--Inter-->
+    <div class="CS-bodyText-1" id="branding_logo_pic1-1">
+      <h4 class="branding_font_subheading">Inter</h4>
+      <h4 class="branding_font_body">Interface is a highly legible sans serif typeface. It’s used for body, post and button texts.</h4>
+    </div>
+
+    <hr class="horizontalBar" id="horizontalBar-pink">
+
+    <!--Color-->
+    <h3 class="CS-Subheading-1">Color</h3>
+    <div class="container-wrap-normal-1" id="container-wrap-normal-green">
+      <div class="box-2">
+        <img class="branding_color_pic" src="images/branding_color_black.png" alt="branding_color_pic">
+        <img class="branding_color_pic" src="images/branding_color_gray.png" alt="branding_color_pic">
+        <img class="branding_color_pic" src="images/branding_color_orange.png" alt="branding_color_pic">
+      </div>
+      <div class="box-3">
+        <h4 class="projectBrief">The site consists of a white background, black outlines and shades of grey with orange accents. I wanted it to be simple so the user posts would be at the forefront.</h4>
+      </div>
+    </div>
+  </section>
+
+  <div class="moreInfo2">
+    <a href="resources\style_guide.pdf" target="_blank">
+      <h3 id="underline1">VIEW STYLE GUIDE ASSETS</h3>
+    </a>
+  </div>
+
+  <hr class="horizontalBar" id="horizontalBar-blue">
+
+      <!--Testing Section-->
+      <a class="anchor-offset" id="section-testing"></a>
+      <section class="caseStudy-section">
+        <div class="CS-Section-Title-text">
+          <div class="CS-Section-Title-number">5</div>TESTING
+        </div>
+
+        <!--Sketches to Wireframes-->
+        <h4 class="CS-bodyText-1" id="cs-textBlock1-2">I moderated user-testing for different tasks on my wireframes and it mad me look at different ways to organize content on my page. Here are a few examples of changes I made.</h4>
+
+        <!-- Menu Bar from Testing -->
+        <h3 class="CS-Subheading-1" id="CS-Subheading-s2w-2">Menu Bar</h3>
+        <h4 class="CS-bodyText-1" id="CS-bodyText-1-2">I wanted to give the users a place to start so I made a menu bar that would be categorized by movies, tv shows and other media. When a user would click on ‘movies’, they would see suggestions on different movies, popular posts and featured posts chosen by the staff.</h4>
+
+        <img class="user-survey_pic" src="images/testing_pic1.png" alt="testing_pic1">
+
+        <h4 class="CS-bodyText-1" id="CS-bodyText-1-2">Instead of organizing information in a menu bar, I decided to organize content in the feed by splitting the feed into different categories. I put in sections for recommended,  trending posts and staff picks within the user’s feed.</h4>
+
+        <img class="user-survey_pic" id="user-survey_pic-1" src="images/testing_pic2.png" alt="testing_pic1">
+
+        <hr class="horizontalBar" id="horizontalBar-pink">
+
+        <!-- Filter Bar from Testing -->
+        <h3 class="CS-Subheading-1">Filter</h3>
+        <h4 class="CS-bodyText-1" id="CS-bodyText-1-2">Based on user feedback, the content in the feed needed more structure and organization. I put in an expandable filter section where users could select which media they wanted to see in the feed along with an option for timing to see posts from different time frames (today, this week, this month...). Inside the filter, I also included a section for popular tags to give users a starting ground. </h4>
+        <img class="user-survey_pic" src="images/testing_pic3.png" alt="testing_pic3">
+
+        <hr class="horizontalBar" id="horizontalBar-pink">
+
+        <!-- Banner Bar from Testing -->
+        <h3 class="CS-Subheading-1">Banner</h3>
+        <h4 class="CS-bodyText-1" id="CS-bodyText-1-2">When I was user testing, a few participants were unsure of what the site was for. Because it involved different types of media, some people mistook it for a streaming service like Hulu or Netflix.</h4>
+        <h4 class="CS-bodyText-1" id="CS-bodyText-1-3">To make the purpose of the site more clear, I placed a banner at the top of the website with the site mission statement stating that it’s a website for creative fan content.</h4>
+        <img class="user-survey_pic" src="images/testing_pic4.png" alt="testing_pic4">
+
+      </section>
+
+      <hr class="horizontalBar" id="horizontalBar-blue">
+
+
+      <!--Final Product Section-->
+      <a class="anchor-offset" id="section-finprod"></a>
+      <section class="caseStudy-section">
+        <div class="CS-Section-Title-text">
+          <div class="CS-Section-Title-number">6</div>FINAL PRODUCT
+        </div>
+
+        <h3 class="CS-Subheading-1" id="CS-Subheading-s2w-2">Prototype</h3>
+        <h4 class="CS-bodyText-1" id="CS-bodyText-1-2">These are a few things you can do in the app.</h4>
+        <!--Video-->
+        <div class="take-video-section">
+          <iframe class="take-video" width="560" height="315" src="https://www.youtube.com/embed/Uk1IPjA34a8?rel=0&color=white" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div class="moreInfo2">
+          <a href="https://www.figma.com/proto/2xXiyRjexPEQ61geZBqyqA/Take-Wireframe?node-id=8280%3A7832&scaling=scale-down" target="_blank">
+            <h3 id="underline1">VIEW MOBILE PROTOTYPE</h3>
+          </a>
+        </div>
+
+        <div class="moreInfo2">
+          <a href="https://www.figma.com/proto/2xXiyRjexPEQ61geZBqyqA/Take-Wireframe?node-id=8070%3A331&scaling=scale-down" target="_blank">
+            <h3 id="underline1">VIEW DESKTOP PROTOTYPE</h3>
+          </a>
+        </div>
+      </section>
+
+      <hr class="horizontalBar" id="horizontalBar-blue">
+
+      <section class="caseStudy-section">
+        <div>
+          <h2 class="CS-Subheading" id="CS-Subheading-2">Conclusion</h2>
+
+          <h4 class="CS-bodyText-1" id="cs-textBlock1-2">
+          One of my main takeaways from this project was to make things obvious and clear from the start.
+          </h4>
+          <h4 class="CS-bodyText-1">
+          After performing user testing on my first mockup, I was surprised to see that there was confusion on the function and purpose of the app. The mixture of media and art for the content threw some people off. Because the idea of 'Take' had been brewing in my mind, I mistakenly assumed that my users would be on the same wavelength and be off and running once they clicked into it.
+          </h4>
+          <h4 class="CS-bodyText-1">
+          After seeing which parts of the app were difficult to initially grasp, I tried to make everything as obvious and clear as possible. I put a large banner with the 'Take' mission statement on the top of the website. I put the home, search and account buttons where other social media apps would normally have them. I tried to adapt features from Youtube and VSCO for the feed so the organization of the content would look familiar but the layout would still look fresh and specific to 'Take'.
+          </h4>
+          <h4 class="CS-bodyText-1" id="cs-textBlock1-3">
+          'Take' was created with the foundation of user research, surveying and testing. Through different iterations, this app hopefully accomplished the goal of creating a collaborative service where users could save, organize and upload fan artwork.
+          </h4>
+        </div>
+      </section>
+
+      <!--Footer Section-->
+      <section class="footer">
+        <a class="anchor-offset" id="section-footer"></a>
+        <div class="footerContent">
+        <h1 class="footerText-1">Thank you for visiting!</h1>
+        <h1 class="footerText-1">Please feel free to reach out.</h1>
+        <a href="mailto:andrewjypark@gmail.com" target="_blank">
+          <h4 class="footerText-2">andrewjypark@gmail.com</h4>
+        </a>
+        <div class="footerIcons1">
+          <!--linkedin-->
+          <a href="https://linkedin.com/in/ajypark" target="_blank">
+            <div class="linkedin_icon"></div>
+          </a>
+          <!--github-->
+          <a href="https://github.com/ajuhpark" target="_blank">
+            <div class="github_icon"></div>
+          </a>
+          <!--resume-->
+          <a href="resources\resume.pdf" target="_blank">
+            <button type="button">Resume</button>
+          </a>
+        </div>
+
+        <h4 class="footerText-3">© 2020 Designed by Andrew Park</h4>
+        </div>
+      </Section>
+
+    <!--links to our JavaScript file-->
+    <script src="portfolio-js.js"></script>
+
+    <!--AOS Script-->
+    <script>
+      AOS.init({
+        offset: 400,
+        duration: 1200,
+      });
+    </script>
+
+  </body>
+</html>

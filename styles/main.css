@@ -169,11 +169,11 @@ h13 {
 
 #rightIcons {
   float: right;
-  font-family: "Lato";
+  font-family: "Roboto";
   position: relative;
   /* padding-right: 10rem; */
   top: 50%;
-  transform: translate(0, -50%);
+  /* transform: translate(0, -50%); */
 }
 
 .link {
@@ -234,9 +234,11 @@ h13 {
   padding-top: 1.4rem;
   padding-bottom: 1.4rem;
   padding-left:3.2rem;
-
   text-align: center;
   text-decoration: none;
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
 }
 
 /* Change the color of links on hover */
@@ -2972,7 +2974,7 @@ font-size:1.4rem;
 
 /* new homepage */
 
-#homeIconContainer{
+.homeIconContainer{
   position: relative;
   top: 50%;
   transform: translate(0, -50%);
