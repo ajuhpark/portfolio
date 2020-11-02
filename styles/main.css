@@ -1456,7 +1456,7 @@ main {
   margin-left: auto;
   margin-right: auto;
   padding-top:20px;
-  width: 56%;
+  width: 62%;
 }
 
 #user-survey-1{
@@ -1466,6 +1466,10 @@ main {
 #user-survey_pic-1{
   padding-bottom:2rem;
   padding-top:2rem;
+}
+
+#user-survey_pic-2{
+  width: 80%;
 }
 
 #CS-Subheading-1{
@@ -1814,16 +1818,16 @@ margin: 0px;
 }
 
 #s2w-container-1{
-  background-color: #EA9D8C;
+  /* background-color: #EA9D8C; */
 }
 
 #s2w-container-2{
-  background-color: #DF6A50;
+  /* background-color: #DF6A50; */
 }
 
 .s2w-container{
   align-items: center;
-  background-color: #F4CEC5;
+  background-color: #fff5f5;
   border-radius: 4px;
   display:flex;
   justify-content: center;
@@ -2396,6 +2400,10 @@ csText:hover {
     width: 70%;
   }
 
+  #user-survey_pic-2{
+    width: 90%;
+  }
+
   .s2w-container{
     align-items: center;
     /* margin-left: 22%;
@@ -2489,6 +2497,10 @@ csText:hover {
   .user-survey_pic{
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
+  }
+
+  #user-survey_pic-2{
     width: 100%;
   }
 
@@ -2657,6 +2669,10 @@ csText:hover {
   margin-left: auto;
   margin-right: auto;
   border: 1px solid lightgray;
+}
+
+#no-gray-border{
+  border: none;
 }
 
 .comp_analysis_caption_theRing{
@@ -3533,12 +3549,12 @@ section button-resume:hover {
   min-width: 300px;
   padding:10px 0 10px 0;
   /* background-color: whitesmoke; */
-  /* border: 1px solid white; */
+  /* border: 1px solid black; */
   width: 45%;
 }
 
 #probSol_description{
-  width: 45%;
+  /* width: 45%; */
 }
 
 #probSol_compAnalysis{
