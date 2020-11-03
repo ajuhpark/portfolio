@@ -16,6 +16,11 @@
   <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
 
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+
   <!-- AOS animate -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -56,180 +61,92 @@
   </button>
 
   <!-- Top Navigation Bar -->
-  <div class="caseStudy-section" id="topnav">
-    <a id="homeIconContainer" href="index.html">
-    <img id="homeIcon" src="images/Logo_v2.png" alt="icon" />
+  <div  class="caseStudy-section" id="topnav">
+    <a class="homeIconContainer" style="padding-left: 0;" href="index.html">
+      <img id="homeIcon" src="images/Logo_v2.png" alt="icon" />
     </a>
     <div id="rightIcons">
       <a href="index.html#section-caseStudies" id="underline">Work</a>
       <a href="about.html" id="underline">About</a>
-      <div id="noPaddingRight">
-        <a href="#section-footer" id="underline" class="js-anchor-link">Contact</a>
-      </div>
+      <a href="#section-footer" id="underline" class="js-anchor-link">Contact</a>
     </div>
   </div>
 
   <hr class="horizontalBar-header" id="horizontalBar-pink">
 
-  <!-- Banner -->
-  <!--row 1-->
-  <div class="container-reverse-3">
-    <!--row 1 description-->
-    <div class="box-4">
-      <div class="caseStudyDescription1">
-        <h1 id="bannerText1-1" class="bannerText1">Hi, I'm Andrew.</h1>
-        <p id="bannerText3-1" class="bannerText3">I design clear, communicative and friendly user experiences.</p>
+
+
+
+
+
+
+  <!--The Ring Case Study Row-->
+  <div class="caseStudy-section">
+    <div class="row container-wrap-normal-5 bannerText1-3">
+
+      <div class="col-sm-8 col-md-4">
+        <div class="caseStudyDescription1-1">
+          <div class="image_columnContainer image_columnContainer-2">
+            <img src="images/aboutme_andrewpic1.png" class="img-fluid-3" id="ring_firstImage" alt="Responsive image">
+          </div>
+        </div>
       </div>
-    </div>
-    <!--row 1 image-->
-    <div class="box-5">
-      <div id="aboutmeImageContainer" class="caseStudyImage">
-        <img class="caseStudyImage1-1" src="images/aboutme_andrewpic.png" alt="caseStudyImage1">
+      <div class="col-md-8 caseStudyImage-1">
+        <div class="about_descriptionContainer">
+          <h10 class="projectTitle">Hi, I’m Andrew.</h10>
+          <h4>A UX Designer that enjoys thinking through problems from different user perspectives and solving them with clear design.</h4>
+          <h4 class="CS-bodyText-2">As a beneficiary of good designs that have connected me to others, my goal is to work on designs that give other people a sense of belonging. I’m continually working towards being a good team player and designing good processes.</h4>
+          <h4 class="CS-bodyText-2">Outside of design, I enjoy taking creative writing classes, cheering for Clippers <img class="imageWithText1" src="images/theRing_images/basketball.png">  like my analysis will have an effect on their performance, and trading tv show recs.</h4>
+        </div>
       </div>
     </div>
   </div>
 
-  <header>
-    <a href="#section-myJourney" class="js-anchor-link">
-      <div class="latestWorkLinkHomepage">A LITTLE ABOUT ME</div>
-      <img id="latestWorkArrowHomepage" src="images/latestWorkArrow.png" alt="latestWorkArrow">
-    </a>
-  </header>
-
-  <hr class="horizontalBar-header" id="horizontalBar-lightGreen">
-
-  <section class="caseStudy-section">
-
-    <h1 class="aboutHeading">My journey into design...</h1>
-    <a class="anchor-offset" id="section-myJourney"></a>
-
-    <h4 style="line-height:145%;" class="CS-bodyText-1" id="cs-textBlock1-1">One of the main reasons I decided to pursue design is because of the impact that good design had on me. During a period when I was rethinking and toiling over my next career step, I established daily disciplines and the most consistent of them was watching the tv show 'Parks and Rec'.
-    </h4 style="line-height:145%;">
-
-    <img id="Leslie-1" src="images/leslie_Parksnrec.jpg" alt="Leslie-1">
-
-    <h4 style="line-height:145%;" class="CS-bodyText-1" id="cs-textBlock1-1">This daily dose not only brought a sense of much needed levity but, in a season where I felt isolated in my search for the right steps to take, ‘Parks and Rec’ gave me a sense of belonging and the knowledge that I wasn't alone in this journey.
-    </h4 style="line-height:145%;">
-
-    <h4 style="line-height:145%;" class="aboutHeading-1">Here is one example. </h4 style="line-height:145%;">
-  </section>
 
 
-  <section id="about-pnrSection" class="homepage-section">
-    <!--row 1-->
-    <div class="container-reverse-3">
-      <!--row 1 description-->
-      <div class="box">
-        <div class="caseStudyDescription1">
-          <h4 style="line-height:145%;">In season 6, Leslie Knope, the show's hard working government worker protagonist, loses her recall election for Pawnee City Council and her disappointment is real. She falls into a spiral - losing interest, getting drunk and wearing uggs. </h4 style="line-height:145%;">
+  <!--New Footer Section-->
 
-        </div>
-      </div>
-      <!--row 1 image-->
-      <div class="box">
-        <div class="caseStudyImage">
-          <div style="width:100%;height:0;padding-bottom:56%;position:relative;">
-            <video controls playsinline preload="metadata" style="width:100%;" preload="metadata">
-              <source src="video/leslie-gif-1.mp4#t=0.1" type="video/mp4" width="100%" height="96%" style="position:absolute" frameBorder="0" class="gif">
-            </video>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <!--row 2-->
-    <div class="container-wrap-normal-3">
-      <!--row 2 image-->
-      <div class="box">
-        <div class="caseStudyImage">
-
-          <div style="width:100%;height:0;padding-bottom:56%;position:relative;">
-            <video controls playsinline style="width:100%;">
-              <source src="video/leslie-gif-2.mp4#t=0.1" type="video/mp4" width="99%" height="100%" style="position:absolute" frameBorder="0" class="gif" allowFullScreen>
-            </video>
-          </div>
-
-        </div>
-      </div>
-      <!--row 2 description-->
-      <div class="box">
-        <div class="caseStudyDescription1">
-          <h4 style="line-height:145%;">But her best friend Ann makes Leslie read a letter she had self-penned to herself prior to the election and reminds Leslie of all the good things she can still get done in her final 30 days.</h4 style="line-height:145%;">
-        </div>
-      </div>
-    </div>
-
-
-    <!--row 3-->
-    <div class="container-reverse-3">
-      <!--row 3 description-->
-      <div class="box">
-        <div class="caseStudyDescription1">
-          <h4 style="line-height:145%;">In her concession speech, Leslie concedes that she has lost, but despite having been kicked out by the citizens of Pawnee, she informs them that she will continue to serve and work hard during her final days in office.</h4 style="line-height:145%;">
-        </div>
-      </div>
-      <!--row 3 image-->
-      <div class="box">
-        <div class="caseStudyImage">
-          <div style="width:100%;height:0;padding-bottom:56%;position:relative;">
-            <video controls playsinline preload="metadata" style="width:100%;" preload="metadata">
-              <source src="video/leslie-gif-3.mp4#t=0.1" type="video/mp4" width="100%" height="100%" style="position:absolute" frameBorder="0" class="gif">
-            </video>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="caseStudy-section">
-
-
-  <h4 style="line-height:145%;" class="CS-bodyText-1" id="cs-textBlock1-2">We’ve all been dealt blows in life where we feel confused and isolated. Seeing Leslie go through it on the show didn’t change my circumstances but it did make me feel less alone in my journey. It also reminded me to push through and keep a killer mentality (re: mamba <img class="imageWithText1" src="images/theRing_images/basketball.png">).
-  </h4 style="line-height:145%;">
-
-  <h4 style="line-height:145%;" class="CS-bodyText-1">Eventually I was fortunate enough to land in product development at an entertainment company which combined two of my joys, product and storytelling.</h4 style="line-height:145%;">
-
-  <h4 style="line-height:145%;" class="CS-bodyText-1" id="cs-textBlock1-1">Watching Parks and Rec also led me to take screenwriting classes outside of work where I learned how to build and organize content.  Seeing all the detailed work that went into writing an episode of a tv show reminded me that good design is transparent.  When content is organized and presented clearly, people can focus on the message. Just as I was the beneficiary of good design, my goal is to work on designs that gives other people a sense of belonging.</h4 style="line-height:145%;">
-
-  <h4 style="line-height:145%;" class="aboutHeading-2">And also to have fun.</h4 style="line-height:145%;">
-
-    <div id="giphy-box" class="box">
-      <div id="caseStudyImageContainer1" class="caseStudyImage">
-        <IMG SRC="video/Leslie_Happy.gif" style="width:100%;">
-      </div>
-    </div>
-  </section>
-
-
-  <!--Footer Section-->
-  <section class="footer">
+  <section class="footer-1">
     <a class="anchor-offset" id="section-footer"></a>
-    <div class="footerContent">
-    <h1 class="footerText-1">Thank you for visiting!</h1>
-    <h1 class="footerText-1">Please feel free to reach out.</h1>
-    <a href="mailto:andrewjypark@gmail.com" target="_blank">
-      <h4 class="footerText-2">andrewjypark@gmail.com</h4>
-    </a>
-    <div class="footerIcons1">
-      <!--linkedin-->
-      <a href="https://linkedin.com/in/ajypark" target="_blank">
-        <div class="linkedin_icon"></div>
-      </a>
-      <!--github-->
-      <a href="https://github.com/ajuhpark" target="_blank">
-        <div class="github_icon"></div>
-      </a>
-      <!--resume-->
-      <a href="resources\resume.pdf" target="_blank">
-        <button type="button">Resume</button>
-      </a>
-    </div>
+    <div class="caseStudy-section">
+      <div class="row" id="footer-spacing">
+        <div class="col-sm-12 col-md-8">
+          <div class="footerContent-1">
+            <h12 class="footerText-5" id="footer_textLine1">Thank you for visiting!</h12>
+            <div class="footerText-5">
+            <h13 id="footer_textLine2">I would love to connect to build something together.</h13>
+          </div>
+            <div>
+              <a href="mailto:andrewjypark@gmail.com" target="_blank">
+                <h13 class="footerText-5 footerText-6" id="footer_textLine2">andrewjypark@gmail.com</h13>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 caseStudyImage-1 footerIconsText">
+          <div class="footerIcons2 footerText-5">
+            <!--linkedin-->
+            <a href="https://linkedin.com/in/ajypark" target="_blank">
+              <div class="linkedin_icon-4"></div>
+            </a>
 
-    <h4 class="footerText-3">© 2020 Designed by Andrew Park</h4>
-    </div>
-  </Section>
+            <!--github-->
+            <a href="https://github.com/ajuhpark" target="_blank">
+              <div class="github_icon-4"></div>
+            </a>
 
+            <!--resume-->
+            <a href="resources\resume.pdf" target="_blank">
+              <button-resume type="button-resume">Resume</button-resume>
+            </a>
+          </div>
+          <div>
+          <h11 class="footerText-4">© 2020 Designed by Andrew Park</h11>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!--links to our JavaScript file
     -->

@@ -314,6 +314,10 @@ h13 {
   padding-top:15.4rem;
 }
 
+.bannerText1-3{
+  padding-top:10rem;
+}
+
 #bannerText2Line {
   position: relative;
 }
@@ -980,15 +984,16 @@ section button:hover {
   text-align: left;
   padding-top: 6rem;
   padding-bottom: 8rem;
-
 }
+
 
 .HP-Heading-2{
   text-align: left;
   padding-top: 6rem;
   padding-bottom: 4rem;
-
 }
+
+
 
 @media (max-width: 700px) {
   #topnav a {
@@ -1038,9 +1043,9 @@ section button:hover {
   }
 
   .imageWithText{
-      /* width:auto;
-      height:3rem;
-      vertical-align:text-bottom;*/
+      /* width:auto; */
+      height:3.5rem;
+      /* vertical-align:text-bottom; */
       /*or text-bottom or text-top*/
    }
 
@@ -1101,6 +1106,23 @@ section button:hover {
   /*get content vertically centered when width is small*/
   #footerContent1 {
     transform: translate(0, -25%);
+  }
+
+  .HP-Heading-1{
+    font-size: 3.2rem;
+  }
+
+
+  .HP-Heading-2{
+    font-size: 3.2rem;
+  }
+
+  .bannerText1-2{
+    font-size: 3.2rem;
+  }
+
+  #bannerText2-1{
+    font-size: 3.2rem;
   }
 }
 
@@ -3083,6 +3105,18 @@ gap:2rem;
   float:right;
 }
 
+.img-fluid-3{
+  max-width: 100%;
+  height:auto;
+  /* min-width:43rem; */
+  max-height:47rem;
+  /* border: black solid 1px; */
+  margin:auto;
+  display: block;
+  float:left;
+  /* padding:2rem; */
+}
+
 
 #ring_secondImage{
   display:none;
@@ -3091,6 +3125,11 @@ gap:2rem;
 @media (max-width:474px) {
   .img-fluid-1{
     min-width:30rem;
+    max-width: 100%;
+  }
+
+  .img-fluid-3{
+    /* min-width:30rem; */
     max-width: 100%;
   }
 }
@@ -3127,6 +3166,12 @@ gap:2rem;
     display: block;
     min-width:43rem;
   }
+
+  .img-fluid-3{
+    margin:auto;
+    display: block;
+    /* min-width:43rem; */
+  }
 }
 
 @media (max-width:1225px) {
@@ -3154,8 +3199,14 @@ gap:2rem;
   padding-bottom:11rem;
 }
 
+.container-wrap-normal-5{
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom:10rem;
+}
+
 .caseStudyImage-1{
-  /* border: black solid 1px; */
+
 }
 
 .caseStudyDescription1-1{
@@ -3330,6 +3381,20 @@ float:right;
   transition: .5s;
 }
 
+.about_descriptionContainer{
+width:90%;
+float:right;
+}
+
+@media (max-width: 767px) {
+  .about_descriptionContainer{
+    width:100%
+  }
+}
+
+.image_columnContainer-2{
+  float:left;
+}
 
 @media (max-width:768px) {
   .image_columnContainer{
