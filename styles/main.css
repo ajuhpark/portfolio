@@ -481,6 +481,7 @@ h13 {
   font-size: 1.8rem;
   line-height: 2.2rem;
   margin-top: 2.4rem;
+  width:24rem;
   /* padding-top, padding-bottom: 1rem;
   padding-left, padding-right: 2.4rem; */
   padding: 1rem 2.4rem;
@@ -3304,6 +3305,14 @@ gap:2rem;
   /* padding-top:6rem; */
 }
 
+.caseStudyDescription1-2{
+  position:relative;
+  /* border: black solid 1px; */
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* padding-top:6rem; */
+}
 
 
 .flex-direction-column{
@@ -4070,7 +4079,7 @@ section button-cs1:hover {
 }
 
 @media (max-width:1200px) {
-  .caseStudyDescription1-1{
+  .caseStudyDescription1-2{
     padding-top:6rem;
   }
 }
@@ -4088,7 +4097,7 @@ section button-cs1:hover {
 }
 
 @media (min-width: 1200px) and (max-width: 1330px){
-  .caseStudyDescription1-1{
+  .caseStudyDescription1-2{
     width:95%
   }
 }
