@@ -3671,6 +3671,15 @@ section button-resume:hover {
   background-color: #F5F5F5;
 }
 
+.recommendations{
+  background-color: #F5F5F5;
+}
+
+.recText{
+
+}
+
+
 .footerText-5{
   padding-bottom:1rem;
   line-height: 1;
