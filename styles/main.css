@@ -3417,6 +3417,13 @@ float:right;
   float:right;
 }
 
+@media (min-width: 1200px) {
+  .footerText-4 {
+    width:30rem;
+    text-align:right;
+  }
+}
+
 .footerIcons2{
   display:flex;
   float:right;
