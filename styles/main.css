@@ -4117,3 +4117,12 @@ section button-cs1:hover {
     width:95%
   }
 }
+
+
+/* Zoom Reactions */
+
+.grayBorder{
+  border-width: 1px;
+  border-style: solid;
+  border-color: lightgrey;
+}
