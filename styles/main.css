@@ -3803,8 +3803,6 @@ section button-resume:hover {
   .box-probSol {
     min-width: 0px;
   }
-
-
 }
 
 section button-cs1 {
@@ -4125,4 +4123,14 @@ section button-cs1:hover {
   border-width: 1px;
   border-style: solid;
   border-color: lightgrey;
+}
+
+#probSol_compAnalysis1{
+  width:45%;
+}
+
+@media (max-width: 450px) {
+  #probSol_compAnalysis1{
+    width:100%;
+  }
 }
