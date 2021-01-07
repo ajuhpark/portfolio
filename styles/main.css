@@ -4134,3 +4134,30 @@ section button-cs1:hover {
     width:100%;
   }
 }
+
+.box-probSol1 {
+  height: auto;
+  min-width: 300px;
+  /*padding:10px 0 10px 0;*/
+  /* background-color: whitesmoke; */
+  /* border: 1px solid black; */
+  width: 45%;
+}
+
+@media (max-width: 1100px) {
+  .box-probSol1 {
+    width: 48%;
+  }
+}
+
+@media (max-width: 425px) {
+  .box-probSol1 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 945px){
+  .box-probSol1 {
+    min-width: 0px;
+  }
+}
