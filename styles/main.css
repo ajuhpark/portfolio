@@ -3886,6 +3886,33 @@ section button-cs1:hover {
   text-decoration: none;
 }
 
+.btn_cs1-green {
+  border: 2px solid #56645F;
+  color: #56645F;
+  display: inline-block;
+  font-family: "Roboto";
+  font-size: 1.6rem;
+  font-weight: bold;
+  line-height: 2.2rem;
+  margin-top: 3.4rem;
+  /* padding-top, padding-bottom: 1rem;
+  padding-left, padding-right: 2.4rem; */
+  padding: .8rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  /* -webkit-border-radius: 3px; */
+  border-radius: 0px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn_cs1-green:hover {
+  background-color: #56645F;
+  color: white;
+  border-color: white;
+  text-decoration: none;
+}
 
 
 .infoArch_heading{
@@ -3983,6 +4010,10 @@ section button-cs1:hover {
 
 #lightYellow{
   background-color: #fff8e7;
+}
+
+#lightPink{
+  background-color: #FFF8F6;
 }
 
 .image_columnContainer-3{
@@ -4160,4 +4191,54 @@ section button-cs1:hover {
   .box-probSol1 {
     min-width: 0px;
   }
+}
+
+csText2 {
+  background: #56645F;
+  color: white;
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: normal;
+  font-weight: 500;
+  line-height: 130%;
+  padding: 20px 0px;
+  text-align: center;
+  /* letter-spacing: 2px; */
+  text-decoration: none;
+  width: 100%;
+}
+
+csText2:hover {
+  background: white;
+  color: #56645F;
+}
+
+@media all and (max-width: 550px) {
+  csText2 {
+    font-size:1.2rem;
+  }
+}
+
+@media all and (max-width: 360px) {
+  csText2 {
+    font-size:1.2rem;
+  }
+}
+
+@media all and (max-width: 1000px) {
+   csText1 {
+     padding: 1.25rem 0;
+   }
+}
+
+.CS-Section-Title-number-2{
+  color: #56645F;
+  display:inline;
+  font-family: "Roboto", sans-serif;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: bold;
+  padding-right:4px;
 }
