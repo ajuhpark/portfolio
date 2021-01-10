@@ -1508,6 +1508,10 @@ main {
   padding-top:2.5rem;
 }
 
+.CS-bodyText-3{
+  padding-top:4rem;
+}
+
 .CS-graph{
   padding-top:2.5rem;
   padding-bottom:2.5rem;
@@ -2684,6 +2688,10 @@ csText:hover {
 }
 
 #chart2{
+  height:300px;
+}
+
+#chart3{
   height:300px;
 }
 

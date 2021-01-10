@@ -86,7 +86,7 @@
               <h10 class="projectTitle">'Zoom' Reactions</h10>
               <div class="cs_descriptionSections">
                 <h7>DESCRIPTION</h7>
-                <h4 class="cs-desc_body">Zoom is an amazing tool and at the same time, users can still feel limited in what they're expressing over video. I wanted to design a feature that would allow users to communicate gifs and emojis in a viewable format for everyone in the meeting.</h4>
+                <h4 class="cs-desc_body">Zoom is an amazing tool to connect and, at the same time, users can still feel limited in what they're expressing over video. I wanted to design a feature that would allow users to communicate gifs and emojis in a viewable format for everyone in the meeting.</h4>
               </div>
               <div class="cs_descriptionSections">
                 <h7>ROLES AND RESPONSIBILITIES</h7>
@@ -156,16 +156,6 @@
     </div>
   </section>
 
-  <!--Background Section-->
-  <section id="backgroundSection">
-    <div class="caseStudy-section-1">
-      <h2 class="CS-Subheading">Background</h2>
-
-      <h4 class="CS-bodyText-2">Video chats have become a norm among friends and coworkers but there's still room in the chats for people to express more and communicate on different levels. I wanted to design a feature for the Zoom client where users would be able to communicate gifs and emojis in a viewable format for everyone in the meeting.</h4>
-    </div>
-    <hr class="horizontalBar" id="horizontalBar-pink">
-  </section>
-
   <div class="caseStudy-section-1">
 
     <!--Problem and Solution flex wrap-->
@@ -174,7 +164,7 @@
     <div class="container-reverse" id="container-reverse-blue">
       <div class="box-probSol" id="probSol_description">
         <h2 class="projectTitle">Problem</h2>
-        <h4 class="projectBrief" id="cs-textBlock1-1">While the ability to communicate via video is an incredible tool, users can still feel limited in what they're expressing and in their methods of communication. The work of processing non-verbal cues along with the frequency of meetings can cause users to experience Zoom fatigue.
+        <h4 class="projectBrief" id="cs-textBlock1-1">Video chats have become a norm among friends and coworkers but there's still room in the chats for people to express more and communicate on different levels. The work of processing non-verbal cues along with the frequency of meetings can cause users to experience Zoom fatigue.
         </h4>
         <h4 class="projectBrief"></h4>
       </div>
@@ -201,107 +191,24 @@
 
   </section>
 
-
-
-
-
-
-
-
-
-
-
-    <hr class="horizontalBar" id="horizontalBar-blue">
-
-
-
-
-
-
-
-
-
+  <hr class="horizontalBar" id="horizontalBar-blue">
 
   <!--Research Section-->
   <a class="anchor-offset" id="section-research"></a>
-<section class="caseStudy-section">
-  <div class="CS-Section-Title-text">
-    <div class="CS-Section-Title-number-2">2</div>RESEARCH
-  </div>
+  <section class="caseStudy-section">
+    <div class="CS-Section-Title-text">
+      <div class="CS-Section-Title-number-2">2</div>RESEARCH
+    </div>
 
-  <!--Research section-->
-  <div class="caseStudy-section-1">
+    <!--Research section-->
+    <div class="caseStudy-section-1">
 
-  <!--User Survey-->
-  <h2 class="CS-Subheading-1 CS-Subheading" id="CS-Subheading-userSurvey"="">User Survey</h2>
-  <h4 class="CS-bodyText-1">I started with research and began by creating a survey and the participants included a range of genders and gender preferences for dating. These were a couple takeaways I had.</h4>
-  <h4 class="CS-bodyText-2">I asked users when they feel like it was no longer appropriate to ghost someone. More than half the people marked that it was never appropriate to ghost. On the other end of the spectrum, three people marked that ghosting
-    would be appropriate up until 2 dates - these were two men and a nonbinary person. Women had a stronger dislike for ghosting than men in the survey.</h4>
-  <!-- <h4 class="CS-bodyText-1">For example:</h4> -->
+    <!--User Survey-->
+    <h2 class="CS-Subheading-1 CS-Subheading" id="CS-Subheading-userSurvey"="">User Survey</h2>
+    <h4 class="CS-bodyText-1">I created a survey to better understand how people use gifs and emojis and how they use Zoom. These are a few of the results and takeaways I had from the survey:</h4>
+    <!-- <h4 class="CS-bodyText-1">For example:</h4> -->
 
-
-  <!-- Chart JS 1 -->
-  <div class="CS-graph">
-    <canvas id="chart1"></canvas>
-  </div>
-
-    <script>
-    //https://stackoverflow.com/questions/50475563/making-the-labels-responsive-in-chart-js
-    // Global Options
-    Chart.defaults.global.defaultFontFamily = 'Lato';
-    Chart.defaults.global.defaultFontSize = 15;
-    Chart.defaults.global.defaultFontColor = '#777';
-
-    var chart1 = new Chart('chart1', {
-           type: 'pie',
-           data:{
-             labels:['after a few days of texting', 'after a call or video chat','after one date', 'after two + dates', 'it is never appropriate to ghost'],
-             datasets:[{
-               data:[
-                 1,
-                 1,
-                 2,
-                 3,
-                 7
-               ],
-               backgroundColor: [
-                  'rgba(255, 99, 132, 0.6)',
-                  'rgba(54, 162, 235, 0.6)',
-                  'rgba(255, 206, 86, 0.6)',
-                  'rgba(75, 192, 192, 0.6)',
-                  'rgba(153, 102, 255, 0.6)',
-                  'rgba(255, 159, 64, 0.6)',
-                  'rgba(255, 99, 132, 0.6)'
-               ],
-               borderWidth:2,
-               borderColor:'white',
-               hoverBorderWidth:2,
-               hoverBorderColor:'lightgray'
-             }]
-           },
-           options:{
-               responsive: true,
-               maintainAspectRatio: false,
-               title:{
-                 display:true,
-                 text:['When is it no longer appropriate to ghost someone?'],
-                 // fontSize='16px'
-               },
-               legend: {
-                   "display": true
-               },
-               tooltips: {
-                   "enabled": true
-               },
-           },
-         })
-    </script>
-
-
-    <h4 class="CS-bodyText-2" id="CS-Subheading-userSurvey">I also wanted to get a sense of how people felt about texting so I asked participants how much more thought was put into text conversations with their matches relative to their normal conversations. More than half the people responded that texts with their matches required more thought. With that in mind, I thought there was room to lessen thought and anxiety in that space and create more opportunity for natural and flowing conversations.</h4>
-
-    <!-- <img class="user-survey_pic" src="images/user-survey_pic1.png" alt="user-survey_pic1"> -->
-
+    <h4 class="CS-bodyText-1">Of the users surveyed, 86.7% believed that emojis and gifs expressed emotions that written messages, voice and video could not express. This showed me that people viewed emojis and gifs as expressive tools that other modes of communication couldn't exactly replicate.</h4>
 
     <!-- Chart JS 2 -->
     <div class="CS-bodyText-1">
@@ -312,16 +219,16 @@
     var chart2 = new Chart('chart2', {
       type: 'pie',
       data:{
-        labels:['Less thought', 'Same amount of thought','More thought'],
+        labels:['Yes', 'No','Not sure'],
         datasets:[{
           data:[
-            1,
-            6,
-            7
+            13,
+            2,
+            0
           ],
           backgroundColor: [
-             'rgba(255, 99, 132, 0.6)',
              'rgba(54, 162, 235, 0.6)',
+             'rgba(255, 99, 132, 0.6)',
              'rgba(255, 206, 86, 0.6)'
           ],
           borderWidth:2,
@@ -335,7 +242,7 @@
           maintainAspectRatio: false,
           title:{
             display:true,
-            text:['Relative to texting with normal contacts, how much thought', 'was put into text content and response times with matches?'],
+            text:['In your experience, do emojis and gifs express emotions', 'that written messages, voice and video can\'t express?'],
             // fontSize='16px'
           },
           legend: {
@@ -348,8 +255,179 @@
      })
     </script>
 
+
+    <!-- <img class="user-survey_pic" src="images/user-survey_pic1.png" alt="user-survey_pic1"> -->
+
+    <h4 class="CS-bodyText-3">I also asked about the context in which users used emojis and gifs and there were a wide range of reasons. All of the participants used it 'to lighten the mood' and the second and third most popular answers were 'to express frustration' and 'to show support'. All of these emotions would be useful in increasing user engagement and decreasing fatigue in video chats.</h4>
+
+    <!-- Chart JS 3 -->
+    <div class="CS-bodyText-2">
+    <canvas id="chart3"></canvas>
+    </div>
+
+    <script>
+    var chart3 = new Chart('chart3', {
+           type: 'horizontalBar',
+           data:{
+             labels:[['To lighten', 'the mood'], 'To show support','To express frustration', 'To prove a point'],
+             datasets:[{
+               data:[
+                 15,
+                 11,
+                 13,
+                 9,
+                 0
+               ],
+               backgroundColor: '#673AB7',
+               borderWidth:4,
+               borderColor:'white',
+               hoverBorderWidth:4,
+               hoverBorderColor:'lightgray'
+             }]
+           },
+           options:{
+               responsive: true,
+               maintainAspectRatio: true,
+               title:{
+                 display:true,
+                 text:['What are your main personal uses of cloud storage apps?'],
+                 // fontSize='16px'
+               },
+               plugins: {
+                   datalabels: {
+                       color: 'black',
+                       anchor: "end",
+                       align: "right",
+                       offset: 10,
+                       display: function (context) {
+                           return context.dataset.data[context.dataIndex];
+                       },
+                       /* Adjust data label font size according to chart size */
+                       font: function(context) {
+                            var width = context.chart.width;
+                            var size = Math.round(width / 32);
+                            return {
+                               weight: 'bold',
+                                size: size
+                            };
+                         },
+
+                       formatter: Math.round
+                   }
+               },
+               legend: {
+                   "display": false
+               },
+               tooltips: {
+                   "enabled": false
+               },
+               scales: {
+                   yAxes: [{
+                       barPercentage: 1.0,
+                       gridLines: {
+                           display: true
+                       },
+                       // ticks: {
+                       //     fontSize: 20,
+                       //     beginAtZero: true,
+                       // },
+                       /* Keep y-axis width proportional to overall chart width */
+                       afterFit: function(scale) {
+                           var chartWidth = scale.chart.width;
+                           var new_width=chartWidth*.2;
+
+                           scale.width = new_width;
+                       }
+                   }],
+                   xAxes: [{
+                       gridLines: {
+                           display: true
+                       },
+                       // ticks: {
+                       //     min: 0,
+                       //     max: 100,
+                       //     stepSize: 20
+                       // }
+                   }]
+               }
+           },
+           plugins: [{
+              /* Adjust axis labelling font size according to chart size */
+              beforeDraw: function(c) {
+                  var chartHeight = c.chart.height;
+                  var size = chartHeight * 4.5 / 100;
+                  c.scales['y-axis-0'].options.ticks.minor.fontSize = size;
+              }
+           }]
+
+           })
+    </script>
+
+
+    <h4 class="CS-bodyText-3" id="CS-Subheading-userSurvey">It was also interesting to find that 53.3% of participants either did not use the reaction feature in Zoom or didn't know there was a reaction feature. This showed me that there was room to make the feature more appealing and usable.</h4>
+
+    <!-- <img class="user-survey_pic" src="images/user-survey_pic1.png" alt="user-survey_pic1"> -->
+
+
+
+    <!-- Chart JS 1 -->
+    <div class="CS-graph">
+      <canvas id="chart1"></canvas>
+    </div>
+
+      <script>
+      //https://stackoverflow.com/questions/50475563/making-the-labels-responsive-in-chart-js
+      // Global Options
+      Chart.defaults.global.defaultFontFamily = 'Lato';
+      Chart.defaults.global.defaultFontSize = 15;
+      Chart.defaults.global.defaultFontColor = '#777';
+
+      var chart1 = new Chart('chart1', {
+             type: 'pie',
+             data:{
+               labels:['Yes', 'No','Did not know there was a reaction feature in Zoom', 'Have not used Zoom.'],
+               datasets:[{
+                 data:[
+                   7,
+                   5,
+                   3,
+                   0
+                 ],
+                 backgroundColor: [
+                    'rgba(255, 99, 132, 0.6)',
+                    'rgba(54, 162, 235, 0.6)',
+                    'rgba(255, 206, 86, 0.6)',
+                    'rgba(75, 192, 192, 0.6)',
+                    'rgba(153, 102, 255, 0.6)',
+                    'rgba(255, 159, 64, 0.6)',
+                    'rgba(255, 99, 132, 0.6)'
+                 ],
+                 borderWidth:2,
+                 borderColor:'white',
+                 hoverBorderWidth:2,
+                 hoverBorderColor:'lightgray'
+               }]
+             },
+             options:{
+                 responsive: true,
+                 maintainAspectRatio: false,
+                 title:{
+                   display:true,
+                   text:['Have you used the reaction feature on Zoom before?'],
+                   // fontSize='16px'
+                 },
+                 legend: {
+                     "display": true
+                 },
+                 tooltips: {
+                     "enabled": true
+                 },
+             },
+           })
+      </script>
+
     <div class="moreInfo2" id="CS-bodyText-2-3">
-      <a class="btn_cs1-green" href="https://forms.gle/DytwyMivfzk6JdKZ6"  target="_blank">VIEW FULL QUESTIONNAIRE</a>
+      <a class="btn_cs1-green" href="https://docs.google.com/spreadsheets/d/1vNcvtgGaQJy2EjDHaafrMYGWEVSjYTGuJ5M-uSHD3I8/edit?usp=sharing"  target="_blank">VIEW FULL QUESTIONNAIRE</a>
     </div>
 
     <hr class="horizontalBar" id="horizontalBar-pink">
@@ -489,7 +567,7 @@
     </div>
 
     <div class="moreInfo2">
-      <a class="btn_cs1-green" href="images/zoom_images/userPersonas/userPersonas" target="_blank">VIEW COMPLETE USER PERSONAS</a>
+      <a class="btn_cs1-green" href="images/zoom_images/userPersonas/userPersonas.pdf" target="_blank">VIEW COMPLETE USER PERSONAS</a>
     </div>
   </div>
 
@@ -509,7 +587,7 @@
 
 
       <!--Competitive Analysis-->
-      <h4 class="CS-Subheading">I took a look at two apps that were similar to Zoom in its utilization of videos and emojis - Youtube Live and Twitch.  Both have a window for video with a side chat bar.</h4>
+      <h4 class="CS-Subheading">I took a look at two apps that were similar to Zoom in its utilization of videos and emojis - Youtube Live and Twitch.  Bothhave a window for video with a side chat bar with an emoji menu.</h4>
 
       <h4 class="projectBrief CS-bodyText-1" id="CS-bodyText-1-2"><span style="font-weight:bold;">Youtube Live</span></h4>
 
@@ -517,7 +595,7 @@
         <img class="comp_analysis_pic grayBorder"  src="images/zoom_images/compAnalysis/youtubeLive_screenshot.png">
       </div>
 
-      <h4 class="CS-bodyText-1">In Youtube Live, the chat is a prominent part of the experience. It shows up next to the video as a default. Most people are able to see the messages and emojis because the chat is a large part of the interactive experience.</h4>
+      <h4 class="CS-bodyText-1">In Youtube Live, the chat shows up next to the video as a default. Most people are able to see the messages and emojis because the chat is a large part of the interactive experience.</h4>
 
       <h4 class="CS-bodyText-1">On the other hand, the chat function in Zoom is hidden as a default and used more sparingly. Most of the interaction in Zoom is focused in the video window. Since viewers would mainly be looking at the video window of the app, I wanted to look further into how people could see emojis and reactions without having to open the chat side bar.</h4>
 
@@ -530,14 +608,14 @@
 
       <h4  class="CS-bodyText-1">Twitch is similar to Youtube Live in that there's only one video screen and people are reacting to it in the chat. But one feature that differentiates it is an available widget that allows users to show emojis in the video window by entering them in the chat. In the image below, there are emojis surround the DJ.</h4>
 
-      <h4 class="CS-bodyText-1">This emoji feature brings a new aspect of user interaction.  People can more easily show support and it makes for a more fun environment when everyone can view and partake in a shared experience. The added challenge with Zoom was being able to view user reactions when there are multiple video screens. I began working on where I could place the reactions.</h4>
+      <h4 class="CS-bodyText-1">This emoji feature brings a new aspect of user interaction.  People can more easily show support and it makes for a more fun environment when everyone can partake in a shared experience. The added challenge with Zoom was being able to view user reactions when there are multiple video screens.</h4>
 
       <h4 class="projectBrief" id="CS-Subheading-s2w-2"><span style="font-weight:bold;">Reaction Menu</span></h4>
 
       <!--row 1 description-->
       <div class="container-reverse" id="container-reverse-blue">
         <div class="box-probSol" id="probSol_description">
-          <h4 class="projectBrief" id="cs-textBlock1-1">The current Zoom reaction menu expands when the user clicks on the 'Reactions' button on the bottom bar. It fits in well with the other icons and is easily accessible so I wanted to build on it. The menu currently only holds six emojis so I looked to expand it. I looked at the emoji and gif menus in different apps.</h4>
+          <h4 class="projectBrief" id="cs-textBlock1-1">The current Zoom reaction menu appears when the user clicks on the 'Reactions' button on the bottom bar. It fits in well with the other icons and is easily accessible so I wanted to build on it. The menu currently only holds six emojis so I looked to expand it. I looked at the emoji and gif menus in different apps.</h4>
           <h4 class="projectBrief"></h4>
         </div>
         <!--row 1 image-->
@@ -547,7 +625,7 @@
         </div>
       </div>
 
-      <h4>Below are examples of emoji and gif menus in other apps.</h4>
+      <h4>Below are examples of emoji and gif menus for Slack, Kakao, iMessage and GIF Keyboard.</h4>
 
       <!--Slack and Kakao-->
       <!--row 2 image-->
@@ -599,8 +677,8 @@
       <!--row 1 description-->
       <div class="container-reverse" id="container-reverse-blue">
         <div class="box-probSol" id="probSol_description">
-          <h4 class="projectBrief" id="cs-textBlock1-1">The current Zoom emoji menu holds six emojis so I wanted to expand on it. I tried not to expand it to  the point that users would have to go through pages of emojis or would have a hard time deciding which emoji to use so I limited the menu to 30 emojis. I include a section near the top where a user’s five most frequently used emojis would appear.</h4>
-          <h4 class="projectBrief">I also included tabs to separate the reactions into two different categories - emojis and gifs. In the gif tab, I included a search bar. The default would be the frequently used gifs. Once users search, they'll be able to scroll in a two column collection of gifs.</h4>
+          <h4 class="projectBrief" id="cs-textBlock1-1">Here is a display of the new Zoom reaction menu I created along with still images on the bottom.  The current Zoom emoji menu holds six emojis so I wanted to expand on it. I decided on 30 emojis in the menu because I wanted users to have choices but not to the point where they would have a hard time deciding which emoji to use. I included a section near the top of the emoji section where a user’s five most frequently used emojis would appear.</h4>
+          <h4 class="projectBrief">I also included tabs to separate the reactions into two different categories - emojis and gifs. In the gif tab, I included a search bar. The default gifs that showed would be the frequently used gifs. Once users search, they would be able to scroll in a two column collection of gifs.</h4>
         </div>
         <!--row 1 image-->
         <div class="box-probSol1" id="CS-bodyText-1-1">
@@ -628,7 +706,7 @@
       <!--row 1 description-->
       <div class="container-reverse" id="container-reverse-blue">
         <div class="box-probSol" id="probSol_description">
-          <h4 class="projectBrief" id="cs-textBlock1-1">In the current Zoom client, once the user clicks on an emoji it's shown on the user's video screen on the top left. In larger Zoom meetings, people's attention would be going back and forth from the speaker to the users who are posting reactions on their own screens.</h4>
+          <h4 class="projectBrief" id="cs-textBlock1-1">Next, I wanted to figure out where to show these reactions so it would be easily viewable by everyone. In the current Zoom client, once the user clicks on an emoji it's shown on the user's video screen on the top left (as shown in  image). In larger Zoom meetings, people's attention would be going back and forth from the speaker to the users who are posting reactions on their own screens.</h4>
           <h4 class="projectBrief">I wanted people's reactions to be viewed in an expected place so users wouldn't have to move their attention in so many different directions.  These are a couple solutions I came up with:</h4>
         </div>
         <!--row 1 image-->
@@ -642,7 +720,7 @@
       <div class="container-reverse" id="container-reverse-blue">
         <div class="box-probSol" id="probSol_description">
           <h4 class="projectBrief" id="recName"><span style="font-style:italic;">v1</span></h4>
-          <h4 class="projectBrief" id="cs-textBlock1-1">One solution I came up with was using a conveyor belt to roll out the reaction. I got this inspiration from sushi restaurants that have revolving belts that hold different types of sushi. If something's put on the conveyor belt, it can have its time in the sun and be viewable for a set amount of time. It would also be slightly less distracting than a reaction moving on different directions of the zoom screen.</h4>
+          <h4 class="projectBrief" id="cs-textBlock1-1">One solution I came up with was using a conveyor belt to roll out the reaction. I got this inspiration from sushi restaurants that have revolving belts that hold different types of sushi. If something's put on the conveyor belt, it can have its time in the sun and be viewable for a set amount of time. Users would know where to expect the reactions.</h4>
         </div>
         <!--row 1 image-->
         <div class="box-probSol1" id="CS-bodyText-1-1">
@@ -655,7 +733,7 @@
       <div class="container-reverse" id="container-reverse-blue">
         <div class="box-probSol" id="probSol_description">
           <h4 class="projectBrief" id="recName"><span style="font-style:italic;">v2</span></h4>
-          <h4 class="projectBrief" id="cs-textBlock1-1">The solution I came up and ultimately decided to move forward with was having a separate screen designated just for emojis and gifs. When someone posts a reaction, a bot would enter the videochat with its own screen and show the reaction. The bot's screen would stay until the end of the chat.</h4>
+          <h4 class="projectBrief" id="cs-textBlock1-1">The other solution I came up with, and ultimately decided to move forward with, was having a separate screen designated just for emojis and gifs, shown here in a yellow circle. When a user posts a reaction, a bot would enter the videochat with its own screen and show the reaction. The bot's screen would stay until the end of the chat.</h4>
         </div>
         <!--row 1 image-->
         <div class="box-probSol1" id="CS-bodyText-1-1">
@@ -693,10 +771,10 @@
         <div class="caseStudy-section-1">
           <!--User Survey-->
           <h2 class="CS-Subheading-1 CS-Subheading" id="CS-Subheading-userSurvey"="">Usability Testing</h2>
-          <h4 class="CS-bodyText-1">When I was user testing, one of the users asked what this feature would look like when Zoom was in Spotlight mode.  When Zoom is in Spotlight, it makes one video screen large and puts the users’ screens in a bar.</h4>
+          <h4 class="CS-bodyText-1">When I was user testing, one of the users asked what this feature would look like when Zoom was in Spotlight mode.  To give background, when Zoom is in Spotlight, it makes one video screen large and puts the other users’ screens in a bar.</h4>
 
-          <h4 class="CS-bodyText-2">I thought the best way to make the bot screen act was like a speaker. Normally when someone speaks, their placement is moved up in the bar. So when someone put in a reaction, it would activate and move up in priority on the bar.</h4>
-          <h4 class="CS-bodyText-2">But the information was small and difficult to see when the bot screen was in the bar, in particular the emojis. To solve this, I decided to have it take up the whole screen instead of just part of the screen.</h4>
+          <h4 class="CS-bodyText-2">I thought the best way to make the reaction visible was to make the bot screen act like a speaker. Normally when someone speaks, their placement is moved up in the bar. So when someone put in a reaction, the bot screen would activate and move up in priority on the bar.</h4>
+          <h4 class="CS-bodyText-2">But the information was small and difficult to see when the bot screen was in the bar, in particular the emojis. To solve this, I decided to have the emoji or gif to take up the whole screen instead of just part of the screen.</h4>
 
           <div class="CS-bodyText-2">
             <img class="comp_analysis_pic grayBorder"  src="images/zoom_images/testing/spotlightImage.png">
@@ -720,13 +798,15 @@
         <div class="caseStudy-section-1">
           <h2 class="CS-Subheading-1" id="CS-Subheading-s2w-2">Prototype</h2>
           <h4 class="DP-section-1">Here is how the full window would look when the group enters reactions.</h4>
+          <!--Video-->
+          <div class="iframe-container">
+          <!-- <div class="take-video-section"> -->
+            <iframe class="take-video" width="560" height="315" src="https://www.youtube.com/embed/qSYDCc3B0pM?wmode=transparent&rel=0&color=white" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+
         </div>
 
-        <!--Video-->
-        <div class="iframe-container">
-        <!-- <div class="take-video-section"> -->
-          <iframe class="take-video" width="560" height="315" src="https://www.youtube.com/embed/qSYDCc3B0pM?wmode=transparent&rel=0&color=white" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+
       </section>
 
       <hr class="horizontalBar" id="horizontalBar-blue">
@@ -736,7 +816,7 @@
         <h2 class="CS-Subheading" id="CS-Subheading-2">Conclusion</h2>
 
         <h4 class="CS-bodyText-1" id="cs-textBlock1-2">This project was fun to tackle because Zoom is a product that I'm using with people nearly every day. The goal for this project was to bring levity and more expressive ways to communicate so users could be more themselves and have a more interactive Zoom experience.</h4>
-        <h4 class="CS-bodyText-1">While using Zoom, I found that it was difficult for gifs and emojis to be viewable to all users. Another issue was that posting gifs and emojis in the current Zoom chats not only required use of the sidebar but the gifs also remained there until the end of the chat. This could be a problem because what's appropriate in one moment might not fit the mood just a few seconds later.  You don't want an Office gif of Michael Scott raising the roof to stay in the chat when the conversation transitions to talk of a financial downturn in the company. I tried to make a version that would have gifs and emojis that only show temporarily so that users could react to the moment.</h4>
+        <h4 class="CS-bodyText-1">While using Zoom, I found that it was difficult for gifs and emojis to be viewable for all users and if users decided to enter reactions in the chat sidebar, it would stay there and run the risk of not fitting the mood only a few seconds later. Users don't want an Office gif of Michael Scott raising the roof to stay in the chat when the conversation transitions to talk of a financial downturn in the company. I tried to make a version that would have gifs and emojis that only show temporarily so that users could react to the moment.</h4>
         <h4 class="CS-bodyText-1" id="cs-textBlock1-3">The most difficult part of the project was coming up with different solutions. I had to think about what was possible within Zoom’s guidelines and then see where I could stretch the app. I checked in with my developer friends to make sure the solution I came up with was plausible and that it wouldn’t take an overhaul of the app to implement. Feedback from users encouraged me along the way, some saying that they only talk in gifs. Hopefully a feature similar to this can be added in the future to make for a more personal video chat experience.</h4>
       </div>
     </section>
