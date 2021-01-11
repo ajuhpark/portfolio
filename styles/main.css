@@ -2771,7 +2771,6 @@ csText:hover {
   /* height: 20rem; */
   margin-bottom:1.5rem;
   border: 1px solid lightgray;
-
 }
 
 .box-1_theRing_green{
@@ -3166,6 +3165,11 @@ gap:2rem;
 
   #ring_firstImage{
     /* display:none; */
+  }
+
+
+  #zoom_firstImage{
+    width:100%;
   }
 
 }
@@ -4249,4 +4253,18 @@ csText2:hover {
   font-style: normal;
   font-weight: bold;
   padding-right:4px;
+}
+
+
+.comp_analysis_pic_zoom{
+  width: 80%;
+  /* height: 20rem; */
+  margin-bottom:1.5rem;
+  border: 1px solid lightgray;
+}
+
+@media (max-width: 400px) {
+  .comp_analysis_pic_zoom {
+    width: 100%;
+  }
 }
