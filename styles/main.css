@@ -3167,16 +3167,15 @@ gap:2rem;
     /* display:none; */
   }
 
-
-  #zoom_firstImage{
-    width:100%;
-  }
-
 }
 
-@media (min-width:768px) and (max-width:1050px) {
-  .img-fluid-1{
-    /* float:right; */
+#zoom_firstImage{
+  width:100%;
+}
+
+@media (min-width:1080px) and (max-width:1200px) {
+  #zoom_firstImage{
+    width:85%;
   }
 }
 
@@ -4093,8 +4092,6 @@ section button-cs1:hover {
   margin:auto;
   display: block;
   /* float:right; */
-  padding-right:2rem;
-  padding-left:2rem;
 }
 
 @media (min-width: 1200px) and (max-width: 1300px){
@@ -4116,12 +4113,6 @@ section button-cs1:hover {
   .img-fluid-4{
     margin:auto;
     display: block;
-    /* min-width:43rem; */
-  }
-}
-
-
-  .img-fluid-4{
     margin-right:auto;
     margin-left:auto;
   }
