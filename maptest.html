@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-173265597-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-173265597-1');
+</script>
+
+  <title>Map Test | Andrew</title>
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+
+  <!-- AOS animate -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- Font Awesome -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- CSS Reset -->
+  <link rel="stylesheet" type="text/css" href="reset.css">
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="styles/main.css">
+
+  <!-- load jquery -->
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous">
+  </script>
+
+  <!-- favicon -->
+  <link rel="icon" type="image/png" href="images/Logo_v2.png"/>
+
+</head>
+
+<body>
+  <!--Scroll to Top anchor-->
+  <a class="anchor-offset" id="top"></a>
+
+  <!--Scroll to top Button-->
+  <button href="#top" class="js-anchor-link" id="myBtn" title="Go to top">
+    <!-- <img id="arrowUp" src="https://uploads-ssl.webflow.com/59c5c3e797139c000117aa12/5a26455fbac8a400018d63b3_arrow_up_v2.svg
+  " alt="icon" /> -->
+
+    <img id="scrollUpArrow" src="images/scrollUpArrow1.png" alt="scrollUpArrow">
+    <!-- <img id="scrollUpHoverCircle" src="images/scrollUpHoverCircle.png" alt="scrollUpHoverCircle"> -->
+
+  </button>
+
+  <!-- Top Navigation Bar -->
+  <div  class="caseStudy-section" id="topnav">
+    <a class="homeIconContainer" style="padding-left: 0;" href="index.html">
+      <img id="homeIcon" src="images/Logo_v2.png" alt="icon" />
+    </a>
+    <div id="rightIcons">
+      <a href="index.html#section-caseStudies" id="underline">Work</a>
+      <a href="about.html" id="underline">About</a>
+      <a href="#section-footer" id="underline" class="js-anchor-link">Contact</a>
+    </div>
+  </div>
+
+  <hr class="horizontalBar-header" id="horizontalBar-pink">
+
+
+
+
+
+
+
+  <!--The Ring Case Study Row-->
+  <div class="caseStudy-section">
+    <iframe class="mapTest" src="https://www.atlistmaps.com/map/4989bb60-fe53-4aaa-9562-d6bec924ef09?share=true" allow="geolocation" width="100%" height="530px" frameborder="0" scrolling="no" allowfullscreen></iframe>
+  </div>
+
+
+
+  <!--New Footer Section-->
+
+  <section class="footer-1">
+    <a class="anchor-offset" id="section-footer"></a>
+    <div class="caseStudy-section">
+      <div class="row" id="footer-spacing">
+        <div class="col-sm-12 col-md-8">
+          <div class="footerContent-1">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!--links to our JavaScript file
+    -->
+  <script src="portfolio-js.js"></script>
+
+  <!--AOS Script-->
+  <script>
+    AOS.init({
+      offset: 400,
+      duration: 1200,
+    });
+  </script>
+
+  </body>
+
+</html>
